@@ -1,127 +1,871 @@
 [{
     "pk": 1,
-    "model": "products.category",
+    "model": "products.product",
     "field":{
-        "name": "arts",
-        "friendly_name": "Parts"
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
     }
 }, {
-    "pk": 2,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "gear",
-        "friendly_name": "Gear"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 3, 
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
     "field":{
-        "name": "bikes", 
-        "friendly_name": "Bikes"
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
     }
 }, {
-    "pk": 4, 
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
     "field":{
-        "name": "wheels",
-        "friendly_name": "Wheels"
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
     }
 }, {
-    "pk": 5,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
     "field":{
-        "name": "suspension",
-        "friendly_name": "Suspension"
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
     }
 }, {
-    "pk": 6,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "engine",
-        "friendly_name": "Engine"
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field":{
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
     }
 }, {
-    "pk": 7,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "part_accessories",
-        "friendly_name": "Part Accessories"
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field":{
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
     }
 }, {
-    "pk": 8,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "helmets",
-        "friendly_name": "Helmets"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 9,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "boots", 
-        "friendly_name": "Boots"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 10,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "tops",
-        "friendly_name": "Tops"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 11,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "bottoms",
-        "friendly_name": "Bottoms"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 12,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "gear_accessories",
-        "friendly_name": "Gear Accessories"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 13,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "honda",
-        "friendly_name": "Honda"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 14,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "husqvarna",
-        "friendly_name": "Husqvarna"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 15, 
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "ktm",
-        "friendly_name": "KTM"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 16,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "yamaha",
-        "friendly_name": "Yamaha"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 17,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "kawasaki",
-        "friendly_name": "Kawasaki"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }, {
-    "pk": 18,
-    "model": "products.category",
+    "pk": 1,
+    "model": "products.product",
     "field": {
-        "name": "hello",
-        "friendly_name": "Hello"
-    }
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
 }]
