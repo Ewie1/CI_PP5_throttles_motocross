@@ -2,7 +2,7 @@
     "pk": 1,
     "model": "products.product",
     "field":{
-        "sku": "",
+        "sku": "B-24531yamaha2stroke",
         "name": "Yamaha",
         "brand": "yamaha",
         "description": "250cc of raw 2/stroke power",
@@ -15,12 +15,12 @@
     "pk": 2,
     "model": "products.product",
     "field":{
-        "sku": "",
+        "sku": "G-43271Foxfullbody",
         "name": "Raging Fullbody Suit",
         "brand": "Fox",
         "description": "red and black",
         "price": "3000kr",
-        "category": "",
+        "category": "2",
         "rating": "4",
         "image": ""
     }
@@ -28,25 +28,25 @@
     "pk": 3,
     "model": "products.product",
     "field": {
-        "sku": "",
+        "sku": "G-43272Wolffullbody",
         "name": "Midnight Fullbody Suit",
         "brand": "Wolf",
         "description": "grey and black",
         "price": "4000kr",
-        "category": "",
-        "rating": "",
+        "category": "2",
+        "rating": "4.3",
         "image": ""
     }
 }, {
     "pk": 4,
     "model": "products.product",
     "field": {
-        "sku": "",
+        "sku": "G-43273Acerbidboots",
         "name": "Mx Boots",
         "brand": "Acerbid",
         "description": "orange",
         "price": "6000kr",
-        "category": "",
+        "category": "9",
         "rating": "4.1",
         "image": ""
     }
@@ -54,12 +54,12 @@
     "pk": 5,
     "model": "products.product",
     "field": {
-        "sku": "",
+        "sku": "G-43274Spirithelmet",
         "name": "Ocross Helmet",
         "brand": "Spirit",
         "description": "green and black",
         "price": "3000kr",
-        "category": "",
+        "category": "8",
         "rating": "4.1",
         "image": ""
     }
@@ -67,12 +67,12 @@
     "pk": 6,
     "model": "products.product",
     "field": {
-        "sku": "",
+        "sku": "G-43275Shothelmet",
         "name": "NBD Helmet",
         "brand": "Shot",
         "description": "black red and white",
         "price": "3500kr",
-        "category": "",
+        "category": "8",
         "rating": "4.2",
         "image": ""
     }
@@ -80,12 +80,12 @@
     "pk": 7,
     "model": "products.product",
     "field": {
-        "sku": "",
+        "sku": "G-43276Kennyboots",
         "name": "Kenny Boots",
         "brand": "Kenny",
         "description": "black white",
         "price": "4000kr",
-        "category": "",
+        "category": "9",
         "rating": "4.3",
         "image": ""
     }
@@ -93,12 +93,12 @@
     "pk": 8,
     "model": "products.product",
     "field": {
-        "sku": "",
+        "sku": "P-72784Permreartire",
         "name": "Heidenan Tires",
         "brand": "Permitotires",
         "description": "rear nobbies ",
         "price": "4000kr",
-        "category": "",
+        "category": "4",
         "rating": "4",
         "image": ""
     }
@@ -106,12 +106,12 @@
     "pk": 9,
     "model": "products.product",
     "field": {
-        "sku": "",
+        "sku": "P-72783Permfronttire",
         "name": "Heidenan Tires",
         "brand": "Permitotires",
         "description": "front nobbies",
         "price": "1500kr",
-        "category": "",
+        "category": "4",
         "rating": "4",
         "image": ""
     }
@@ -119,12 +119,12 @@
     "pk": 10,
     "model": "products.product",
     "field": {
-        "sku": "",
+        "sku": "P-72782ktmsprocket",
         "name": "Sprocket",
         "brand": "Ktm",
         "description": "telon for 125, 250, 450",
         "price": "500kr",
-        "category": "",
+        "category": "1",
         "rating": "4",
         "image": ""
     }
@@ -132,12 +132,12 @@
     "pk": 11,
     "model": "products.product",
     "field": {
-        "sku": "",
+        "sku": "P-72781Hondagasketkit",
         "name": "Gasket kit",
         "brand": "Honda",
         "description": "stock oring gasket and seal kit",
         "price": "600kr",
-        "category": "",
+        "category": "1",
         "rating": "4",
         "image": ""
     }

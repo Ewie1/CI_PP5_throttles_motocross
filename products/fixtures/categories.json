@@ -9,8 +9,8 @@
     "pk": 2,
     "model": "products.category",
     "field": {
-        "name": "gear",
-        "friendly_name": "Gear"
+        "name": "siuts",
+        "friendly_name": "Suits"
     }
 }, {
     "pk": 3, 
