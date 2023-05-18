@@ -3,6 +3,162 @@
     "model": "products.product",
     "field":{
         "sku": "",
+        "name": "Yamaha",
+        "brand": "yamaha",
+        "description": "250cc of raw 2/stroke power",
+        "price": "20 000kr",
+        "category": "3",
+        "rating": "4.1",
+        "image": ""
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "field":{
+        "sku": "",
+        "name": "Raging Fullbody Suit",
+        "brand": "Fox",
+        "description": "red and black",
+        "price": "3000kr",
+        "category": "",
+        "rating": "4",
+        "image": ""
+    }
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "Midnight Fullbody Suit",
+        "brand": "Wolf",
+        "description": "grey and black",
+        "price": "4000kr",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "Mx Boots",
+        "brand": "Acerbid",
+        "description": "orange",
+        "price": "6000kr",
+        "category": "",
+        "rating": "4.1",
+        "image": ""
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "Ocross Helmet",
+        "brand": "Spirit",
+        "description": "green and black",
+        "price": "3000kr",
+        "category": "",
+        "rating": "4.1",
+        "image": ""
+    }
+}, {
+    "pk": 6,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "NBD Helmet",
+        "brand": "Shot",
+        "description": "black red and white",
+        "price": "3500kr",
+        "category": "",
+        "rating": "4.2",
+        "image": ""
+    }
+}, {
+    "pk": 7,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "Kenny Boots",
+        "brand": "Kenny",
+        "description": "black white",
+        "price": "4000kr",
+        "category": "",
+        "rating": "4.3",
+        "image": ""
+    }
+}, {
+    "pk": 8,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "Heidenan Tires",
+        "brand": "Permitotires",
+        "description": "rear nobbies ",
+        "price": "4000kr",
+        "category": "",
+        "rating": "4",
+        "image": ""
+    }
+}, {
+    "pk": 9,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "Heidenan Tires",
+        "brand": "Permitotires",
+        "description": "front nobbies",
+        "price": "1500kr",
+        "category": "",
+        "rating": "4",
+        "image": ""
+    }
+}, {
+    "pk": 10,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "Sprocket",
+        "brand": "Ktm",
+        "description": "telon for 125, 250, 450",
+        "price": "500kr",
+        "category": "",
+        "rating": "4",
+        "image": ""
+    }
+}, {
+    "pk": 11,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "Gasket kit",
+        "brand": "Honda",
+        "description": "stock oring gasket and seal kit",
+        "price": "600kr",
+        "category": "",
+        "rating": "4",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field":{
+        "sku": "",
         "name": "",
         "brand": "",
         "description": "",
@@ -23,6 +179,311 @@
         "category": "",
         "rating": "",
         "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field":{
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field":{
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
 }, {
     "pk": 1,
     "model": "products.product",
@@ -433,6 +894,162 @@
         "category": "",
         "rating": "",
         "image": ""
+}][{
+    "pk": 1,
+    "model": "products.product",
+    "field":{
+        "sku": "",
+        "name": "bike",
+        "brand": "yamaha",
+        "description": "250cc of raw 2/stroke power",
+        "price": "20 000kr",
+        "category": "3",
+        "rating": "4.1",
+        "image": ""
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "field":{
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
 }, {
     "pk": 1,
     "model": "products.product",
@@ -458,6 +1075,311 @@
         "category": "",
         "rating": "",
         "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field":{
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field":{
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
+}, {
+    "pk": 1,
+    "model": "products.product",
+    "field": {
+        "sku": "",
+        "name": "",
+        "brand": "",
+        "description": "",
+        "price": "",
+        "category": "",
+        "rating": "",
+        "image": ""
+    }
 }, {
     "pk": 1,
     "model": "products.product",
