@@ -142,298 +142,304 @@
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 12,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Suspension Pack",
+        "brand": "Showa",
         "description": "",
-        "price": "",
+        "price": "8000kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 13,
     "model": "products.product",
     "field":{
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Army Helmet",
+        "brand": "LS2",
         "description": "",
-        "price": "",
+        "price": "4000kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 14,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Black Boots",
+        "brand": "O'neil",
         "description": "",
-        "price": "",
+        "price": "2500kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 15,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Grey Cloud Suit",
+        "brand": "HIMC",
         "description": "",
-        "price": "",
+        "price": "3500kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 16,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Blue Handle Bar",
+        "brand": "Rental",
         "description": "",
-        "price": "",
+        "price": "1500kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 17,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Black White Boots",
+        "brand": "Kenny",
         "description": "",
-        "price": "",
+        "price": "3200kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 18,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Factory Ride Suit",
+        "brand": "FXR",
         "description": "",
-        "price": "",
+        "price": "4300KR",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 19,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "TR Dream Boots",
+        "brand": "Tiger Racing",
         "description": "",
-        "price": "",
+        "price": "4800kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 20,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "FR Rage",
+        "brand": "Fly Racing",
         "description": "",
-        "price": "",
+        "price": "5000kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 21,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Front Forks",
+        "brand": "Honda",
         "description": "",
-        "price": "",
+        "price": "1500kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 22,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Blue Top",
+        "brand": "FXR",
         "description": "",
-        "price": "",
+        "price": "600kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 23,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Green Top",
+        "brand": "FXR",
         "description": "",
-        "price": "",
+        "price": "600kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 24,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Black Handle Bar",
+        "brand": "Rental",
         "description": "",
-        "price": "",
+        "price": "1200kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 25,
     "model": "products.product",
     "field":{
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Permoto Motards",
+        "brand": "Permoto",
         "description": "",
-        "price": "",
+        "price": "6100kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 26,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "JUST 1 Blue Goggles",
+        "brand": "JUST 1",
         "description": "",
-        "price": "",
+        "price": "700kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 27,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "JUST 1 Red Goggles",
+        "brand": "JUST 1",
         "description": "",
-        "price": "",
+        "price": "700kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 28,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Front Motard",
+        "brand": "Mechilin",
         "description": "",
-        "price": "",
+        "price": "4000kr",
         "category": "",
         "rating": "",
         "image": ""
     }
 }, {
-    "pk": 1,
+    "pk": 29,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Rear Motard",
+        "brand": "Mechilin",
         "description": "",
-        "price": "",
+        "price": "4200kr",
         "category": "",
         "rating": "",
         "image": ""
+    }
 }, {
-    "pk": 1,
+    "pk": 30,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "White Airoh Helmet",
+        "brand": "Airoh",
         "description": "",
-        "price": "",
+        "price": "5000kr",
         "category": "",
         "rating": "",
         "image": ""
+    }
 }, {
-    "pk": 1,
+    "pk": 31,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Excel Blue wheels",
+        "brand": "Haanwheel",
         "description": "",
-        "price": "",
+        "price": "5500kr",
         "category": "",
         "rating": "",
         "image": ""
+    }
 }, {
-    "pk": 1,
+    "pk": 32,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Hypersport Rear Suspension",
+        "brand": "Ohlins",
         "description": "",
-        "price": "",
+        "price": "3500kr",
         "category": "",
         "rating": "",
         "image": ""
+    }
 }, {
-    "pk": 1,
+    "pk": 33,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Red Fire Boots",
+        "brand": "Tox",
         "description": "",
-        "price": "",
+        "price": "4100kr",
         "category": "",
         "rating": "",
         "image": ""
+    }
 }, {
-    "pk": 1,
+    "pk": 34,
     "model": "products.product",
     "field": {
         "sku": "",
-        "name": "",
-        "brand": "",
+        "name": "Bearing Oil Seal Kit",
+        "brand": "Stock",
         "description": "",
-        "price": "",
+        "price": "890kr",
         "category": "",
         "rating": "",
         "image": ""
+    }
 }, {
     "pk": 1,
     "model": "products.product",
