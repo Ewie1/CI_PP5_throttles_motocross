@@ -1,1799 +1,520 @@
-[{
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "B-24531yamaha2stroke",
-        "name": "Yamaha",
-        "brand": "yamaha",
-        "description": "250cc of raw 2/stroke power",
-        "price": "20 000kr",
-        "category": "3",
-        "rating": "4.1",
-        "image": ""
-    }
-}, {
-    "pk": 2,
-    "model": "products.product",
-    "field":{
-        "sku": "G-43271Foxfullbody",
-        "name": "Raging Fullbody Suit",
-        "brand": "Fox",
-        "description": "red and black",
-        "price": "3000kr",
-        "category": "2",
-        "rating": "4",
-        "image": ""
-    }
-}, {
-    "pk": 3,
-    "model": "products.product",
-    "field": {
-        "sku": "G-43272Wolffullbody",
-        "name": "Midnight Fullbody Suit",
-        "brand": "Wolf",
-        "description": "grey and black",
-        "price": "4000kr",
-        "category": "2",
-        "rating": "4.3",
-        "image": ""
-    }
-}, {
-    "pk": 4,
-    "model": "products.product",
-    "field": {
-        "sku": "G-43273Acerbidboots",
-        "name": "Mx Boots",
-        "brand": "Acerbid",
-        "description": "orange",
-        "price": "6000kr",
-        "category": "9",
-        "rating": "4.1",
-        "image": ""
-    }
-}, {
-    "pk": 5,
-    "model": "products.product",
-    "field": {
-        "sku": "G-43274Spirithelmet",
-        "name": "Ocross Helmet",
-        "brand": "Spirit",
-        "description": "green and black",
-        "price": "3000kr",
-        "category": "8",
-        "rating": "4.1",
-        "image": ""
-    }
-}, {
-    "pk": 6,
-    "model": "products.product",
-    "field": {
-        "sku": "G-43275Shothelmet",
-        "name": "NBD Helmet",
-        "brand": "Shot",
-        "description": "black red and white",
-        "price": "3500kr",
-        "category": "8",
-        "rating": "4.2",
-        "image": ""
-    }
-}, {
-    "pk": 7,
-    "model": "products.product",
-    "field": {
-        "sku": "G-43276Kennyboots",
-        "name": "Kenny Boots",
-        "brand": "Kenny",
-        "description": "black white",
-        "price": "4000kr",
-        "category": "9",
-        "rating": "4.3",
-        "image": ""
-    }
-}, {
-    "pk": 8,
-    "model": "products.product",
-    "field": {
-        "sku": "P-72784Permreartire",
-        "name": "Heidenan Tires",
-        "brand": "Permitotires",
-        "description": "rear nobbies ",
-        "price": "4000kr",
-        "category": "4",
-        "rating": "4",
-        "image": ""
-    }
-}, {
-    "pk": 9,
-    "model": "products.product",
-    "field": {
-        "sku": "P-72783Permfronttire",
-        "name": "Heidenan Tires",
-        "brand": "Permitotires",
-        "description": "front nobbies",
-        "price": "1500kr",
-        "category": "4",
-        "rating": "4",
-        "image": ""
-    }
-}, {
-    "pk": 10,
-    "model": "products.product",
-    "field": {
-        "sku": "P-72782ktmsprocket",
-        "name": "Sprocket",
-        "brand": "Ktm",
-        "description": "telon for 125, 250, 450",
-        "price": "500kr",
-        "category": "1",
-        "rating": "4",
-        "image": ""
-    }
-}, {
-    "pk": 11,
-    "model": "products.product",
-    "field": {
-        "sku": "P-72781Hondagasketkit",
-        "name": "Gasket kit",
-        "brand": "Honda",
-        "description": "stock oring gasket and seal kit",
-        "price": "600kr",
-        "category": "1",
-        "rating": "4",
-        "image": ""
-    }
-}, {
-    "pk": 12,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Suspension Pack",
-        "brand": "Showa",
-        "description": "",
-        "price": "8000kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 13,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "Army Helmet",
-        "brand": "LS2",
-        "description": "",
-        "price": "4000kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 14,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Black Boots",
-        "brand": "O'neil",
-        "description": "",
-        "price": "2500kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 15,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Grey Cloud Suit",
-        "brand": "HIMC",
-        "description": "",
-        "price": "3500kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 16,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Blue Handle Bar",
-        "brand": "Rental",
-        "description": "",
-        "price": "1500kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 17,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Black White Boots",
-        "brand": "Kenny",
-        "description": "",
-        "price": "3200kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 18,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Factory Ride Suit",
-        "brand": "FXR",
-        "description": "",
-        "price": "4300KR",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 19,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "TR Dream Boots",
-        "brand": "Tiger Racing",
-        "description": "",
-        "price": "4800kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 20,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "FR Rage",
-        "brand": "Fly Racing",
-        "description": "",
-        "price": "5000kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 21,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Front Forks",
-        "brand": "Honda",
-        "description": "",
-        "price": "1500kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 22,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Blue Top",
-        "brand": "FXR",
-        "description": "",
-        "price": "600kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 23,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Green Top",
-        "brand": "FXR",
-        "description": "",
-        "price": "600kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 24,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Black Handle Bar",
-        "brand": "Rental",
-        "description": "",
-        "price": "1200kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 25,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "Permoto Motards",
-        "brand": "Permoto",
-        "description": "",
-        "price": "6100kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 26,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "JUST 1 Blue Goggles",
-        "brand": "JUST 1",
-        "description": "",
-        "price": "700kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 27,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "JUST 1 Red Goggles",
-        "brand": "JUST 1",
-        "description": "",
-        "price": "700kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 28,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Front Motard",
-        "brand": "Mechilin",
-        "description": "",
-        "price": "4000kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 29,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Rear Motard",
-        "brand": "Mechilin",
-        "description": "",
-        "price": "4200kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 30,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "White Airoh Helmet",
-        "brand": "Airoh",
-        "description": "",
-        "price": "5000kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 31,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Excel Blue wheels",
-        "brand": "Haanwheel",
-        "description": "",
-        "price": "5500kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 32,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Hypersport Rear Suspension",
-        "brand": "Ohlins",
-        "description": "",
-        "price": "3500kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 33,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Red Fire Boots",
-        "brand": "Tox",
-        "description": "",
-        "price": "4100kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 34,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "Bearing Oil Seal Kit",
-        "brand": "Stock",
-        "description": "",
-        "price": "890kr",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}][{
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "bike",
-        "brand": "yamaha",
-        "description": "250cc of raw 2/stroke power",
-        "price": "20 000kr",
-        "category": "3",
-        "rating": "4.1",
-        "image": ""
-    }
-}, {
-    "pk": 2,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 3,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 4,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 5,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field":{
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-    }
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}, {
-    "pk": 1,
-    "model": "products.product",
-    "field": {
-        "sku": "",
-        "name": "",
-        "brand": "",
-        "description": "",
-        "price": "",
-        "category": "",
-        "rating": "",
-        "image": ""
-}]
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "field": {
+            "sku": "B-24531yamaha2stroke",
+            "name": "Yamaha",
+            "brand": "yamaha",
+            "description": "250cc of raw 2/stroke power",
+            "price": "20 000kr",
+            "category": "3",
+            "rating": "4.1",
+            "image": ""
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "field": {
+            "sku": "G-43271Foxfullbody",
+            "name": "Raging Fullbody Suit",
+            "brand": "Fox",
+            "description": "red and black",
+            "price": "3000kr",
+            "category": "2",
+            "rating": "4",
+            "image": ""
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "field": {
+            "sku": "G-43272Wolffullbody",
+            "name": "Midnight Fullbody Suit",
+            "brand": "Wolf",
+            "description": "grey and black",
+            "price": "4000kr",
+            "category": "2",
+            "rating": "4.3",
+            "image": ""
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "field": {
+            "sku": "G-43273Acerbidboots",
+            "name": "Mx Boots",
+            "brand": "Acerbid",
+            "description": "orange",
+            "price": "6000kr",
+            "category": "9",
+            "rating": "4.1",
+            "image": ""
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "field": {
+            "sku": "G-43274Spirithelmet",
+            "name": "Ocross Helmet",
+            "brand": "Spirit",
+            "description": "green and black",
+            "price": "3000kr",
+            "category": "8",
+            "rating": "4.1",
+            "image": ""
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "field": {
+            "sku": "G-43275Shothelmet",
+            "name": "NBD Helmet",
+            "brand": "Shot",
+            "description": "black red and white",
+            "price": "3500kr",
+            "category": "8",
+            "rating": "4.2",
+            "image": ""
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "field": {
+            "sku": "G-43276Kennyboots",
+            "name": "Kenny Boots",
+            "brand": "Kenny",
+            "description": "black white",
+            "price": "4000kr",
+            "category": "9",
+            "rating": "4.3",
+            "image": ""
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "field": {
+            "sku": "P-72784Permreartire",
+            "name": "Heidenan Tires",
+            "brand": "Permitotires",
+            "description": "rear nobbies ",
+            "price": "4000kr",
+            "category": "4",
+            "rating": "4",
+            "image": ""
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "field": {
+            "sku": "P-72783Permfronttire",
+            "name": "Heidenan Tires",
+            "brand": "Permitotires",
+            "description": "front nobbies",
+            "price": "1500kr",
+            "category": "4",
+            "rating": "4",
+            "image": ""
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "field": {
+            "sku": "P-72782ktmsprocket",
+            "name": "Sprocket",
+            "brand": "Ktm",
+            "description": "telon for 125, 250, 450",
+            "price": "500kr",
+            "category": "1",
+            "rating": "4",
+            "image": ""
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "field": {
+            "sku": "P-72781Hondagasketkit",
+            "name": "Gasket kit",
+            "brand": "Honda",
+            "description": "stock oring gasket and seal kit",
+            "price": "600kr",
+            "category": "1",
+            "rating": "4",
+            "image": ""
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Suspension Pack",
+            "brand": "Showa",
+            "description": "",
+            "price": "8000kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Army Helmet",
+            "brand": "LS2",
+            "description": "",
+            "price": "4000kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Black Boots",
+            "brand": "O'neil",
+            "description": "",
+            "price": "2500kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Grey Cloud Suit",
+            "brand": "HIMC",
+            "description": "",
+            "price": "3500kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Blue Handle Bar",
+            "brand": "Rental",
+            "description": "",
+            "price": "1500kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Black White Boots",
+            "brand": "Kenny",
+            "description": "",
+            "price": "3200kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Factory Ride Suit",
+            "brand": "FXR",
+            "description": "",
+            "price": "4300KR",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "TR Dream Boots",
+            "brand": "Tiger Racing",
+            "description": "",
+            "price": "4800kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "FR Rage",
+            "brand": "Fly Racing",
+            "description": "",
+            "price": "5000kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Front Forks",
+            "brand": "Honda",
+            "description": "",
+            "price": "1500kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Blue Top",
+            "brand": "FXR",
+            "description": "",
+            "price": "600kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Green Top",
+            "brand": "FXR",
+            "description": "",
+            "price": "600kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Black Handle Bar",
+            "brand": "Rental",
+            "description": "",
+            "price": "1200kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Permoto Motards",
+            "brand": "Permoto",
+            "description": "",
+            "price": "6100kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "JUST 1 Blue Goggles",
+            "brand": "JUST 1",
+            "description": "",
+            "price": "700kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "JUST 1 Red Goggles",
+            "brand": "JUST 1",
+            "description": "",
+            "price": "700kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Front Motard",
+            "brand": "Mechilin",
+            "description": "",
+            "price": "4000kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Rear Motard",
+            "brand": "Mechilin",
+            "description": "",
+            "price": "4200kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "White Airoh Helmet",
+            "brand": "Airoh",
+            "description": "",
+            "price": "5000kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Excel Blue wheels",
+            "brand": "Haanwheel",
+            "description": "",
+            "price": "5500kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Hypersport Rear Suspension",
+            "brand": "Ohlins",
+            "description": "",
+            "price": "3500kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Red Fire Boots",
+            "brand": "Tox",
+            "description": "",
+            "price": "4100kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Bearing Oil Seal Kit",
+            "brand": "Stock",
+            "description": "",
+            "price": "890kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Chain Gold",
+            "brand": "DYC",
+            "description": "",
+            "price": "900kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Black Chain",
+            "brand": "DYC",
+            "description": "",
+            "price": "850kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "field": {
+            "sku": "",
+            "name": "Aviator Helmet",
+            "brand": "Aviator",
+            "description": "",
+            "price": "4800kr",
+            "category": "",
+            "rating": "",
+            "image": ""
+        }
+    }
+]
