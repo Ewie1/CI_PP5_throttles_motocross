@@ -1,126 +1,126 @@
 [{
     "pk": 1,
     "model": "products.category",
-    "field":{
+    "fields":{
         "name": "parts",
         "friendly_name": "Parts"
     }
 }, {
     "pk": 2,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "siuts",
         "friendly_name": "Suits"
     }
 }, {
     "pk": 3, 
     "model": "products.category",
-    "field":{
+    "fields":{
         "name": "bikes", 
         "friendly_name": "Bikes"
     }
 }, {
     "pk": 4, 
     "model": "products.category",
-    "field":{
+    "fields":{
         "name": "wheels",
         "friendly_name": "Wheels"
     }
 }, {
     "pk": 5,
     "model": "products.category",
-    "field":{
+    "fields":{
         "name": "suspension",
         "friendly_name": "Suspension"
     }
 }, {
     "pk": 6,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "engine",
         "friendly_name": "Engine"
     }
 }, {
     "pk": 7,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "part_accessories",
         "friendly_name": "Part Accessories"
     }
 }, {
     "pk": 8,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "helmets",
         "friendly_name": "Helmets"
     }
 }, {
     "pk": 9,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "boots", 
         "friendly_name": "Boots"
     }
 }, {
     "pk": 10,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "tops",
         "friendly_name": "Tops"
     }
 }, {
     "pk": 11,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "bottoms",
         "friendly_name": "Bottoms"
     }
 }, {
     "pk": 12,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "gear_accessories",
         "friendly_name": "Gear Accessories"
     }
 }, {
     "pk": 13,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "honda",
         "friendly_name": "Honda"
     }
 }, {
     "pk": 14,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "husqvarna",
         "friendly_name": "Husqvarna"
     }
 }, {
     "pk": 15, 
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "ktm",
         "friendly_name": "KTM"
     }
 }, {
     "pk": 16,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "yamaha",
         "friendly_name": "Yamaha"
     }
 }, {
     "pk": 17,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "kawasaki",
         "friendly_name": "Kawasaki"
     }
 }, {
     "pk": 18,
     "model": "products.category",
-    "field": {
+    "fields": {
         "name": "hello",
         "friendly_name": "Hello"
     }
