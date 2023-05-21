@@ -228,10 +228,10 @@
         "model": "products.product",
         "field": {
             "sku": "",
-            "name": "Black White Boots",
-            "brand": "Kenny",
+            "name": "Orange Fox Suit",
+            "brand": "Fox",
             "description": "",
-            "price": "3200kr",
+            "price": "4200kr",
             "category": "",
             "rating": "",
             "image": ""
