@@ -7,9 +7,9 @@
             "name": "Yamaha",
             "brand": "yamaha",
             "description": "250cc of raw 2/stroke power",
-            "price": "20000.00",
-            "category": "3",
-            "rating": "4.1",
+            "price": 20000.00,
+            "category": 3,
+            "rating": 4.1,
             "image": ""
         }
     },
@@ -21,9 +21,9 @@
             "name": "Raging Fullbody Suit",
             "brand": "Fox",
             "description": "red and black",
-            "price": "3000.00",
-            "category": "2",
-            "rating": "4",
+            "price": 3000.00,
+            "category": 2, 
+            "rating": 4,
             "image": ""
         }
     },
@@ -35,9 +35,9 @@
             "name": "Midnight Fullbody Suit",
             "brand": "Wolf",
             "description": "grey and black",
-            "price": "4000.00",
-            "category": "2",
-            "rating": "4.3",
+            "price": 4000.00,
+            "category": 2,
+            "rating": 4.3,
             "image": ""
         }
     },
@@ -49,9 +49,9 @@
             "name": "Mx Boots",
             "brand": "Acerbid",
             "description": "orange",
-            "price": "6000.00",
-            "category": "9",
-            "rating": "4.1",
+            "price": 6000.00,
+            "category": 9,
+            "rating": 4.1,
             "image": ""
         }
     },
@@ -63,9 +63,9 @@
             "name": "Ocross Helmet",
             "brand": "Spirit",
             "description": "green and black",
-            "price": "3000.00",
-            "category": "8",
-            "rating": "4.1",
+            "price": 3000.00,
+            "category": 8,
+            "rating": 4.1,
             "image": ""
         }
     },
@@ -77,9 +77,9 @@
             "name": "NBD Helmet",
             "brand": "Shot",
             "description": "black red and white",
-            "price": "3500.00",
-            "category": "8",
-            "rating": "4.2",
+            "price": 3500.00,
+            "category": 8,
+            "rating": 4.2,
             "image": ""
         }
     },
@@ -91,9 +91,9 @@
             "name": "Kenny Boots",
             "brand": "Kenny",
             "description": "black white",
-            "price": "4000.00",
-            "category": "9",
-            "rating": "4.3",
+            "price": 4000.00,
+            "category": 9,
+            "rating": 4.3,
             "image": ""
         }
     },
@@ -105,9 +105,9 @@
             "name": "Heidenan Tires",
             "brand": "Permitotires",
             "description": "rear nobbies ",
-            "price": "4000.00",
-            "category": "4",
-            "rating": "4.1",
+            "price": 4000.00,
+            "category": 4,
+            "rating": 4.1,
             "image": ""
         }
     },
@@ -119,9 +119,9 @@
             "name": "Heidenan Tires",
             "brand": "Permitotires",
             "description": "front nobbies",
-            "price": "1500.00",
-            "category": "4",
-            "rating": "4.4",
+            "price": 1500.00,
+            "category": 4,
+            "rating": 4.4,
             "image": ""
         }
     },
@@ -133,9 +133,9 @@
             "name": "Sprocket",
             "brand": "Ktm",
             "description": "telon for 125, 250, 450",
-            "price": "500.00",
-            "category": "1",
-            "rating": "4.1",
+            "price": 500.00,
+            "category": 1,
+            "rating": 4.1,
             "image": ""
         }
     },
@@ -147,9 +147,9 @@
             "name": "Gasket kit",
             "brand": "Honda",
             "description": "stock oring gasket and seal kit",
-            "price": "600.00",
-            "category": "1",
-            "rating": "4.2",
+            "price": 600.00,
+            "category": 1,
+            "rating": 4.2,
             "image": ""
         }
     }

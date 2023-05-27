@@ -69,12 +69,13 @@
                                 Store
                             </a>
                             <ul class="dropdown-menu">
-                                 {% for category in categories_list %}
-                                    <a class="dropdown-item text-muted p-2"
-                                    href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a>
-                                {% endfor %}
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item"
+                                        href="{% url 'products' %}?category=parts,wheels,suspension,engine">Parts</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="{% url 'products' %}?category=gear,siuts,boots,helmets,tops,bottoms">Gear</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{% url 'products' %}?category=bikes">Bikes</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -86,7 +87,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" method="GET" action="{% url 'products' %}">
-                        <input class="form-control me-2" aria-label="Search"  type="text" name="q" placeholder="Search our site">
+                        <input class="form-control me-2" aria-label="Search" type="text" name="q"
+                            placeholder="Search our site">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
@@ -132,6 +134,43 @@
                 </ul>
             </div>
         </nav>
+        <div class="row mt-3 md-3">
+            <div class="col-sm-12">
+                {% for category in categories_list %}
+                <a class="text-muted p-2 m-1 bg-light"
+                    href="{% url 'products' %}?category={{category.name}}">{{category.friendly_name}}</a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Store
+                        </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a href="{% url 'products' %}?sort=price&direction=desc" class="nav-link text-decoration-none text-success">By
+                                Price</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="{% url 'products' %}?sort=category&direction=asc" class="nav-link text-decoration-none text-success">By
+                                Category</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="{% url 'products' %}?sort=brand&direction=desc" class="nav-link text-decoration-none text-success">By
+                                Brand</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="{% url 'products' %}?sort=rating&direction=desc" class="nav-link text-decoration-none text-success">By
+                                Rating</a>
+                        </li>
+                    </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
 
     {% if messages %}
