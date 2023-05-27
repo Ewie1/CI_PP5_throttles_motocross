@@ -85,3 +85,28 @@
     </div>
 </div>
 {% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script>
+    $('#sort-selector').change(function () {
+        let selector = $(this);
+        let url = new URL(window.location);
+
+        let selected = selector.val();
+        if (selected != 'reset') {
+            let sort = selected.split('_')[0];
+            let direction = selected.split('_')[1];
+
+            url.searchParams.set('sort', sort);
+            url.searchParams.set('direction', direction);
+
+            window.location.replace(url);
+        } else {
+            url.searchParams.delete('sort');
+            url.searchParams.delete('direction');
+            window.location.replace(url);
+        }
+    })
+</script>
+{% endblock %}
