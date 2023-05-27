@@ -11,7 +11,7 @@ def all_products(request):
     categories_list = Category.objects.all()
     
     query = None
-    category = None
+    categories = None
     sort = None
     direction = None
 
