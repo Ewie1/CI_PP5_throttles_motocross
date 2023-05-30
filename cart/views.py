@@ -5,7 +5,7 @@ from django.shortcuts import render, redirect
 
 def view_cart(request):
     """
-    A view to display the basket page
+    A view to display the cart page
     """
     return render(request, 'cart/cart.html')
 
@@ -13,7 +13,7 @@ def view_cart(request):
 def add_to_cart(request, item_id):
     """
     A view to add a quantity of the specified
-    product to the shopping basket
+    product to the shopping cart
     """
 
     quantity = int(request.POST.get('quantity'))
@@ -26,5 +26,4 @@ def add_to_cart(request, item_id):
         cart[item_id] = quantity
 
     request.session['cart'] = cart
-    print(request.session['cart'])
     return redirect(redirect_url)
