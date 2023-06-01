@@ -175,7 +175,9 @@
     </header>
 
     {% if messages %}
-    <div class="message-container"></div>
+    <div class="message-container">
+       
+    </div>
     {% endif %}
 
     {% block page_header %}
@@ -306,6 +308,10 @@
     </footer>
 
     {% block postloadjs %}
+     <!-- Toast Script -->
+  <script>
+    $('.toast').toast('show');
+  </script>
     {% endblock %}
 
 </body>
