@@ -23,7 +23,6 @@ class OrderAdmin(admin.ModelAdmin):
         'delivery_cost',
         'order_total',
         'grand_total',
-        'stripe_pid',
     )
     fields = (
         'order_number',

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'crispy_forms',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -60,6 +61,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'throttles_motocross.urls'
 
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -77,6 +81,10 @@ TEMPLATES = [
                 'django.template.context_processors.media',
                 'cart.contexts.cart_contents',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
