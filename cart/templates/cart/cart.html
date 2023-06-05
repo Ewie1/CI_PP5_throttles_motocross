@@ -119,13 +119,14 @@
                 </span>
                 <span class="text-uppercase">Keep Shopping</span>
             </a>
-            {% endif %}
+        {% endif %}
         </div>
     </div>
 </div>
 {% endblock %}
 
 {% block postloadjs %}
+
 {{ block.super }}
 {% include 'products/includes/quantity_script.html' %}
 <script>
