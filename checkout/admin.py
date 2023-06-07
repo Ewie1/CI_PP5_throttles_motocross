@@ -23,9 +23,12 @@ class OrderAdmin(admin.ModelAdmin):
         'delivery_cost',
         'order_total',
         'grand_total',
+        'original_cart',
+        'stripe_pid',
     )
     fields = (
         'order_number',
+        'user_profile',
         'date',
         'full_name',
         'email',
@@ -49,8 +52,6 @@ class OrderAdmin(admin.ModelAdmin):
         'delivery_cost',
         'order_total',
         'grand_total',
-        'original_cart',
-        'stripe_pid',
     )
     ordering = ('-date',)
 
