@@ -2,6 +2,16 @@ html {
     height: 100%;
 }
 
+body {
+    height: calc(100vh - 164px);
+}
+
+.navbar {
+    background-color: #3411a8 !important;
+    outline: none !important;
+    height: 150px;
+}
+
 
 /*Style for hero image*/
 
