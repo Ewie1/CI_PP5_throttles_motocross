@@ -12,6 +12,12 @@ body {
     height: 150px;
 }
 
+.nav-item a {
+    color: gold;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
 
 /*Style for hero image*/
 
@@ -26,6 +32,7 @@ body {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .overlay {
@@ -118,4 +125,14 @@ body {
 
 .toast-capper {
     height: 2px;
+}
+
+footer {
+    background: #3411a8 !important;
+    color: gold;
+}
+
+.media-links a {
+    color: goldenrod;
+    font-size: 1.5rem;
 }

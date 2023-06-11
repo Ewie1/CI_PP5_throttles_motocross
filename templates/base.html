@@ -63,9 +63,6 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Store</a>
-                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -86,10 +83,16 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link" href="#">Bookings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex" method="GET" action="{% url 'products' %}">
+                    <form class="d-flex ml-3" method="GET" action="{% url 'products' %}">
                         <input class="form-control me-2" aria-label="Search" type="text" name="q"
                             placeholder="Search our site">
                         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -150,7 +153,7 @@
                 <div class="col-sm-12">
                     <nav class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Store
+                            Sort
                         </a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-item">
@@ -201,17 +204,17 @@
     {% endblock %}
 
     <!-- Footer from MDbootstrap -->
-    <footer class="text-center text-lg-start bg-white text-muted">
+    <footer class="text-center text-lg-start">
         <!-- Section: Social media -->
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <section class="d-flex justify-content-center p-4 border-bottom">
             <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
+          <!----  <div class="me-5 d-none d-lg-block">
                 <span>Get connected with us on social networks:</span>
-            </div>
+            </div>-->
             <!-- Left -->
 
             <!-- Right -->
-            <div>
+            <div class="media-links">
                 <a href="" class="me-4 link-secondary">
                     <i class="fab fa-facebook-f"></i>
                 </a>
