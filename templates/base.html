@@ -50,23 +50,24 @@
 
 <body>
     <header class="fixed-top">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary text-uppercase">
+        <div class="nav-background">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="{% url 'home' %}">Throttles Motocross</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <a class="navbar-brand" href="{% url 'home' %}"><img src="media/black-boots.jpeg" alt=""></a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">HOME</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Store
+                                STORE
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item"
@@ -83,27 +84,35 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bookings</a>
+                            <a class="nav-link" href="#">BOOKINGS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#">CONTACT</a>
                         </li>
                     </ul>
-                    <form class="d-flex ml-3" method="GET" action="{% url 'products' %}">
-                        <input class="form-control me-2" aria-label="Search" type="text" name="q"
-                            placeholder="Search our site">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <!-- Search Box -->
+                    <div class="container">
+                        <div class="row mx-auto">
+                            <form method="GET" action="{% url 'products' %}">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" name="q" aria-label="Search">
+                                    <div class="input-group-append">
+                                        <button class="form-control btn btn-search" type="submit">
+                                            Search
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                 </div>
-            </div>
             <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
-                    <div class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <div class="nav-link dropdown-toggle icon" role="button" data-toggle="dropdown" aria-expanded="false">
                         {% if request.user.is_authenticated %}
-                        <i class="text-success fas fa-user fa-lg"></i>
+                        <i class="fas fa-user fa-lg"></i>
                         {% else %}
                         <i class="fas fa-user fa-lg"></i>
                         {% endif %}
@@ -123,17 +132,17 @@
                     </div>
                 </li>
             </ul>
-                    <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+                        <a class="{% if grand_total %}icon{% else %}icon{% endif %} nav-link"
                             href="{% url 'view_cart' %}">
                             <div class="text-center">
-                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                <div class="icon"><i class="fas fa-shopping-cart fa-lg"></i></div>
                                 <p class="my-0">
                                     {% if grand_total %}
-                                    ${{ grand_total|floatformat:2 }}
+                                    {{ grand_total|floatformat:2 }}sek
                                     {% else %}
-                                    $0.00
+                                    0.00sek
                                     {% endif %}
                                 </p>
                             </div>
@@ -142,6 +151,7 @@
                 </ul>
             </div>
         </nav>
+        </div>
         <div class="row mt-3 md-3">
             <div class="col-sm-12">
                 {% for category in categories_list %}
@@ -259,7 +269,7 @@
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                         <!-- Content -->
                         <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fas fa-motorcycle me-3"></i> Throttlers MC
+                            <i class="fas fa-motorcycle me-3"></i> Throttles MC
                         </h6>
                         <p>
                             This site is created for educational purposes only
@@ -331,7 +341,7 @@
                         <p><i class="fas fa-home me-3"></i> Stockholm, Flemingberggatan 3</p>
                         <p>
                             <i class="fas fa-envelope me-3"></i>
-                            throttlers@gmail.com
+                            throttles@gmail.com
                         </p>
                         <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
                         <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>

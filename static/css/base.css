@@ -8,9 +8,11 @@ body {
 
 .navbar {
     background-color: #00509d !important;
-    outline: none !important;
-    height: 150px;
+    color: #ffd500;
+   /* outline: none !important;
+    height: 150px;*/
 }
+
 
 .nav-item a {
     color: #ffd500;
@@ -19,6 +21,14 @@ body {
     font-size: 1rem;
 }
 
+.btn-search {
+    color: #00509d;
+    background: goldenrod;
+}
+
+.icon i {
+    color: #ffd500;
+}
 
 /*Style for hero image*/
 
