@@ -39,18 +39,15 @@ body {
 }
 
 .hero-image-outer {
-    overflow: hidden;
+    background: #ffd500;
 }
 
 .hero-image {
     height: 350px;
     width: 100%;
-  /*  background: url('media/honda-gasket-kit_xueFjJS.jpg') no-repeat center center;*/
-    background-image:'media/honda-gasket-kit_xueFjJS.jpg';
+    background: url('/workspaces/CI_PP5_throttles_motocross/media/background-rider2-removebg-preview.png') no-repeat center;
     background-size: cover;
-    background-position: center;
     overflow: hidden;
-    margin-top: 100px;
 }
 
 .overlay {
@@ -158,5 +155,9 @@ footer {
 
 footer h6, .icon {
     color: #ffd500;
+}
+
+.forms-background {
+    background: #ffd500;
 }
 
