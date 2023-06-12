@@ -7,15 +7,16 @@ body {
 }
 
 .navbar {
-    background-color: #3411a8 !important;
+    background-color: #00509d !important;
     outline: none !important;
     height: 150px;
 }
 
 .nav-item a {
-    color: gold;
-    font-size: 1.2rem;
-    font-weight: 100;
+    color: #ffd500;
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 
@@ -28,7 +29,8 @@ body {
 .hero-image {
     height: 350px;
     width: 100%;
-    background: url('') no-repeat center center;
+  /*  background: url('media/honda-gasket-kit_xueFjJS.jpg') no-repeat center center;*/
+    background-image:'media/honda-gasket-kit_xueFjJS.jpg';
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -52,6 +54,7 @@ body {
 }
 
 .moto {
+    padding-top: 164px;
     color: red;
 }
 
@@ -128,11 +131,16 @@ body {
 }
 
 footer {
-    background: #3411a8 !important;
-    color: gold;
+    background: #00509d !important;
+    color: goldenrod;
 }
 
 .media-links a {
-    color: goldenrod;
+    color: #ffd500;
     font-size: 1.5rem;
 }
+
+footer h6, .icon {
+    color: #ffd500;
+}
+
