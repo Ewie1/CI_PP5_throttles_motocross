@@ -32,6 +32,12 @@ body {
 
 /*Style for hero image*/
 
+.adventure {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
 .hero-image-outer {
     overflow: hidden;
 }
@@ -64,8 +70,8 @@ body {
 }
 
 .moto {
-    padding-top: 164px;
-    color: red;
+    padding-top: 300px;
+    color: #ffd500;
 }
 
 /*Test code*/
