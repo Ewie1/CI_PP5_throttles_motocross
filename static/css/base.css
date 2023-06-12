@@ -157,7 +157,9 @@ footer h6, .icon {
     color: #ffd500;
 }
 
-.forms-background {
+.forms-background, 
+.y-background {
     background: #ffd500;
 }
+
 
