@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/27492-extreme_sport-enduro-freeride-tree-off_roading-x750.webp') no-repeat center center fixed;
+    background: url('dia/27492-extreme_sport-enduro-freeride-tree-off_roading-x750.webp') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
 }
@@ -41,13 +41,13 @@ body {
 }
 
 .hero-image-outer {
-    background: #ffd500;
+    
 }
 
 .hero-image {
     height: 350px;
     width: 100%;
-    background: url('/workspaces/CI_PP5_throttles_motocross/media/background-rider2-removebg-preview.png') no-repeat center;
+    background: url('/media/hero-img.webp') no-repeat center;
     background-size: cover;
     overflow: hidden;
 }
