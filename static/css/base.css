@@ -3,6 +3,8 @@ html {
 }
 
 body {
+    background: url('/media/27492-extreme_sport-enduro-freeride-tree-off_roading-x750.webp') no-repeat center center fixed;
+    background-size: cover;
     height: calc(100vh - 164px);
 }
 
