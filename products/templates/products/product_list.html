@@ -3,7 +3,7 @@
 
 {% block content %}
 <div class="container">
-    <div class="row my-5">
+    <div class="row my-5 mt-5">
         <div class="col bg-light rounded">
             <div class="col">
                 <a class="text-success text-decoration-none" href="{% url 'products' %}">
@@ -75,7 +75,7 @@
                     Rating</a></p>
         </div>
         <div class="col">
-            <div class="row">
+            <div class="row my-5">
                 <div class="col-sm d-flex flex-wrap">
                     {% for product in products %}
                     <div class="card m-4 me-md-2 p-3 mx-auto product-list shadow grow">
