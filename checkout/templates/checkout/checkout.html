@@ -11,10 +11,10 @@
 {% block content %}
 <div class="container">
     <div class="row my-5">
-        <div class="col bg-light rounded">
+        <div class="col bg-blue rounded mt-5">
             <div class="col">
-                <a class="text-success text-decoration-none" href="{% url 'products' %}">
-                    <h1 class="my-5">
+                <a class="text-decoration-none" href="{% url 'products' %}">
+                    <h1 class="my-5 text-center heading-text">
                         SHOP
                     </h1>
                 </a>
@@ -26,18 +26,18 @@
             <div class="row">
                 <div class="col-12">
                     <div class="card mt-5">
-                        <div class="card-header text-success">
-                            <h2>Checkout</h2>
+                        <div class="card-header">
+                            <h2 class="f-fam">Checkout</h2>
                         </div>
                         <div class="row">
                             <div class="col-12 col-lg-6 order-lg-last mb-5">
-                                <p class="text-success p-2">Order Summary ({{ product_count }})</p>
+                                <p class="text-info p-2">Order Summary ({{ product_count }})</p>
                                 <div class="row">
                                     <div class="col-7 offset-2">
-                                        <p class="mb-1 mt-0 small text-success">Item</p>
+                                        <p class="mb-1 mt-0 small text-info">Item</p>
                                     </div>
                                     <div class="col-3 text-right">
-                                        <p class="mb-1 mt-0 small text-success">Subtotal</p>
+                                        <p class="mb-1 mt-0 small text-info">Subtotal</p>
                                     </div>
                                 </div>
                                 {% for item in cart_items %}
@@ -58,10 +58,10 @@
                                         <p class="my-0 small">Size:
                                             {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}
                                         </p>
-                                        <p class="my-0 small text-success">Qty: {{ item.quantity }}</p>
+                                        <p class="my-0 small text-info">Qty: {{ item.quantity }}</p>
                                     </div>
                                     <div class="col-3 text-right">
-                                        <p class="my-0 small text-success">
+                                        <p class="my-0 small text-info">
                                             {{ item.product.price | calc_subtotal:item.quantity }}sek</p>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-lg-6">
-                                <p class="text-success p-2">Please fill out the form to complete your order</p>
+                                <p class="text-info p-2">Please fill out the form to complete your order</p>
                                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                                     {% csrf_token %}
                                     <fieldset class="rounded px-3 mb-5">
@@ -106,10 +106,10 @@
                                                 name="save-info" checked>
                                             {% else %}
                                             <label class="form-check-label" for="id-save-info">
-                                                <a class="text-success" href="{% url 'account_signup' %}"><strong>Create
+                                                <a class="text-info" href="{% url 'account_signup' %}"><strong>Create
                                                         an
                                                         account</strong></a> or
-                                                <a class="text-success"
+                                                <a class="text-info"
                                                     href="{% url 'account_login' %}"><strong>login</strong></a> to save
                                                 this information
                                             </label>
@@ -129,19 +129,19 @@
                                     <div class="submit-button text-right m-5">
                                         <a href="{% url 'view_cart' %}" class="btn btn-outline-secondary rounded">
                                             <span class="icon">
-                                                <i class="fas fa-chevron-left text-success"></i>
+                                                <i class="fas fa-chevron-left text-info"></i>
                                             </span>
                                             <span class="font-weight-bold">Back</span>
                                         </a>
-                                        <button id="submit-button" class="btn btn-success rounded">
+                                        <button id="submit-button" class="btn btn-info rounded">
                                             <span class="font-weight-bold">Complete Purchase</span>
-                                            <span class="icon">
+                                            <span>
                                                 <i class="fas fa-lock"></i>
                                             </span>
                                         </button>
                                         <p class="small text-danger my-0">
                                             <span class="icon">
-                                                <i class="fas fa-exclamation-circle text-success"></i>
+                                                <i class="fas fa-exclamation-circle text-info"></i>
                                             </span>
                                             <span>Your card will be charged
                                                 <strong>{{ grand_total|floatformat:2 }}sek</strong></span>
@@ -155,14 +155,14 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
+                    <span style="float:right;" class="btn text-info back-to-top">Back to Top</span>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div id="spinner-overlay">
-    <div class="text-success spinner">
+    <div class="text-info spinner">
         <span class="icon">
             <i class="fas fa-3x fa-smile fa-spin"></i>
         </span>

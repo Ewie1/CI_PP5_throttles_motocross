@@ -3,15 +3,15 @@
 
 {% block content %}
 <div class="container">
-    <div class="row my-5 mt-5">
-        <div class="col bg-light rounded">
+    <div class="row my-5 ">
+        <div class="col bg-blue rounded mt-5 shadow">
             <div class="col">
-                <a class="text-success text-decoration-none" href="{% url 'products' %}">
-                    <h1 class="my-5">
-                        SHOP
+                <a class="text-decoration-none" href="{% url 'products' %}">
+                    <h1 class="my-5 text-center heading-text">
+                        Store
                     </h1>
                 </a>
-                <h2 class="border bg-success text-light rounded p-1 shadow" style="text-align: center;">Free Shipping on
+                <h2 class="bg-warning rounded p-1 shadow f-fam" style="text-align: center; width: 80%;">Free Shipping on
                     orders over €{{ free_delivery_threshold }}</h2>
                 <div class="m-3 w-50">
                     <select id="sort-selector" aria-label="option select for sorting"
@@ -39,10 +39,9 @@
                         <option value="name_desc" {% if current_sort == 'name_desc' %}selected{% endif %}>Name (Z-A)
                         </option>
                     </select>
-                    <span class="text-muted mt-3 text-center text-success text-md-left">
+                    <span class=" mt-3 text-center text-warning text-md-left">
                         {% if search_term or current_categories or current_sorting != 'None_None' %}
-                        <span class="small"><a class="text-success" href="{% url 'products' %}">All Products</a>
-                            |</span>
+                        <span class="small"><a class="text-warning" href="{% url 'products' %}">All Products</a>|</span>
                         {% endif %}
                         {{ products|length }} Items{% if search_term %} found for
                         <strong>"{{ search_term }}"</strong>{% endif %}
@@ -53,25 +52,25 @@
     </div>
     <div class="row bg-light p-3 rounded">
         <div class="d-none d-lg-block col-md-2">
-            <h2 class="fs-6">CATEGORIES</h2>
+            <h2 class="fs-6 text-info f-fam">CATEGORIES</h2>
             <hr>
-            <p><a class="nav-link text-success" href="{% url 'products' %}">All Products</a></p>
+            <p><a class="nav-link text-info" href="{% url 'products' %}">All Products</a></p>
             {% for category in categories_list %}
-            <p><a class="nav-link text-success" href="{% url 'products' %}?category={{category.name}}">{{category.friendly_name }}</a></p>
+            <p><a class="nav-link text-info" href="{% url 'products' %}?category={{category.name}}">{{category.friendly_name }}</a></p>
             {% endfor %}
-            <h2 class="fs-6">All Products</h2>
+            <h2 class="fs-6 text-info f-fam">All Products</h2>
             <hr>
             <p><a href="{% url 'products' %}?sort=price&direction=desc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Price</a></p>
             <p><a href="{% url 'products' %}?sort=category&direction=asc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Category</a></p>
             <p><a href="{% url 'products' %}?sort=brand&direction=desc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Brand</a></p>
             <p><a href="{% url 'products' %}?sort=rating&direction=desc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Rating</a></p>
         </div>
         <div class="col">
@@ -91,7 +90,7 @@
                         <div class="card-body pb-0">
                             <p class="mb-0">{{ product.name }}</p>
                         </div>
-                        <p class="text-success">{{ product.category.friendly_name }}</p>
+                        <p class="text-info">{{ product.category.friendly_name }}</p>
                         <div class="card-footer bg-white pt-0 border-0 text-left">
                             <div class="row">
                                 <div class="col">
@@ -114,7 +113,7 @@
 
         <div class="row">
             <div class="col">
-                <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
+                <span style="float:right;" class="btn text-info back-to-top">Back to Top</span>
             </div>
         </div>
     </div>

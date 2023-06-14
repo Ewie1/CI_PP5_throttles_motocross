@@ -13,15 +13,15 @@
                     class="decrement-qty btn btn-sm btn-danger rounded m-1 decrement-qty_{{ item.item_id }} 
                                                                     {% if item.size %}decrement-size_{{ item.item_id }}_{{ item.size }}{% endif %}"
                     data-item_id="{{ item.item_id }}" data-size="{{ item.size }}">
-                    <span class="icon">-</span>
+                    <span>-</span>
                 </button>
             </div>
             <div class="input-group-append">
                 <button
-                    class="increment-qty btn btn-sm btn-success rounded m-1 increment-qty_{{ item.item_id }} 
+                    class="increment-qty btn btn-sm btn-info rounded m-1 increment-qty_{{ item.item_id }} 
                                                                     {% if item.size %}increment-size_{{ item.item_id }}_{{ item.size }}{% endif %}"
                     data-item_id="{{ item.item_id }}" data-size="{{ item.size }}">
-                    <span class="icon">+</span>
+                    <span>+</span>
                 </button>
             </div>
             {% if item.product.has_sizes %}
@@ -30,6 +30,6 @@
         </div>
     </div>
 </form>
-<a class="update-link text-success"><small>Update</small></a>
+<a class="update-link text-warning"><small>Update</small></a>
 <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
     data-product_size="{{ item.size }}"><small>Remove</small></a>

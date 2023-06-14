@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
 html {
     height: 100%;
 }
@@ -19,8 +21,7 @@ body {
 .nav-item a {
     color: #ffd500;
     font-family: 'Teko', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 
 .btn-search {
@@ -162,6 +163,26 @@ footer h6, .icon {
 .forms-background, 
 .y-background {
     background: #ffd500;
+}
+
+.bg-blue{
+    background-color: #00509d;
+}
+
+.text-yel {
+    color: #ffd500;
+    text-decoration: none;
+}
+
+.heading-text {
+    font-size: 5rem;
+    color: #ffd500;
+    font-family: 'Teko', sans-serif;
+}
+
+.f-fam {
+    font-family: 'Teko', sans-serif;
+    font-size: 3rem;
 }
 
 

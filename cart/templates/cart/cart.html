@@ -5,10 +5,10 @@
 {% block content %}
 <div class="container">
     <div class="row my-5">
-        <div class="col bg-light rounded">
+        <div class="col bg-blue rounded mt-5">
             <div class="col">
-                <a class="text-success text-decoration-none" href="{% url 'products' %}">
-                    <h1 class="my-5">
+                <a class="text-decoration-none" href="{% url 'products' %}">
+                    <h1 class="my-5 text-center heading-text">
                         SHOP
                     </h1>
                 </a>
@@ -17,41 +17,41 @@
     </div>
     <div class="row bg-light p-3 rounded">
         <div class="d-none d-lg-block col-md-2">
-            <h2 class="fs-6">CATEGORIES</h2>
+            <h2 class="fs-6 text-info f-fam ">Categories</h2>
             <hr>
-            <p><a class="nav-link text-success" href="{% url 'products' %}">All Products</a></p>
+            <p><a class="nav-link text-info" href="{% url 'products' %}">All Products</a></p>
             {% for category in categories_list %}
-            <p><a class="nav-link text-success"
+            <p><a class="nav-link text-info"
                     href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a></p>
             {% endfor %}
-            <h2 class="fs-6">All Products</h2>
+            <h2 class="fs-6 text-info f-fam">All Products</h2>
             <hr>
             <p><a href="{% url 'products' %}?sort=price&direction=desc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Price</a></p>
             <p><a href="{% url 'products' %}?sort=category&direction=asc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Category</a></p>
             <p><a href="{% url 'products' %}?sort=brand&direction=desc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Brand</a></p>
             <p><a href="{% url 'products' %}?sort=rating&direction=desc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Rating</a></p>
         </div>
         <div class="col">
             <div class="row">
                 <div class="col-12">
                     <div class="card mt-5">
-                        <div class="card-header text-success">
-                            <h3>Cart</h3>
+                        <div class="card-header">
+                            <h3 class="f-fam">CART</h3>
                         </div>
                         <div class="card-body">
                             <div class="col-sm-12 text-center">
                                 {% if cart_items %}
                                 <div class="table-responsive rounded">
                                     <table class="table table-sm table-responsive">
-                                        <thead class="text-success">
+                                        <thead>
                                             <tr>
                                                 <th scope="col">Product Info</th>
                                                 <th scope="col">Qty</th>
@@ -69,7 +69,7 @@
                                                 {% endif %}
                                             </td>
                                             <td class="py-3">
-                                                <p class="my-0 text-success">{{ item.product.brand }}</p>
+                                                <p class="my-0 text-info">{{ item.product.brand }}</p>
                                                 <p class="my-0">{{ item.product.name }}</p>
                                                 <p class="my-0"><strong>Price:</strong> {{ item.product.price }}sek</p>
                                                 <p class="my-0"><strong>Size:</strong> {{ item.size|upper }}</p>
@@ -86,7 +86,7 @@
                                         {% endfor %}
                                         <tr>
                                             <td colspan="5" class="pt-5 text-right">
-                                                <h4><strong>Cart Total: {{ total|floatformat:2 }}sek</strong></h4>
+                                                <h4 class="f-fam"><strong>Cart Total: {{ total|floatformat:2 }}sek</strong></h4>
                                                 <h5>Shipping: {{ delivery|floatformat:2 }}sek</h5>
                                                 <h5 class="mt-4"><strong>Grand Total:
                                                         {{ grand_total|floatformat:2 }}sek</strong></h5>
@@ -102,14 +102,14 @@
                                             <td colspan="5" class="text-right">
                                                 <a href="{% url 'products' %}"
                                                     class="btn btn-outline-secondary rounded btn-lg m-2">
-                                                    <span class="icon">
+                                                    <span>
                                                         <i class="fas fa-arrow-left"></i>
                                                     </span>
                                                     <span class="text-uppercase">Back</span>
                                                 </a>
-                                                <a href="{% url 'checkout' %}" class="btn btn-success rounded btn-lg m-2">
+                                                <a href="{% url 'checkout' %}" class="btn btn-info rounded btn-lg m-2">
                                                     <span class="text-uppercase">Secure Checkout</span>
-                                                    <span class="icon">
+                                                    <span>
                                                         <i class="fas fa-lock"></i>
                                                     </span>
                                                 </a>
@@ -118,7 +118,7 @@
                                     </table>
                                 </div>
                                 {% else %}
-                                <h3 class="text-success"><strong>Your cart is Empty</strong></h3>
+                                <h3 class="text-info"><strong>Your cart is Empty</strong></h3>
                                 <a href="{% url 'products' %}" class="btn btn-success cart-btn-transform m-3">Return to
                                     Shop</a>
                                 {% endif %}
@@ -129,7 +129,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
+                    <span style="float:right;" class="btn text-info back-to-top">Back to Top</span>
                 </div>
             </div>
         </div>
