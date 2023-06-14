@@ -5,7 +5,7 @@
 <!-- Popup modal for delete product button to confirm deletion -->
 <div class="popupOverlay">
     <div class="popupContent">
-        <h1 class="text-success">Delete Product</h1>
+        <h1 class="text-info">Delete Product</h1>
         <p>Are you sure?</p>
         <a class='btn btn-sm btn-danger m-2' href="{% url 'delete_product' product.id %}">Delete</a>
         <a href="#" class="btn btn-sm close btn-outline-dark m-2">Cancel</a>
@@ -13,40 +13,40 @@
 </div>
 <div class="container">
     <div class="row my-5">
-        <div class="col bg-light rounded">
+        <div class="col bg-blue rounded mt-5 shadow">
             <div class="col">
-                <a class="text-success text-decoration-none" href="{% url 'products' %}">
-                    <h1 class="my-5">
+                <a class=" text-decoration-none" href="{% url 'products' %}">
+                    <h1 class="my-5 text-center heading-text">
                         SHOP
                     </h1>
                 </a>
-                <h2 class="border bg-success text-light rounded p-1 shadow" style="text-align: center;">Free Shipping on
+                <h2 class="bg-warning rounded p-1 shadow f-fam" style="text-align: center;">Free Shipping on
                     orders over €{{ free_delivery_threshold }}</h2>
             </div>
         </div>
     </div>
-    <div class="row bg-light p-3 rounded">
+    <div class="row bg-light p-3 rounded my-5">
         <div class="d-none d-lg-block col-md-2">
-            <h2 class="fs-6">CATEGORIES</h2>
+            <h2 class="fs-6 text-info f-fam">CATEGORIES</h2>
             <hr>
-            <p><a class="nav-link text-success" href="{% url 'products' %}">All Products</a></p>
+            <p><a class="nav-link text-info" href="{% url 'products' %}">All Products</a></p>
             {% for category in categories_list %}
-            <p><a class="nav-link text-success"
+            <p><a class="nav-link text-info"
                     href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a></p>
             {% endfor %}
-            <h2 class="fs-6">All Products</h2>
+            <h2 class="fs-6 text-info f-fam">All Products</h2>
             <hr>
             <p><a href="{% url 'products' %}?sort=price&direction=asc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Price</a></p>
             <p><a href="{% url 'products' %}?sort=category&direction=asc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Category</a></p>
             <p><a href="{% url 'products' %}?sort=brand&direction=desc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Brand</a></p>
             <p><a href="{% url 'products' %}?sort=rating&direction=desc"
-                    class="nav-link text-decoration-none text-success">By
+                    class="nav-link text-decoration-none text-info">By
                     Rating</a></p>
         </div>
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mt-5">
@@ -62,14 +62,14 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4 mt-5">
             <div class="mb-5 mt-md-5">
-                <span class="fs-6 text-success">{{ product.brand }}</span>
+                <span class="fs-6 text-info">{{ product.brand }}</span>
                 <p>{{ product.name }}</p>
                 <p class="lead text-left font-weight-bold">€{{ product.price }}{% if product.rating %}
                     <!--<span class="text-success text-right"><i
                             class="fa-sharp fa-solid fa-star"></i>{{product.rating}}</span>-->
                             <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                     {% endif %}</p>
-                <p class="text-success">{{ product.category.friendly_name }}</p>
+                <p class="text-info">{{ product.category.friendly_name }}</p>
                 <p class="mt-4">{{ product.description }}</p>
                 <form class="form" action="{% url 'add_to_cart' product.id %}" method="POST">
                     {% csrf_token %}
@@ -95,7 +95,7 @@
                                         <button
                                             class="decrement-qty btn btn-sm btn-danger rounded decrement-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
-                                            <span class="icon">-</span>
+                                            <span>-</span>
                                         </button>
                                     </div>
                                     <input class="form-control qty_input rounded h-100 w-25 id_qty_{{ product.id }}"
@@ -103,9 +103,9 @@
                                         data-item_id="{{ product.id }}" aria-label="add to cart">
                                     <div class="input-group-append">
                                         <button
-                                            class="increment-qty btn btn-sm btn-success rounded increment-qty_{{ product.id }}"
+                                            class="increment-qty btn btn-sm btn-info rounded increment-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
-                                            <span class="icon">+</span>
+                                            <span>+</span>
                                         </button>
                                     </div>
                                     {% if request.user.is_superuser %}
@@ -120,12 +120,12 @@
                         </div>
                         <div class="col{% if s %}-12 mt-2{% endif %}">
                             <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5 h-100">
-                                <span class="icon">
+                                <span>
                                     <i class="fas fa-arrow-left"></i>
                                 </span>
                                 <span class="text-uppercase">Return</span>
                             </a>
-                            <input type="submit" class="btn text-uppercase btn-success rounded mt-5 h-100"
+                            <input type="submit" class="btn text-uppercase btn-info rounded mt-5 h-100"
                                 value="Add to Cart">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
@@ -134,14 +134,15 @@
                 </form>
             </div>
         </div>
+    </div>
+</div>
         <div class="row">
             <div class="col">
-                <span style="float:right;" class="btn text-success back-to-top">Back to Top</span>
+                <span style="float:right;" class="btn text-info back-to-top">Back to Top</span>
             </div>
         </div>
     </div>
 </div>
-
 {% endblock %}
 
 {% block postloadjs %}
