@@ -137,8 +137,8 @@
                         <a class="{% if grand_total %}icon{% else %}icon{% endif %} nav-link"
                             href="{% url 'view_cart' %}">
                             <div class="text-center">
-                                <div class="icon"><i class="fas fa-shopping-cart fa-lg"></i></div>
-                                <p class="my-0">
+                                <div class="text-warning"><i class="fas fa-shopping-cart fa-lg"></i></div>
+                                <p class="my-0 text-warning">
                                     {% if grand_total %}
                                     {{ grand_total|floatformat:2 }}sek
                                     {% else %}

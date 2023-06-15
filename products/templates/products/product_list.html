@@ -7,12 +7,12 @@
         <div class="col bg-blue rounded mt-5 shadow">
             <div class="col">
                 <a class="text-decoration-none" href="{% url 'products' %}">
-                    <h1 class="my-5 text-center heading-text">
+                    <h1 class="my-3 text-center heading-text">
                         Store
                     </h1>
                 </a>
-                <h2 class="bg-warning rounded p-1 shadow f-fam" style="text-align: center; width: 80%;">Free Shipping on
-                    orders over €{{ free_delivery_threshold }}</h2>
+                <h2 class="bg-warning rounded p-1 shadow f-fam text-center" style="text-align: center;">Free Shipping on
+                    orders over {{ free_delivery_threshold }}sek</h2>
                 <div class="m-3 w-50">
                     <select id="sort-selector" aria-label="option select for sorting"
                         class=" rounded-0 border border-{% if current_sort != 'None_None' %}success{% else %}light{% endif %}">
@@ -96,7 +96,7 @@
                                 <div class="col">
                                     <p class="lead mb-0 text-left font-weight-bold">{{ product.price }}kr</p>
                                     {% if product.rating %}
-                                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} /
+                                    <small class="text-mute"><i class=" icon fas fa-star mr-1"></i>{{ product.rating }} /
                                         5</small>
                                     {% else %}
                                     <small class="text-muted">No Rating</small>
