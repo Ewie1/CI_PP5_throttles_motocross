@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-57y!*e-1f8ok=rf=h7&2ypi2_tccqo_rugzfn6#$rije14=^rl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ci-pp5-throttles-motocross.heroku.com', 'localhost']
+ALLOWED_HOSTS = ['ci-pp5-throttles-motocross-2c6aa11127d2.heroku.com', 'localhost']
 
 
 # Application definition
