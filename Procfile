@@ -1,0 +1,1 @@
+web: gunicorn throttles_motocross.wsgi:application
