@@ -18,17 +18,23 @@ body {
 }
 
 .boot-icon{
-    background: url('/media/boots-icon.png');
+    height: 100px;
+    width: 100px;
+    background: url('/media/boots-icon.png') no-repeat center;
     border-radius: 50%;
 }
 
 .helmet-icon {
-    background-image: url('/media/goggle-icon.png');
+    height: 100px;
+    width: 100px;
+    background: url('/media/helmet-icon.png')no-repeat center;
     border-radius: 50%;
 }
 
 .goggle-icon{
-    background-image: url('/media/helmet-icon.png');
+    height: 100px;
+    width: 100px;
+    background: url('/media/goggle-icon.png')no-repeat center;
     border-radius: 50%;
 }
 .nav-item a {
