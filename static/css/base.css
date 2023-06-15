@@ -17,7 +17,20 @@ body {
     height: 150px;*/
 }
 
+.boot-icon{
+    background: url('/media/boots-icon.png');
+    border-radius: 50%;
+}
 
+.helmet-icon {
+    background-image: url('/media/goggle-icon.png');
+    border-radius: 50%;
+}
+
+.goggle-icon{
+    background-image: url('/media/helmet-icon.png');
+    border-radius: 50%;
+}
 .nav-item a {
     color: #ffd500;
     font-family: 'Teko', sans-serif;
