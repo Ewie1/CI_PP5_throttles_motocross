@@ -26,10 +26,16 @@ SECRET_KEY = os.environ.get('SERCRET_KEY',
                             'django-insecure-57y!*e-1f8ok=rf=h7&2ypi2_tccqo_rugzfn6#$rije14=^rl')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+development = os.environ.get('DEVELOPMENT', False)
 
-ALLOWED_HOSTS = ['ci-pp5-throttles-motocross-2c6aa11127d2.herokuapp.com', 
-                 'localhost']
+DEBUG = development
+
+if development:
+    ALLOWED_HOSTS = ['localhost', '127.0.0.1',
+                     '127.0.0.1:8000',
+                     'https://8000-ewie1-ci-pp5-throttles-m-7u92aq3w3j.us2.codeanyapp.com']
+else:
+    ALLOWED_HOSTS = ['ci-pp5-throttles-motocross-2c6aa11127d2.herokuapp.com', '*']
 
 
 # Application definition
@@ -43,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'crispy_forms',
+    'crispy_bootstrap5',
     'storages',
     'allauth',
     'allauth.account',
@@ -110,6 +117,7 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
