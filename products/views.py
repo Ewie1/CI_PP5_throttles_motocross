@@ -167,3 +167,5 @@ def edit_product(request, product_id):
         'product': product,
         'categories_list': categories_list,
     }
+    
+    return render(request, template, context)
