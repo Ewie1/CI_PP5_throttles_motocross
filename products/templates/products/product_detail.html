@@ -64,10 +64,10 @@
             <div class="mb-5 mt-md-5">
                 <span class="fs-6 text-info">{{ product.brand }}</span>
                 <p>{{ product.name }}</p>
-                <p class="lead text-left font-weight-bold">€{{ product.price }}{% if product.rating %}
+                <p class="lead text-left font-weight-bold">{{ product.price }}sek{% if product.rating %}
                     <!--<span class="text-success text-right"><i
                             class="fa-sharp fa-solid fa-star"></i>{{product.rating}}</span>-->
-                            <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                            <small class="text-muted"><i class="text-warning fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                     {% endif %}</p>
                 <p class="text-info">{{ product.category.friendly_name }}</p>
                 <p class="mt-4">{{ product.description }}</p>
@@ -111,7 +111,7 @@
                                     {% if request.user.is_superuser %}
                                     <small class="my-5">
                                         <a href="#" class="btn open btn-danger">Delete</a>
-                                        <a class="btn btn-outline-success"
+                                        <a class="btn btn-outline-info"
                                             href="{% url 'edit_product' product.id %}">Edit</a>
                                     </small>
                                 </div>
@@ -119,13 +119,13 @@
                             {% endif %}
                         </div>
                         <div class="col{% if s %}-12 mt-2{% endif %}">
-                            <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5 h-100">
+                            <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5">
                                 <span>
                                     <i class="fas fa-arrow-left"></i>
                                 </span>
                                 <span class="text-uppercase">Return</span>
                             </a>
-                            <input type="submit" class="btn text-uppercase btn-info rounded mt-5 h-100"
+                            <input type="submit" class="btn text-uppercase btn-info rounded mt-5"
                                 value="Add to Cart">
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
