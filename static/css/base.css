@@ -17,6 +17,10 @@ body {
     height: 150px;*/
 }
 
+.nav-margin {
+    margin-top: 200px;
+}
+
 .boot-icon{
     height: 50px;
     width: 50px;
@@ -44,7 +48,7 @@ body {
 }
 
 .btn-search {
-    color: #00509d;
+    color: #000;
     background: goldenrod;
 }
 
@@ -183,9 +187,18 @@ footer h6, .icon {
 .y-background {
     background: #ffd500;
 }
+.text-blue {
+    color: #00509d;
+}
 
 .bg-blue{
     background-color: #00509d;
+}
+
+.btn-blue {
+    background-color: #00509d;
+    color: #ffd500;
+
 }
 
 .text-yel {
