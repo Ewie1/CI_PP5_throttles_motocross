@@ -55,11 +55,14 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'phonenumber_field',
+    'django_summernote',
+    'django_countries',
     'home',
     'products',
     'cart',
     'checkout',
     'profiles',
+    'contact',
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
