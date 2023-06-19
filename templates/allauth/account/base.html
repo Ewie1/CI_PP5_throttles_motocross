@@ -1,24 +1,25 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
-<!--<div class="container">
-    <div class="row my-5">
-        <div class="col forms-background">
-            <div class="col">
-                <a class="text-muted text-decoration-none" href="{% url 'products' %}">
-                    <h1 class="my-5 p-3 text-success">
-                        Accounts
-                    </h1>
-                </a>
-            </div>
-        </div>
-    </div>-->
-    <div class="row  p-3 m-5">
+<div class="container-fluid mt-5">
+    <div class="row">
+        <ul class="col-sm-12 text-center">
+            <li class="col-2  m-2 boot-icon list-inline-item"></li>
+            <li class="col-2  m-2 helmet-icon list-inline-item"></li>
+            <li class="col-2  m-2 goggle-icon list-inline-item"></li>
+            <li class="col-2  m-2 boot-icon list-inline-item"></li>
+            <li class="col-2  m-2 helmet-icon list-inline-item"></li>
+            <li class="col-2  m-2 goggle-icon list-inline-item"></li>
+        </ul>
+    </div>
+</div>
+<div class="container-fluid justify-content-center">
+    <div class="row  p-3">
         <div class="col">
             <div class="row">
                 <div class="col-12">
                     <div class=" mt-5">
-                        <div class="col-lg-6 allauth-form-inner-content p-3 forms forms-background rounded">
+                        <div class="col-lg-6 allauth-form-inner-content p-3 forms forms-background rounded shadow">
                             {% block inner_content %}
                             {% endblock %}
                         </div>
@@ -28,13 +29,5 @@
         </div>
     </div>
 </div>
-<div class="row m-3">
-    <div class="bg-light">
-        <div class="col-6"><img src="/media/home-image_1.webp" alt=""></div>
-    </div>
-    <div class="col-6 info bg-black rounded">
-        <h3>Info </h3>
-    </div>
-</div>
-</div>
+
 {% endblock %}
