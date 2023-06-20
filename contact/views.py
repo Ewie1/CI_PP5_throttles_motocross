@@ -16,7 +16,7 @@ def get_user_instance(request):
     return user
 
 
-class ContactFeedback(View):
+class ContactMessage(View):
 
     template_name = 'contact/contact.html'
     success_message = 'Message has been sent.'
@@ -40,3 +40,33 @@ class ContactFeedback(View):
 
         return render(request, 'contact/contact.html',
                       context)
+
+
+ def post(self, request):
+        """
+        Checks that the provided info is valid format
+        and then posts to database
+        """
+        contact_form = ContactForm(data=request.POST)
+
+        if contact_form.is_valid():
+            contact = contact_form.save(commit=False)
+            if len(contact.message) < 20:
+                messages.error(
+                    request, 'Message must be at least 20 characters long')
+                return render(
+                    request,
+                    'contact/contact.html',
+                    {
+                        'contact_form': contact_form
+                    }
+                )
+
+            contact.user = request.user
+            contact.save()
+            messages.success(
+                request, "Message has been sent")
+            return render(request, 'contact/received.html')
+
+        return render(request, 'contact/contact.html',
+                      {'contact_form': contact_form})
