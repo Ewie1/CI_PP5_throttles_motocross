@@ -46,6 +46,11 @@ body {
     font-family: 'Teko', sans-serif;
     font-size: 1.6rem;
 }
+.nvabar-dark .navbar-toggler-icon {
+    border: 1px solid #ffd500;
+}
+
+/*Test code*/
 
 .btn-search {
     color: #000;
