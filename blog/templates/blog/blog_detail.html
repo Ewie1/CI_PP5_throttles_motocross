@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row my-2">
+        <div class="col bg-light rounded">
+            <div class="col">
+                <a class="text-info text-decoration-none" href="{% url 'blog' %}">
+                    <h1 class="my-5">
+                        Blog
+                    </h1>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 bg-light">
+        <!-- Blog Post -->
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 mx-auto bg-light mt-5 rounded p-3">
+                    <h1 class="text-center text-info">{{ post.title }}</h1>
+                    <hr>
+                    {% if post.featured_image %}
+                    <a href="{% url 'post_expand' post.slug %}">
+                        <img class="card-img-top my-2" src="{{ post.featured_image.url }}" alt="image for blog post {{ post.title }}"></a>
+                    {% else %}
+                    <a href="{% url 'post_expand' post.slug %}">
+                        <img class="card-img-top my-2" src="{% static 'img/default-image.jpg' %}"
+                            alt="default image for blog post {{ post.title }}"></a>
+                    {% endif %}
+                    {{ post.content| safe }}
+                    {{ post.image.url }}
+                </div>
+            </div>
+        </div>
+
+        <!-- Comments -->
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col">
+                    {% for comment in comments %}
+                    <div class="col-md-8  col-lg-6 mx-auto bg-info text-white rounded p-3 mt-3 mb-3">
+                        <p><em>{{ comment.name }}:</em></p>
+                        {{ comment.body | linebreaks }}
+                        <hr>
+                        <em>{{comment.created_date }}</em>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <!-- Add comment -->
+        <div class="container-fluid">
+
+            {% if commented %}
+            <div class="alert alert-info col-md-3 mx-auto mb-5 p-3" role="alert">
+                <p>Comment is pending approval.</p>
+            </div>
+            {% else %}
+
+            {% if user.is_authenticated %}
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 mx-auto mt-3 mb-3 p-3 bg-info text-white rounded">
+                    <h2>Add a Comment</h2>
+                    <p>Post as: {{ user.username }}</p>
+                    <form method="POST">
+                        {{ comment_form| crispy }}
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-dark">Comment</button>
+                    </form>
+                </div>
+            </div>
+            {% endif %}
+            {% endif %}
+
+        </div>
+    </div>
+</div>
+{% endblock %}
