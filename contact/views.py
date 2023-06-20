@@ -1,9 +1,16 @@
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django.shortcuts import render
 from django.views import View
 from django.contrib.auth.models import User
+from django.contrib import messages
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Internal:
 from .forms import ContactForm
 from products.models import Product, Category
-# This will get the user information
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 def get_user_instance(request):
@@ -42,7 +49,7 @@ class ContactMessage(View):
                       context)
 
 
- def post(self, request):
+    def post(self, request):
         """
         Checks that the provided info is valid format
         and then posts to database

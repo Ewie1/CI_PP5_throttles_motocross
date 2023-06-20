@@ -1,11 +1,13 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load crispy_forms_filters %}
+{% load crispy_forms_tags %}
 
 {% block content %}
 <div class="container">
     <div class="row my-5">
         <div class="col bg-light rounded">
-            <a class="text-success text-decoration-none" href="{% url 'contact' %}">
+            <a class="text-warning text-decoration-none text-center" href="{% url 'contact' %}">
                 <h1 class="my-5">
                     Contact Us
                 </h1>
@@ -17,14 +19,14 @@
         <div class="col">
             <div class="row d-flex my-5 justify-content-center bg-light rounded">
                 <div class="row my-5">
-                    <div class="col-12 col-md-8 col-xl-5 mx-auto d-block">
+                    <div class="col-12  mx-auto">
                         <div class="row">
-                            <div class="col-12 p-5 bg-light rounded send-message text-white">
+                            <div class="col-12 p-5 bg-warning rounded forms-background text-white">
                                 <!-- Display if user is not logged in -->
                                 {% if not user.is_authenticated %}
-                                <h2 class="text-success">Message Us</h2>
-                                <p class="text-success">Please login to send a message!</p>
-                                <a href="{% url 'account_login' %}" class="btn btn-success rounded m-2">
+                                <h2 class="text-info">Message Us</h2>
+                                <p class="text-info">Please login to send a message!</p>
+                                <a href="{% url 'account_login' %}" class="btn btn-info rounded m-2">
                                     <span class="font-weight-bold">Login</span>
                                 </a>
                                 <a href="{% url 'home' %}" class="btn btn-secondary rounded m-2">
@@ -35,16 +37,15 @@
                                 {% if user.is_authenticated %}
                                 <div class="row text-center">
                                     <div class="col-12">
-                                        <h2 class="fw-bold mt-3 text-success">Send Message</h2>
+                                        <h2 class="fw-bold mt-3 text-info">Send Message</h2>
                                         <hr>
                                     </div>
                                 </div>
-                                <form method="POST" class="text-success" enctype="multipart/form-data">
+                                <form method="POST" class="text-info" enctype="multipart/form-data">
                                     {% csrf_token %}
                                     <!-- Contact form -->
                                     {{ contact_form| crispy }}
-
-                                    <button class="btn btn-success" type="submit">Submit</button>
+                                    <button class="btn btn-info" type="submit">Submit</button>
                                 </form>
                                 {% endif %}
                                 {% endif %}
@@ -67,22 +68,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 my-5">
-                    <h3 class="text-uppercase fw-bold mb-4 text-success">Teetime Inc.</h3>
-                    <p>Floor 79,</p>
-                    <p>Silicon Ave,</p>
-                    <p>Financial and Tech District,</p>
-                    <p>Naas,</p>
-                    <p>Co. Kildare</p>
-                    <p>info@teetime.com</p>
-                    <p>+353 (0)1 123456</p>
+             <!---   <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 my-5">
+                    <h3 class="text-uppercase fw-bold mb-4 text-success"></h3>
+                    <p>Hello</p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p>Hello</p>
                     <hr>
                     <p><em>Opening Hours:</em></p>
                     <p><em>Mon - Fri: 09:00 - 18:00</em></p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 </div>
-
 {% endblock %}

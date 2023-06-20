@@ -56,7 +56,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'phonenumber_field',
     'phonenumbers',
-    'daterangefilter',
     'rangefilter',
     'django_summernote',
     'django_countries',

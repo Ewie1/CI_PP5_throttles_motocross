@@ -22,7 +22,7 @@ class ContactForm(forms.ModelForm):
         phone = PhoneNumberField(widget=forms.TextInput(
             attrs={'placeholder': '+46773456832'}))
 
-        class Meta:
+    class Meta:
             model = Contact
             fields = {
                 'name',
