@@ -76,7 +76,7 @@ body {
 .hero-image {
     height: 350px;
     width: 100%;
-    background: url('/media/hero-img.webp') no-repeat center;
+    background: url('/media/main_banner.webp') no-repeat center;
     background-size: cover;
     overflow: hidden;
 }
@@ -95,6 +95,36 @@ body {
     position: fixed;
     background: white;
     z-index: -1;
+}
+
+/* Low Stock Animation */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(220, 53, 69, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(220, 53, 69, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(220, 53, 69, 0);
+    }
+}
+
+.low-stock {
+    animation: pulse 2s infinite;
+    color: #dc3545;
+    /* text-danger color from Bootstrap */
+}
+
+/* Product List */
+.card.product-list {
+    max-width: 205px;
+}
+
+.card-booking {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .3);
 }
 
 .moto {
