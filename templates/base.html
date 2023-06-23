@@ -95,7 +95,7 @@
                     </ul>
                     <!-- Search Box -->
                     <div class="container">
-                        <div class="row mx-auto">
+                        <div class="row m-3">
                             <form method="GET" action="{% url 'products' %}">
                                 <div class="input-group">
                                     <input class="form-control" type="text" name="q" aria-label="Search">
@@ -136,7 +136,7 @@
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}icon{% else %}icon{% endif %} nav-link"
                             href="{% url 'view_cart' %}">
-                            <div class="text-center">
+                            <div class="">
                                 <div class="text-warning"><i class="fas fa-shopping-cart fa-lg"></i></div>
                                 <p class="my-0 text-warning">
                                     {% if grand_total %}
