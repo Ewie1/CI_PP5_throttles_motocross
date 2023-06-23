@@ -48,4 +48,4 @@
 ### Kanban, Epics & User Stories
 ## Design
 
-|User Story ID                  | As A/AN            |ICAN...                                               
+                                          
