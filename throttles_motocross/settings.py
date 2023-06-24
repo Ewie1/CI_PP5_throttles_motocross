@@ -252,9 +252,9 @@ FREE_DELIVERY_THRESHOLD = 49
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'sek'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY',
-                              'pk_test_51NFhXCEibebLa5CBQPJgb95Z0YgWrPbRApuD0TTHTizvraUNds9Suj6rfABy5aBHisjFUg2s1XZfsBohJhmGpwJQ00phptzdEl')
+                              '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY',
-                              'sk_test_51NFhXCEibebLa5CBMpBEYUuc8qkHZ8hjSkrKxDl5POIAWNje0q6Ov9cLjjSeenxD3gIs9PIKZfZXr22gVm7CmRHN00Hfra1IEp')
+                              '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET',
                              'whsec_MwIPbN4AimDx3mpGkkgzadontdgPsepv')
 DEFAULT_FROM_EMAIL = 'throttlers@example.com'
