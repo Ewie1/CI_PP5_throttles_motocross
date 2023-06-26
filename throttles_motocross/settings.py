@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SERCRET_KEY',
 # SECURITY WARNING: don't run with debug turned on in production!
 development = os.environ.get('DEVELOPMENT', False)
 
-DEBUG = True
+DEBUG = development
 
 if development:
     ALLOWED_HOSTS = ['localhost', '127.0.0.1',
@@ -256,8 +256,7 @@ STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY',
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY',
                               '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET',
-                             'whsec_MwIPbN4AimDx3mpGkkgzadontdgPsepv')
-DEFAULT_FROM_EMAIL = 'throttlers@example.com'
+                             '')
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
