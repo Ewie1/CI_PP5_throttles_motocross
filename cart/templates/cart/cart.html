@@ -21,8 +21,8 @@
             <hr>
             <p><a class="nav-link text-info" href="{% url 'products' %}">All Products</a></p>
             {% for category in categories_list %}
-            <p><a class="nav-link text-info"
-                    href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a></p>
+            <p><a class="nav-link text-info" href="{% url 'products' %}?category={{category.name}}">{{
+                    category.friendly_name }}</a></p>
             {% endfor %}
             <h2 class="fs-6 text-info f-fam">All Products</h2>
             <hr>
@@ -74,7 +74,8 @@
                                                 <p class="my-0"><strong>Price:</strong> {{ item.product.price }}sek</p>
                                                 <p class="my-0"><strong>Size:</strong> {{ item.size|upper }}</p>
                                                 <p class="my-0"><strong>Subtotal:
-                                                        {{ item.product.price | calc_subtotal:item.quantity }}sek</strong>
+                                                        {{ item.product.price | calc_subtotal:item.quantity
+                                                        }}sek</strong>
                                                 </p>
                                             </td>
                                             <td>
@@ -127,11 +128,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <span style="float:right;" class="btn text-info back-to-top">Back to Top</span>
-                </div>
-            </div>
         </div>
     </div>
 </div>
@@ -157,7 +153,7 @@
     $('.update-link').click(function (e) {
         var form = $(this).prev('.update-form');
         form.submit();
-    })
+    });
 
     // Remove item and reload on click
     $('.remove-item').click(function (e) {
