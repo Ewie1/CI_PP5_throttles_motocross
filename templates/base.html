@@ -38,7 +38,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
         integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
         crossorigin="anonymous"></script>
-        <!-- Stripe -->
+    <!-- Stripe -->
     <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
 
@@ -51,144 +51,110 @@
 <body>
     <header>
         <div class="nav-margin">
-        <nav class="navbar navbar-expand-lg clear fixed-top shadow">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="{% url 'home' %}"><img src="" alt=""></a>
-                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">HOME</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                STORE
-                            </a>
-                            <ul class="dropdown-menu text-info">
-                                <li><a class="dropdown-item"
-                                        href="{% url 'products' %}?category=parts,wheels,suspension,engine">Parts</a>
-                                </li>
-                                <li><a class="dropdown-item"
-                                        href="{% url 'products' %}?category=gear,suits,boots,helmets,tops,bottoms">Gear</a>
-                                </li>
-                                <li><a class="dropdown-item" href="{% url 'products' %}?category=bikes">Bikes</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="{% url 'products' %}">All Products</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">BOOKINGS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'blog' %}">BLOG</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{% url 'contact' %}">CONTACT</a>
-                        </li>
-                    </ul>
-                    <!-- Search Box -->
-                    <div class="container">
-                        <div class="row m-3">
-                            <form method="GET" action="{% url 'products' %}">
-                                <div class="input-group">
-                                    <input class="form-control" type="text" name="q" aria-label="Search">
-                                    <div class="input-group-append">
-                                        <button class="form-control btn btn-search btn-outline-warning" type="submit">
-                                            Search
-                                        </button>
+            <nav class="navbar navbar-expand-lg clear fixed-top shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="{% url 'home' %}"><img src="" alt=""></a>
+                    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="{% url 'home' %}">HOME</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    STORE
+                                </a>
+                                <ul class="dropdown-menu text-info">
+                                    <li><a class="dropdown-item"
+                                            href="{% url 'products' %}?category=parts,wheels,suspension,engine">Parts</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="{% url 'products' %}?category=gear,suits,boots,helmets,tops,bottoms">Gear</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="{% url 'products' %}?category=bikes">Bikes</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="{% url 'products' %}">All Products</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BOOKINGS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'blog' %}">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{% url 'contact' %}">CONTACT</a>
+                            </li>
+                        </ul>
+                        <!-- Search Box -->
+                        <div class="container">
+                            <div class="row m-3">
+                                <form method="GET" action="{% url 'products' %}">
+                                    <div class="input-group">
+                                        <input class="form-control" type="text" name="q" aria-label="Search">
+                                        <div class="input-group-append">
+                                            <button class="form-control btn btn-search btn-outline-warning"
+                                                type="submit">
+                                                Search
+                                            </button>
+                                        </div>
                                     </div>
-                                </div>
-                            </form>
-                        </div>
-                </div>
-            <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <div class="nav-link dropdown-toggle icon" role="button" data-toggle="dropdown" aria-expanded="false">
-                        {% if request.user.is_authenticated %}
-                        <i class="fas fa-user fa-lg"></i>
-                        {% else %}
-                        <i class="fas fa-user fa-lg"></i>
-                        {% endif %}
-                    </div>
-                    <!-- Login Dropdown -->
-                    <div class="dropdown-menu">
-                        {% if request.user.is_authenticated %}
-                        {% if request.user.is_superuser %}
-                        <a class="dropdown-item" href="{% url 'add_product' %}">Add Product</a>
-                        {% endif %}
-                        <a href="{% url 'profile' %}" class="dropdown-item">Profile</a>
-                        <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                        {% else %}
-                        <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                        {% endif %}
-                    </div>
-                </li>
-            </ul>
-                <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
-                    <li class="list-inline-item">
-                        <a class="{% if grand_total %}icon{% else %}icon{% endif %} nav-link"
-                            href="{% url 'view_cart' %}">
-                            <div class="">
-                                <div class="text-warning"><i class="fas fa-shopping-cart fa-lg"></i></div>
-                                <p class="my-0 text-warning">
-                                    {% if grand_total %}
-                                    {{ grand_total|floatformat:2 }}sek
-                                    {% else %}
-                                    0.00sek
-                                    {% endif %}
-                                </p>
+                                </form>
                             </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                        </div>
+                        <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <div class="nav-link dropdown-toggle icon" role="button" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    {% if request.user.is_authenticated %}
+                                    <i class="fas fa-user fa-lg"></i>
+                                    {% else %}
+                                    <i class="fas fa-user fa-lg"></i>
+                                    {% endif %}
+                                </div>
+                                <!-- Login Dropdown -->
+                                <div class="dropdown-menu">
+                                    {% if request.user.is_authenticated %}
+                                    {% if request.user.is_superuser %}
+                                    <a class="dropdown-item" href="{% url 'add_product' %}">Add Product</a>
+                                    {% endif %}
+                                    <a href="{% url 'profile' %}" class="dropdown-item">Profile</a>
+                                    <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                    {% else %}
+                                    <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                                    <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                                    {% endif %}
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav me-auto me-lg-1 ms-lg-auto mb-2 mb-lg-0">
+                            <li class="list-inline-item">
+                                <a class="{% if grand_total %}icon{% else %}icon{% endif %} nav-link"
+                                    href="{% url 'view_cart' %}">
+                                    <div class="">
+                                        <div class="text-warning"><i class="fas fa-shopping-cart fa-lg"></i></div>
+                                        <p class="my-0 text-warning">
+                                            {% if grand_total %}
+                                            {{ grand_total|floatformat:2 }}sek
+                                            {% else %}
+                                            0.00sek
+                                            {% endif %}
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
         </div>
-     <!---   <div class="row mt-3 md-3">
-            <div class="col-sm-12">
-                {% for category in categories_list %}
-                <a class="text-muted p-2 m-1 bg-light"
-                    href="{% url 'products' %}?category={{category.name}}">{{category.friendly_name}}</a>
-                {% endfor %}
-            </div>
-        </div>-->
-      <!---  <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <nav class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Sort
-                        </a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-item">
-                            <a href="{% url 'products' %}?sort=price&direction=desc" class="nav-link text-decoration-none text-success">By
-                                Price</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="{% url 'products' %}?sort=category&direction=asc" class="nav-link text-decoration-none text-success">By
-                                Category</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="{% url 'products' %}?sort=brand&direction=desc" class="nav-link text-decoration-none text-success">By
-                                Brand</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="{% url 'products' %}?sort=rating&direction=desc" class="nav-link text-decoration-none text-success">By
-                                Rating</a>
-                        </li>
-                    </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>-->
     </header>
 
     {% if messages %}
@@ -217,49 +183,6 @@
 
     <!-- Footer from MDbootstrap -->
     <footer class="text-center text-lg-start container-fluid pt-3">
-        <!-- Section: Social media 
-        <section class="d-flex justify-content-center p-4 border-bottom">
-            <!-- Left -->
-          <!----  <div class="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
-            </div>-->
-            <!-- Left -->
-
-            <!-- Section: Mailchimp Signup Form -->
-          <!---  <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <div id="mc_embed_signup" class="mx-auto">
-                    <form
-                        action="https://gmail.us21.list-manage.com/subscribe/post?u=93fd03b5e626ccdace3880271&amp;id=c7f0c47d2e&amp;f_id=0025c4e1f0"
-                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                        target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <div class="mc-field-group">
-                                <label for="mce-EMAIL">Subscribe to our Mailing List</label>
-                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
-                                    placeholder="Email address" required>
-                                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
-                            </div>
-                            <div id="mce-responses" class="clear foot">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                    name="b_93fd03b5e626ccdace3880271_c7f0c47d2e" tabindex="-1" value="" aria-label="Search"></div>
-                            <div class="optionalParent">
-                                <div class="clear foot">
-                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                                        class="custom-button mx-auto">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- Right 
-        </section>
-        <!-- Section: Social media -->
-
         <!-- Section: Links  -->
         <section>
             <div class="text-center text-md-start mt-5">
@@ -275,23 +198,20 @@
                             This site is created for educational purposes only
                         </p>
                         <!-- Right -->
-                        <div class="media-links">
-                            <a href="" class="me-4 link-secondary">
+                        <div class="media-links my-3">
+                            <a href="https://www.facebook.com/" class="me-4 link-secondary">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a href="" class="me-4 link-secondary">
+                            <a href="https://twitter.com/" class="me-4 link-secondary">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="" class="me-4 link-secondary">
-                                <i class="fab fa-google"></i>
-                            </a>
-                            <a href="" class="me-4 link-secondary">
+                            <a href="https://www.instagram.com/" class="me-4 link-secondary">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a href="" class="me-4 link-secondary">
+                            <a href="http://www.linkedin.com/" class="me-4 link-secondary">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="" class="me-4 link-secondary">
+                            <a href="http://github.com/" class="me-4 link-secondary">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -302,16 +222,16 @@
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4 f-fam">
-                            Useful Links
+                            Services
                         </h6>
-                        <p>
-                            <a href="#!" class="text-reset">Order</a>
+                        <p class="text-reset">
+                            Reliable
                         </p>
-                        <p>
-                            <a href="#!" class="text-reset">Help</a>
+                        <p class="text-reset">
+                            Great products
                         </p>
-                        <p>
-                            <a href="#!" class="text-reset">Pivacy Policy</a>
+                        <p class="text-reset">
+                            Motocross
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -320,10 +240,10 @@
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4 f-fam">
-                            Services
+                            Useful Links
                         </h6>
                         <p>
-                            <a href="{% url 'contact' %}" class="text-reset">Adventures</a>
+                            <a href="{% url 'contact' %}" class="text-reset">Contact</a>
                         </p>
                         <p>
                             <a href="{% url 'products' %}" class="text-reset">Shop</a>
@@ -361,10 +281,10 @@
     </footer>
 
     {% block postloadjs %}
-     <!-- Toast Script -->
-  <script>
-    $('.toast').toast('show');
-  </script>
+    <!-- Toast Script -->
+    <script>
+        $('.toast').toast('show');
+    </script>
     {% endblock %}
 
 </body>
