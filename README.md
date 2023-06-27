@@ -69,6 +69,26 @@ ThrottlesMotocross will be operated and managed by a small team of experienced p
 
 In terms of operations, we will utilize a cloud-based platform to host the website and software, as well as a payment gateway for processing transactions. We will also utilize third-party fulfillment centers to handle the storage, packing, and shipping of products purchased through our ecommerce shop.
 
+#### Financial Plan:
+
+ThrottlesMotocross will generate revenue through the sale of products in our ecommerce shop. In terms of expenses, the main cost will be marketing and advertising efforts to drive traffic to the website and attract customers.
+
+ThrottlesMotocross will initially be funded through a combination of personal investment and a small seed round of funding. As the business grows, we will explore additional funding options such as venture capital or a larger round of financing.
+
+
+In terms of profitability, we expect to break even within the first year of operation and achieve profitability in the second year.
+
+### Conclusion:
+
+ThrottlesMotocross is a unique and innovative platform that aims to connect golfers with Motocross rider to find whatever suits their need while connecting and sharing tricks and tips.With strong growth potential and a clear revenue model, we believe that ThrottlesMotocross has the potential to become a leading player in the Motoctoss industry.
+<hr>
+
+## Marketing  
+
+### Social Media  
+The web app "throttlesmotocross" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote post updates on the future plans and products, and share user-generated content. The Instagram page primarily focuses on showcasing Motocross activities and events, highlighting new products in the shop, and providing a behind-the-scenes look at the company. These social media accounts allow users to stay informed and connected with the "throttlesmotocross" community.
+
+
 
 ### User Goals
 
