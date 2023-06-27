@@ -136,6 +136,24 @@ The web app "throttlesmotocross" has a presence on both Facebook and Instagram. 
   - Register
   - 404
 
+## AWS 
+
+I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
+
+<details><summary>See AWS Images</summary>
+
+## Database
+
+I built my database using PostgreSQL. It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
+
+<hr>
+
+# Structure
+
+The site was designed for the user to be familiar with the layout such as a navigation bar along the top of the pages and a hamburger menu button for smaller screen.
+
+The footer contains all relevant social media links that the business has so the user can visit any social media site and follow the business there to expand the businesses followers, likes and shares.
+It contains an email sign up form and useful links as well as contact information.
 
 
 | Key        | Name         | Type        |
