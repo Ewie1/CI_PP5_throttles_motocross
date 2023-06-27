@@ -92,13 +92,13 @@ class Order(models.Model):
     )
     order_total = models.DecimalField(
         max_digits=10,
-        decimal_places=2,
+        decimal_places=3,
         null=False,
         default=0
     )
     grand_total = models.DecimalField(
         max_digits=10,
-        decimal_places=2,
+        decimal_places=3,
         null=False,
         default=0
     )
