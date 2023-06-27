@@ -181,3 +181,151 @@
 |            | phone        | PhoneNumberField |
 |            | body         | TextField        |  
                                           
+
+## Bugs
+  List of bugs found and fixes used ti mitigate them.
+
+- 
+
+## Configuration
+
+### Google emails
+
+To set up the project to send emails and to use a Google account as an SMTP server, the following steps are required:
+
+1. Create an email account at google.com, login, click you user icon and then on 'Manage Your Google Account'
+2. Click on the Security tab
+3. Turn on 2-step verification and follow the steps to enable
+4. Click on App passwords, click on Select app and choose Other
+5. Give your app a name and click on 'Generate'
+  <br>![App password]()
+6. A 16 digit password will be generated, note the password down
+7. Set the below variables within the settings.py file to successfully send emails
+  <br><code>EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'</code>
+  <br><code>EMAIL_HOST = 'smtp.gmail.com'</code>
+  <br><code>EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')</code>
+  <br><code>EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')</code>
+  <br><code>EMAIL_PORT = '587'</code>
+  <br><code>EMAIL_USE_TLS = True</code>
+8. Set up the variables EMAIL_HOST_USER and EMAIL_HOST_PASSWORD in your Render application Config vars
+
+
+## Deployment
+
+### Heroku
+This application has been deployed from GitHub to Heroku by following the steps:
+
+### Forking the GitHub Repository
+1. Go to the GitHub repository
+2. Click on Fork button in top right corner
+3. You will then have a copy of the repository in your own GitHub account.
+   
+### Making a Local Clone
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it
+3. Highlight the "HTTPS" button to clone with HTTPS and copy the link
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone <span>https://</span>github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone
+
+[Back to Table Of Contents](#table-of-content)
+
+
+### Heroku Deployment
+
+[Official Page](https://devcenter.heroku.com/articles/git) (Ctrl + click)
+
+This application has been deployed from Github using Heroku. Here's how:
+
+1. Create an account at heroku.com
+    <details>
+    <img src="docs/heroku/heroku-create-app.JPG">
+    </details>
+
+2. Create an app, give it a name similar to project name, and select a region
+  <details>
+  <img src="docs/heroku/heroku-overview.JPG">
+  </details>
+
+3. Under resources search for postgres, and add a Postgres database to the app
+
+
+4. Create and ElephantSqul account and set up a plan with in your region
+   <details>
+   <img src="docs/heroku/sql.JPG">
+   </details>
+
+5. Copy Url database instance from Sql account and store it in the env.py enviroment variable (os.environ["DATABASE_URL"]="<copiedURL>")
+
+6. Add a your secret key to env.py enviroment variable os.environ["SECRET_KEY"]="my_super^secret@key"
+
+7. Import env.py to settings.py  add Data base and sercert key variable to settings.py file
+
+8. Add localhost, and wildlifers.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+    <details>
+    <img src="docs/heroku/debug-false.JPG">
+    </details>
+9. Migrate change to manage.py
+
+10. Add Secret key and Database url to Heroku Config vars
+
+11. Add PORT 8000 to config vars to avoid deployment failure
+
+12. Set DEBUG value to False
+   <details>
+   <img src="docs/heroku/debug-false.JPG">
+   </details>
+
+13. Set X_FRAME_OPTION ='SAMEORIGIN'
+
+14.  Run pip3 freeze > requirements.txt so that file are updated before deployment
+
+15. Run "python3 manage.py showmigrations" to check the status of the migrations
+
+16. Run "python3 manage.py migrate" to migrate the database
+
+17. Check config vars for DISABLE_COLLECTSTATIC=1 is removed
+
+18. Go to deploy in the Heroku app
+    <details>
+    <img src="docs/heroku/heroku-deploy.JPG">
+    </details>
+
+19. Clik Deploy 
+
+20. View build logs for error
+     <details>
+     <img src="docs/heroku/heroku-build-log.JPG">
+     </details>
+
+21. Click app to view website
+
+
+## Credits
+
+### Media
+
+Media images were referenced from <a href="https://www.pexels.com/">Pexels</a> , <a href="https://unsplash.com/">Upsplash</a> and <a href="http://www.freepik.com/">Freepik</a>. 
+
+- [404-background](assets/images/404er.jpeg): <a href=" https://www.pexels.com/photo/an-apple-and-a-dumbbell-on-a-clipboard-8154260/" >Pexels</a>
+  Photo by:  <a href="https://www.pexels.com/@alesiakozik/">Alesia Kozik</a>
+- [signup-page-background](assets/images/signupimage.jpeg): <a href="https://www.pexels.com/photo/          personal-male-trainer-with-overweight-female-client-in-fitness-center-6455927/">Pexels</a>
+  Photo by:  <a href="https://www.pexels.com/@julia-larson/">Julian Larson</a>
+- [hero-image](assets/images/heroimage.jpg): <a href="https://www.freepik.com/premium-photo/sport-couple-doing-plank-exercise-workout-fitness-centrum-man-woman-practicing-plank-gym_17801349.htm">Freepik</a>
+  Photo by: <a href= "https://www.freepik.com/author/weyo">Weyo</a>
+- [crossfit-image](assets/images/crossfitsmall.jpg): <a href="https://unsplash.com/photos/h3D-RRvxfqE">Unsplash</a>
+  Photo by: <a href="https://unsplash.com/@bastien_plu">Bastien Plu</a>
+- [trainer-image](assets/images/trainer.jpeg): <a href="https://www.pexels.com/photo/ethnic-woman-exercising-with-battling-ropes-near-male-trainer-6455771/">Pexels</a>
+  photo by: <a href= "https://www.pexels.com/@julia-larson/">Julian Larson</a>
+
+
+### Code
+ 
+
+
+## Acknowledgements
+- Tanks and acknowlegement goes to my mentor Mo Shami great guidance.
+- Acknowledge my brother Addan Mc Collin for support form a user's veiw
+- Thanks to my girlfriend Hiba Salem for support and input on a user veiw
+- Thankful to the Slac
