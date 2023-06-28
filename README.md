@@ -524,9 +524,7 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Add product
-- Must be registered or logged in to see 
-- Paginated list of user enrollment
-- Each card are consist of a edit and cancel button
+- 
 
 <details><summary>See feature images</summary>
 
@@ -544,9 +542,7 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Cart
-- Here the canceling confirmation card is diaplayed
-- The card have a button to return if user change their minds and a button tp cancel
-- A confirmation message will be dispalyed when the canalation is completed
+- 
 
 <details><summary>See feature images</summary>
 
@@ -598,16 +594,23 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 
-### Booking
-- Here the is the bookig form to enter your name and the aniaml, job. time and date User want to do their program
-- Only registered or looged on user are allow to enroll in a program
-- The form is made easier by displaying the list of Jobs, work times, animals and date picker
-- There are also a descriptive list of the offered Jobs
+### Profile
+- 
 
 <details><summary>See feature images</summary>
 
 ![program](docs/feature/feature-booking-form.png)
 </details>
+
+### Comfirmation pages
+- 
+
+### Popup confirmations
+- 
+
+### Checkout page
+- 
+
 
 
 ## Validation
