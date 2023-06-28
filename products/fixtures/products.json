@@ -157,28 +157,28 @@
         "pk": 13,
         "model": "products.product",
         "fields": {
-            "sku": "P-72782",
+            "sku": "P-72789",
             "name": "",
             "brand": "",
             "description": "",
             "price": ,
-            "category": ,
-            "rating": ,
-            "image": ""
+            "category": 1,
+            "rating": 4,
+            "image": "media/Akrapovic-exhaust.webp"
         }
     },
     {
         "pk": 14,
         "model": "products.product",
         "fields": {
-            "sku": "P-72782",
-            "name": "",
-            "brand": "",
-            "description": "",
-            "price": ,
-            "category": ,
-            "rating": ,
-            "image": ""
+            "sku": "G-43277alpinestarsredBoots",
+            "name": "Alpinestars Tech 7 Troy Lee Designs Boots",
+            "brand": "Alpinestars",
+            "description": "NEW Alpinestars Tech 7 Troy Lee Designs Boots all sizes",
+            "price": 459.00,
+            "category": 9,
+            "rating": 4.1,
+            "image": "media/alpinestars-boots.webp"
         }
     },
     {
