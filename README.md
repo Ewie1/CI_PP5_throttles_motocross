@@ -443,6 +443,72 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>  
 
+13.	As a Site User	I CAN view an individual product details SO THAT I CAN view a more detailed view of the product  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Product Detail | Click on any item image in the shop, or the view button     |  User is brought to the product detail page where product details are displayed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details> 
+
+14.	As a Site User	I CAN view my cart and total cost at any time	so I am aware of what I am buying and it's cost  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Cart | Click the cart icon in the navbar | User is brought to the cart page where all products in cart are displayed along with their price and total cost | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+15.	As a Site User	I CAN see my login status	SO THAT I CAN know if I am logged in or not  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navigation | While logged out the profile icon in the navbar will be gray, log in it will change to a green color | Once logged in the profile icon will be green | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+</details>  
+
+16.	As a Site User	I CAN recover my password	SO THAT I CAN set a new password if I forgot it  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Reset Password | Click pofile button and select login, user is brought to the sign in page, click forgot password to go to password reset page | User is brought to password reset page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+<img src=" ">
+</details>  
+
+17.	As a Site User	I CAN receive an email confirmation after registration	SO THAT I CAN be notified registration was successful  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Registration | Upon registration an email is sent to verify the email address submitted | Registration email arrives into inbox of the email address used to sign up | Works as expected  
+<details><summary>See Images</summary>
+<img src=" ">
+</details>  
+
+00.	As a Site User	I CAN use a navbar, footer, and social icons  SO THAT I CAN navigate the site, access menus, and access socials  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navbar/Footer | Scoll to footer, click on the Instagram logo | A new tab will open and bring user to the Instagram page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+</details>  
+
+
+
+
 
 
 11. As a site user I CAN to get messages when I enter, update or delete data entries
