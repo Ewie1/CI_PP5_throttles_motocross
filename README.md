@@ -236,23 +236,23 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src="">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/wireframe/browser-wireframe-contact.png">
-<img src="docs/wireframe/tablet-wireframe-contact.png">
-<img src="docs/wireframe/mobile-wireframe-contact.png">
+<img src="">
+<img src="">
+<img src="">
 </details>
 <details><summary>Blog</summary>
-<img src="docs/wireframe/browser-wireframe-blog.png">
-<img src="docs/wireframe/tablet-wireframe-blog.png">
-<img src="docs/wireframe/mobile-wireframe-blog.png">
+<img src="">
+<img src="">
+<img src="">
 </details>
 <details><summary>Blog Details</summary>
-<img src="docs/wireframe/browser-wireframe-blog-display.png">
-<img src="docs/wireframe/tablet-wireframe-blog-display.png">
-<img src="docs/wireframe/mobile-wireframe-blog-display.png">
+<img src="">
+<img src="">
+<img src="">
 </details>
 <details><summary>Register</summary>
-<img src="docs/wireframe/browser-wireframe-register.png">
-<img src="docs/wireframe/tablet-wireframe-register.png">
+<img src="">
+<img src="">
 <img src="">
 </details>
 <details><summary>Login</summary>
@@ -438,6 +438,463 @@ It contains an email sign up form and useful links as well as contact informatio
   - [CI Python Liner(PEP8)](https://pep8ci.herokuapp.com/)
   - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
   - [Wave Validator](https://wave.webaim.org/)
+
+
+## Features
+
+### Logo and Navigation Bar
+- Site Logo supports the wild life theme of the site and navigates to home page 
+- The navbar is consist of the logo and the links to all the site feature
+- The navbar is present on all pages
+- The navbar also have a drop down features login, register and booking
+
+<details><summary>See feature images</summary>
+
+![logo-and-nav](docs/feature/feature-navbar.JPG)
+![logo-and-nav](docs/feature/feature-nav-dropdown.JPG)
+
+</details>
+
+### Home page
+- The home page is consist og images and descriptions relating to wildlife 
+- The home page is also consist of a button to navigate to register and a button enroll
+
+<details><summary>See feature images</summary>
+
+![home](docs/feature/feature-home-page.png) 
+
+</details>
+
+### Footer
+- The footer is consist of social media link
+- The footer also have office location and contact information 
+- the footer is displayed at the bottom of the page
+
+<details><summary>See feature images</summary>
+
+![footer](docs/feature/feature-footer.JPG)
+</details>
+
+### Sign up/Register
+- The registration page is consist of a form to enter user details
+- It prupose is for new users to access more site features
+- The form also instructions on how to register
+
+
+<details><summary>See feature images</summary>
+
+![signup/register](docs/feature/feature-registration.png)
+</details>
+
+### Login
+- Easy for return users to get in
+- Fields are mandatory
+
+<details><summary>See feature images</summary>
+
+![login](docs/feature/feature-login-required.JPG)
+</details>
+
+### Logout
+- User can log out before leaving the site
+
+<details><summary>See feature images</summary>
+
+![logout](docs/feature/feature-logout.JPG)
+
+</details>
+
+### Store
+- 
+- Fully responsive
+
+<details><summary>See feature images</summary>
+
+![program](docs/feature/feature-program-page.JPG)
+</details>
+
+
+### Product details
+- 
+
+<details><summary>See feature images</summary>
+
+![read-program](docs/feature/feature-animal-details.png)
+
+</details>
+
+### Add product
+- Must be registered or logged in to see 
+- Paginated list of user enrollment
+- Each card are consist of a edit and cancel button
+
+<details><summary>See feature images</summary>
+
+![enrollment-list](docs/feature/feature-mybookings.png)
+</details>
+
+### Edit product
+- Here is the enrollment form displaying the fields fill with the current booking and ready to be changed
+- Submit and update message will be seen  
+
+<details><summary>See feature images</summary>
+
+![enrollment-editing](docs/feature/feature-edit-enrollment.png)
+
+</details>
+
+### Cart
+- Here the canceling confirmation card is diaplayed
+- The card have a button to return if user change their minds and a button tp cancel
+- A confirmation message will be dispalyed when the canalation is completed
+
+<details><summary>See feature images</summary>
+
+![cancel-enrollment](docs/feature/feature-cancel-enrollment.JPG)
+
+</details>
+
+### Contact page
+- User can contact us by filling out this form
+- User must enter their names and email and the message in the text field
+- Message will display when the form is submitted
+- Google map address is present for our office location
+
+<details><summary>See feature images</summary>
+
+![contact-page](docs/feature/feature-contact-us.png)
+</details>
+
+### Blog
+- Fully responsive
+- Display blog posts made by staff/organisation
+- Blog post are paginated
+- Click on the post to read the post details
+
+<details><summary>See feature images</summary>
+
+![blog](docs/feature/feature-blog-page.JPG)
+</details>
+
+
+### Blog details
+- Blog details show more detials about the blog
+- The featured image is displayed
+
+<details><summary>See feature images</summary>
+
+![blog-details](docs/feature/feature-blog-detailse.png)
+</details>
+
+### Blog commenting
+- only registered or logged in User get the option to leave comment
+- Comment cand be done in the text field but needs to be approved
+- When commented are made the submitted the comment awiting approval message is displayed 
+- Comments are approved by staff/organisation for monitering purposes
+
+<details><summary>See feature images</summary>
+
+![program](docs/feature/feature-blog-detailse.png)
+</details>
+
+
+### Booking
+- Here the is the bookig form to enter your name and the aniaml, job. time and date User want to do their program
+- Only registered or looged on user are allow to enroll in a program
+- The form is made easier by displaying the list of Jobs, work times, animals and date picker
+- There are also a descriptive list of the offered Jobs
+
+<details><summary>See feature images</summary>
+
+![program](docs/feature/feature-booking-form.png)
+</details>
+
+
+## Validation
+
+### HTML Validation
+- The W3C Markup Validation Service was used to validate the HTML of the website.
+
+<details><summary>Home</summary>
+<img src="/docs/validation/html-home-page.JPG">
+</details>
+<details><summary>Program</summary>
+<img src="/docs/validation/html-program-page-validation.JPG">
+</details>
+<details><summary>Program details</summary>
+<img src="/docs/validation/html-program-view-page-validation.JPG">
+</details>
+<details><summary>My Booking</summary>
+<img src="/docs/validation/html-mybooking-page-validation.JPG">
+</details>
+<details><summary>Booking Edit</summary>
+<img src="/docs/validation/html-booking-edit-page-validation.JPG">
+</details>
+</details>
+<details><summary>Contact Us</summary>
+<img src="/docs/validation/html-contact-page-validation.JPG">
+</details>
+<details><summary>Blog</summary>
+<img src="/docs/validation/html-blog-page-validation.JPG">
+</details>
+<details><summary>Blog details</summary>
+<img src="docs/validation/html-blog-detail-page-validation.JPG">
+</details>
+<details><summary>Register</summary>
+<img src="docs/validation/html-register-page-validation.JPG">
+</details>
+<details><summary>Login</summary>
+<img src="docs/validation/html-login-page-validation.JPG">
+</details>
+<details><summary>Logout</summary>
+<img src="docs/validation/html-logout-page-validation.JPG">
+</details>
+<details><summary>Enroll</summary>
+<img src="docs/validation/html-enroll-validation.JPG">
+</details>
+<details><summary>403, 404, 500</summary>
+<img src="">
+</details>
+
+### CSS Validation
+- The W3C Jigsaw service was used for CSS Validation. 
+
+<details><summary>style.css</summary>
+<img src="/docs/validation/css-validation.JPG">
+</details>
+
+### JavaSript Validation
+
+- The JSHint JS Validation Service was used to validate the Javascript.
+
+<details><summary>script.js</summary>
+<img src="/docs/validation/javascript-validation.JPG">
+</details>
+
+### Pep8 Validation
+
+- PEP8 Validation Service was used to check the code for PEP8 requirements. 
+
+#### Homeapp
+
+<details><summary>tests.py</summary>
+<img src="">
+</details>
+<details><summary>urls.py</summary>
+<img src="/docs/validation/pyth-home-url-validation.JPG">
+</details>
+<details><summary>view.py</summary>
+<img src="/docs/validation/pyth-home-view-validation.JPG">
+</details>
+
+#### Cartapp
+
+<details><summary>admin.py</summary>
+<img src="">
+</details>
+<details><summary>forms.py</summary>
+<img src="">
+</details>
+<details><summary>models.py</summary>
+<img src="">
+</details>
+<details><summary>tests.py</summary>
+<img src="">
+</details>
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+<details><summary>view.py</summary>
+<img src="">
+</details>
+
+#### Productsapp
+
+<details><summary>admin.py</summary>
+<img src="">
+</details>
+<details><summary>forms.py</summary>
+<img src="">
+</details>
+<details><summary>models.py</summary>
+<img src="">
+</details>
+<details><summary>tests.py</summary>
+<img src="">
+</details>
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+<details><summary>view.py</summary>
+<img src="">
+</details>
+
+#### checkoutapp
+
+<details><summary>admin.py</summary>
+<img src="">
+</details>
+<details><summary>forms.py</summary>
+<img src="">
+</details>
+<details><summary>models.py</summary>
+<img src="">
+</details>
+<details><summary>tests.py</summary>
+<img src="">
+</details>
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+<details><summary>view.py</summary>
+<img src="">
+</details>
+
+#### Blog app
+
+<details><summary>admin.py</summary>
+<img src="/docs/validation/pyth-blog-admin-validation.JPG">
+</details>
+<details><summary>forms.py</summary>
+<img src="/docs/validation/pyth-blog-form-validation.JPG">
+</details>
+<details><summary>models.py</summary>
+<img src="/docs/validation/pyth-blog-model-validation.JPG">
+</details>
+<details><summary>tests.py</summary>
+<img src="">
+</details>
+<details><summary>urls.py</summary>
+<img src="/docs/validation/pyth-blog-url-validation.JPG">
+</details>
+<details><summary>view.py</summary>
+<img src="/docs/validation/pyth-blog-view-validation.JPG">
+</details>
+
+#### Profilesapp
+
+<details><summary>admin.py</summary>
+<img src="">
+</details>
+<details><summary>forms.py</summary>
+<img src="">
+</details>
+<details><summary>models.py</summary>
+<img src="">
+</details>
+<details><summary>tests.py</summary>
+<img src="">
+</details>
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+<details><summary>view.py</summary>
+<img src="">
+</details>
+
+#### Contactapp
+
+<details><summary>admin.py</summary>
+<img src="">
+</details>
+<details><summary>forms.py</summary>
+<img src="">
+</details>
+<details><summary>models.py</summary>
+<img src="">
+</details>
+<details><summary>tests.py</summary>
+<img src="">
+</details>
+<details><summary>urls.py</summary>
+<img src="">
+</details>
+<details><summary>view.py</summary>
+<img src="">
+</details>
+
+### Chrome ligthouse tool
+
+- Lighthouse was used to test the performance, accessibility, best practice and SEO of the site.
+
+#### Mobile
+<details><summary>View results</summary>
+
+Page  | Performance (%) | Accessibility (%) | Best Practices (%) | SEO (%)
+------------  | ------------ | ------------- | ------------- | -------------
+home/templates/home/index.html | 91 | 100 | 92 | 100 |
+home/templates/home/contact.html | 93 | 97 | 100 | 100 |
+programs/templates/programs/ | 98 | 100 | 100 | 100 |
+programs/templates/programs/ | 92 | 97 | 92 | 100 |
+booking/templates/booking/ | 94 | 97 | 100 | 100 |
+booking/templates/booking/ | 97 | 98 | 100 | 100 |
+booking/templates/booking/ | 94 | 98 | 92 | 100 |
+booking/templates/booking/ | 98 | 93 | 100 | 100 |
+blog/templates/blog/blog_list.html | 87 | 98 | 83 | 100 |
+blog/templates/blog/blog_story.html | 87 | 98 | 83 | 100 |
+templates/account/login.html | 98 | 100 | 92 | 100 |
+templates/account/logout.html | 99 | 100 | 92 | 100 |
+templates/account/signup.html | 99 | 100 | 92 | 100 |
+
+</details>
+
+#### Desktop
+<details><summary>View results</summary>
+
+Page  | Performance (%) | Accessibility (%) | Best Practices (%) | SEO (%)
+------------  | ------------ | ------------- | ------------- | -------------
+home/templates/home/index.html | 99 | 100 | 92 | 100 |
+home/templates/home/contact.html | 100 | 100 | 92 | 100 |
+programs/templates/programs/ | 100 | 100 | 92 | 100 |
+programs/templates/programs/ | 99 | 96 | 92 | 100 |
+booking/templates/booking/ | 100 | 100 | 92 | 100 |
+booking/templates/booking/ | 100 | 93 | 92 | 100 |
+booking/templates/booking/ | 100 | 93 | 92 | 100 |
+booking/templates/booking/e | 100 | 93 | 92 | 100 |
+blog/templates/blog/blog_list.html | 87 | 98 | 83 | 100 |
+blog/templates/blog/blog_story.html |  | 98 | 92 | 100 |
+templates/account/login.html | 100 | 100 | 92 | 90 |
+templates/account/logout.html | 100 | 100 | 92 | 100 |
+templates/account/signup.html | 100 | 100 | 92 | 100 |
+</details>
+
+
+### Waves
+- The WAVE WebAIM web accessibility evaluation tool was used to test the websites accessibility.
+- Wave accessibilty issues with heroku connection cause some page not to be tested
+#### Desktop
+
+<details><summary>Home</summary>
+<img src="">
+</details>
+<details><summary>Store</summary>
+<img src="">
+</details>
+<details><summary>Contact Us</summary>
+<img src="">
+</details>
+<details><summary>Blog</summary>
+<img src="">
+</details>
+<details><summary>Blog details</summary>
+<img src="">
+</details>
+<details><summary>Register</summary>
+<img src="">
+</details>
+<details><summary>Login</summary>
+<img src="">
+</details>
+<details><summary>Logout</summary>
+<img src="">
+</details>
+<details><summary></summary>
+<img src="">
+</details>
+
+
+
+
 
 ### Manual testing
 
