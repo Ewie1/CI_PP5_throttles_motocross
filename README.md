@@ -606,7 +606,7 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>  
 
-27.	As a shopper I can **search product by name/description ** so that I don not have to scroll and product is found quicker if it exists
+27.	As a shopper I can search product by name/description  so that I don not have to scroll and product is found quicker if it exists
  
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
@@ -640,91 +640,6 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>  
 
-
-
-
-11. As a site user I CAN to get messages when I enter, update or delete data entries
-
-| **Step**                 | **Expected Result**             | **Actual Result** |
-| ------------------------ | ------------------------------- | ----------------- |
-| Submit Loginform         | Logged in message will display  | Works as expected |
-| Submit update form       | Updated message will display    | Works as expected |
-| Sumit logout             | Logged out message will display | Works as expected |
-| Submit delete Enrollment | Deleted message will display    | Works as expected |
-| Submit Enrollmet         | Enrolled message will display   | Works as expected |
-
-  <details><summary>Screenshots</summary>
-    <img src="docs/testing/test-story-login-message.JPG">
-    <img src="docs/testing/test-story-logout-message.JPG">
-    <img src="docs/testing/test-story-edit-message1.jpg">
-    <img src="docs/testing/test-story-delete-message.jpg">
-    <img src="docs/testing/test-story-enrollment-message.JPG">
-  </details>
-
-12. As a site owner I want the user to be able to send us messages/emails through a contact form
-    | **Step** | **Expected Result** | **Actual Result** |
-    |------------|---------------------|-----------------|
-    | Got to 'Get Registered' click on 'Contact' | Contact form will be displayed with message field | Works as expected |
-
-    <details><summary>Screenshots</summary>
-    <img src="docs/testing/test-navbar-contact-page.JPG">
-    </details>
-
-13. I want my site to be fully responsive
-
-    | **Step**                                         | **Expected Result**                                            | **Actual Result** |
-    | ------------------------------------------------ | -------------------------------------------------------------- | ----------------- |
-    | Change device screen size using chrome dev tools | The web functionality remains the same on various screen sizes | Works as expected |
-
-    <details><summary>Screenshot</summary>
-    <img src="docs/testing/test-story-response-tablet.png">
-    <img src="docs/testing/test-story-responsive-mobile.png">
-    </details>
-
-14. As a site owner want user to see data entry vaildation when registering
-    |**Step** | **Expected Result** | **Actual Result**
-    |------------ | ------------ | ------------ |
-    |Click on the 'Log in' on the nav bar and 'Register' from the drop-down menu | Displays Registration page | Works as expected |
-    |Input username shorter than 4 characters (eg. xyz) | Prevents registration. Shows warning message to lenghten username text | Works as expected |
-    |Input username which has already been taken (eg. Admin) | Prevents registration. Displays 'A user with that username already exists.' message | Works as expected |
-    |Input incorrect format of email | Shows warning message to include '@' in the email. Prevents registration | Works as expected |
-    |Input 'newuser12' password | Prevents registration. Displays 'The password is too similar to the username' message | Works as expected |
-    |Input '12345678' as a password | Prevents registration. Displays 'This password is entirely numeric' message | Works as expected |
-    |Input 'testing' as a password | Prevents registration. Displays 'This password is too short. It must contain at least 8 characters' message | Works as expected |
-    |Input two different values in 'Password' and 'Password (again)' fields | Prevents registration. Displays 'You must type the same password each time.' message | Works as expected |
-
-    <details><summary>Screenshots</summary>
-    <img src="docs/testing/test-story-common-pass.png">
-    <img src="docs/testing/test-story-register-email.png">
-    <img src="docs/testing/test-story-register-pass-characters.png">
-    <img src="docs/testing/test-story-register-pass-sim.png">
-    <img src="docs/testing/test-story-register-same-pass.png">
-    <img src="docs/testing/test-story-registration-input validation.png">
-    <img src="docs/testing/test-story-user-exist.png">
-    </details>
-
-
-
-
-
-
-
-18. As a owner I want to control commnets posted
-    | **Step** | **Expected Result** | **Actual Result** |
-    |------------|---------------------|-------------------|
-    | User submit Comment | Comment waiting approval message is displayed | Works as expected |
-    <details><summary>Screenshots</summary>
-    <img src="docs/testing/test-story-blog-commenting-approve.jpg">
-    </details>
-
-19. As a return user I want the site to remember me
-    | **Step** | **Expected Result** | **Actual Result** |
-    |------------|---------------------|-------------------|
-    | Comment | 2 | Works as expected |
-    <details><summary>Screenshots</summary>
-    <img src="docs/feature/feature-login-required.JPG">
-    <img src="docs/testing/test-story-login-message.JPG">
-    </details>
 
 ## Bugs
 
