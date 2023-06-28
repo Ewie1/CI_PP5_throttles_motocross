@@ -88,7 +88,8 @@ def adjust_cart(request, item_id):
             if not cart[item_id]['items_by_size']:
                 cart.pop(item_id)
                 messages.success(
-                    request, f'Removed size {size.upper()} {product.name} from your cart')
+                    request, f'Removed size {size.upper()} {product.name} from\
+                         your cart')
     else:
         if quantity > 0:
             cart[item_id] = quantity
