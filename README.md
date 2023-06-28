@@ -318,6 +318,29 @@ It contains an email sign up form and useful links as well as contact informatio
   - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
   - [Wave Validator](https://wave.webaim.org/)
 
+### Manual testing
+
+1. As a site user I want to see a Motocross scheme to site
+
+   | **Step** | **Expected result** | **Actual Result** |
+   |-------------|------------|---------------------|
+   | Visit page:https://ci-pp5-throttles-motocross-2c6aa11127d2.herokuapp.com/| Home page tells about the wht the site represent with photos to match | Work as Expected | 
+
+   <details><summary>Screenshots</summary>
+   <img src="">
+   </details>
+
+2.	As a Site User	I CAN navigate across the site 	SO THAT I CAN can access all parts of the site  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navbar | Click on any link in the navbar to be brought to a relevant page, shop for example | Be brought to shop to view all products after clicking all products in the navbar | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
 
 11. As a site user I want to get messages when I enter, update or delete data entries
 
