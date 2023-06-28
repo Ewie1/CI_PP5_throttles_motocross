@@ -39,11 +39,11 @@
 ## Business Plan  
 ### Executive Summary:
 
-ThrottleMotocross is a web-based platform that connects bikers to shop and share tips and tricks. It offers a convenient ecommerce shop for purchasing motocross products. In addition, ThrottleMotocross features a blog with the latest news and tips on the Motocross culure, as well as a contact page for inquiries and support.
+ThrottleMotocross is a web-based platform that connects bikers to store and share tips and tricks. It offers a convenient ecommerce store for purchasing motocross products. In addition, ThrottleMotocross features a blog with the latest news and tips on the Motocross culure, as well as a contact page for inquiries and support.
 
 Our target market is Motocross bikers of all skill levels and demographics, as well as beginners looking for a streamlined solution to het start and get some of the latest product on the market. We aim to differentiate ourselves from competitors by offering a more user-friendly and intuitive platform.
 
-In terms of revenue, ThrottleMotocross will generate income through the sale of products in our ecommerce shop. We will also explore potential partnerships and sponsorships with bike-related brands to further monetize the platform.
+In terms of revenue, ThrottleMotocross will generate income through the sale of products in our ecommerce store. We will also explore potential partnerships and sponsorships with bike-related brands to further monetize the platform.
 
 Overall, ThrottleMotocross aims to become the go-to destination for Motocross enthusiast.
 
@@ -51,7 +51,7 @@ Overall, ThrottleMotocross aims to become the go-to destination for Motocross en
 
 The golf industry is a multi-billion euro industry, with a large and dedicated consumer base. While traditional methods of booking tee times (such as calling the club or booking in-person) are still popular, there is a growing trend towards online booking platforms. This shift towards online booking presents a significant opportunity for Teetime to establish itself as a leading player in the market.
 
-ThrottlerMotocross will face other online Motocross but, we believe that our user-friendly platform and wide range of products in our ecommerce shop will differentiate us from competitors and make us a preferred choice for Motocross bikers.
+ThrottlerMotocross will face other online Motocross but, we believe that our user-friendly platform and wide range of products in our ecommerce store will differentiate us from competitors and make us a preferred choice for Motocross bikers.
 
 ### Marketing and Sales Strategy:
 
@@ -67,11 +67,11 @@ In terms of sales, our primary focus will be on converting website visitors into
 
 ThrottlesMotocross will be operated and managed by a small team of experienced professionals. The team will consist of a CEO, CTO, and marketing and sales staff.
 
-In terms of operations, we will utilize a cloud-based platform to host the website and software, as well as a payment gateway for processing transactions. We will also utilize third-party fulfillment centers to handle the storage, packing, and shipping of products purchased through our ecommerce shop.
+In terms of operations, we will utilize a cloud-based platform to host the website and software, as well as a payment gateway for processing transactions. We will also utilize third-party fulfillment centers to handle the storage, packing, and shipping of products purchased through our ecommerce store.
 
 #### Financial Plan:
 
-ThrottlesMotocross will generate revenue through the sale of products in our ecommerce shop. In terms of expenses, the main cost will be marketing and advertising efforts to drive traffic to the website and attract customers.
+ThrottlesMotocross will generate revenue through the sale of products in our ecommerce store. In terms of expenses, the main cost will be marketing and advertising efforts to drive traffic to the website and attract customers.
 
 ThrottlesMotocross will initially be funded through a combination of personal investment and a small seed round of funding. As the business grows, we will explore additional funding options such as venture capital or a larger round of financing.
 
@@ -86,7 +86,7 @@ ThrottlesMotocross is a unique and innovative platform that aims to connect golf
 ## Marketing  
 
 ### Social Media  
-The web app "throttlesmotocross" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote post updates on the future plans and products, and share user-generated content. The Instagram page primarily focuses on showcasing Motocross activities and events, highlighting new products in the shop, and providing a behind-the-scenes look at the company. These social media accounts allow users to stay informed and connected with the "throttlesmotocross" community.
+The web app "throttlesmotocross" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote post updates on the future plans and products, and share user-generated content. The Instagram page primarily focuses on showcasing Motocross activities and events, highlighting new products in the store, and providing a behind-the-scenes look at the company. These social media accounts allow users to stay informed and connected with the "throttlesmotocross" community.
 
 
 
@@ -334,7 +334,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Navbar | Click on any link in the navbar to be brought to a relevant page, shop for example | Be brought to shop to view all products after clicking all products in the navbar | Works as expected  
+| Navbar | Click on any link in the navbar to be brought to a relevant page, store for example | Be brought to store to view all products after clicking all products in the navbar | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
@@ -378,7 +378,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Alert Box | Add an item from the shop to the cart | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
+| Alert Box | Add an item from the store to the cart | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
@@ -425,7 +425,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Shop | Click stror in the navbar, select all products | User is then brought to the all products page of the store | Works as expected  
+| Store | Click stror in the navbar, select all products | User is then brought to the all products page of the store | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
@@ -447,7 +447,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Product Detail | Click on any item image in the shop, or the view button     |  User is brought to the product detail page where product details are displayed | Works as expected  
+| Product Detail | Click on any item image in the store, or the view button     |  User is brought to the product detail page where product details are displayed | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
@@ -582,6 +582,63 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details> 
 
+25.	As a site owner I can edit products so that I display discount or product availability
+ 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Edit Product | From product detail as an admin account, find a edit button on the page, click edit | Admin is brought to the edit product page where they can adjust any part of the product | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+26.	As a site owner I can delete products so that I can control my available products
+  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Delete Product  | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+27.	As a shopper I can **search product by name/description ** so that I don not have to scroll and product is found quicker if it exists
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Search | Search box in the navigation bar, input keyword to search such as "blue", click search | All items with the relevant keyword will be displayed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+28.	As a shopper I can sort product by category so that I can easily find the product I'm looking for 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sort | From the store page, click a category on the side panel such as headwear | User is brought to the headwear page where only products classed as headwear are displayed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+29.	As a shopper I can sort product by high and low prices so that I can find the best value for my money
+ 
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sort | From the store page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
 
 
 
