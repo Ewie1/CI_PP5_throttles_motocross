@@ -122,7 +122,7 @@ The web app "throttlesmotocross" has a presence on both Facebook and Instagram. 
   - Home
   - Product List
   - Product Expanded
-  - Basket
+  - Cart
   - Checkout
   - Checkout Success
   - Blog
@@ -228,7 +228,7 @@ It contains an email sign up form and useful links as well as contact informatio
 |            | delivery_cost   | DecimalField[6]    |
 |            | order_total     | DecimalField[10]   |
 |            | grand_total     | DecimalField[10]   |
-|            | original_basket | TextField          |
+|            | original_cart | TextField          |
 |            | stripe_pid      | CharField          |
 
 ### OrderLineItem Model
@@ -378,7 +378,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Alert Box | Add an item from the shop to the basket | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
+| Alert Box | Add an item from the shop to the cart | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
@@ -506,6 +506,81 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>  
 
+18.	As a shopper I CAN use card as payment method SO THAT complete my purchase
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Checkout | From the cart select secure checkout | Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+<img src=" ">
+</details>  
+
+19.	As a shopper I CAN select size or quantity for product SO THAT so I get what I need  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Product Details | From Product details page select a size for the product in the size box, increase or decrease quantity from the quantity box | Sizes will be selected and quantity adjusted | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+20.	As a shopper I CAN view my cart items SO THAT I know the cost 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Cart | Click the cart icon in the navbar | The cart page will appear and display all items in the cart and their cost alongside total price for all items | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+21.	As a shopper I CAN select size or quantity for product SO THAT I get what I need 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Cart | From the cart press the increase/ decrease button to desired number, click update | The cart will update with the desired quantity | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+22.	As a shopper I can receive order confirmation so that I can be notified of successful order
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Alert Box | Upon a successful checkout an alert box will be visible to the user | Alert box pops up with the order details | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+23.	As a site user I can receive emails confirmation so that notify of registration success
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Email Confirmation | Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order |     Email confirmation arrives into inbox | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+</details>  
+
+24.	As a site owner I CAN add product SO THAT I can display new products on the market
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Add Product | From the navbar select the profile button as an admin logged in, click add product from the dropdown | The add product page will appear allowing the addition of a new product via the add product form | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+</details> 
 
 
 
@@ -738,4 +813,4 @@ Media images were referenced from <a href="https://www.pexels.com/">Pexels</a> ,
 - Tanks and acknowlegement goes to my mentor Mo Shami great guidance.
 - Acknowledge my brother Addan Mc Collin for support form a user's veiw
 - Thanks to my girlfriend Hiba Salem for support and input on a user veiw
-- Thankful to the Slac
+- Thankful to the SlacK
