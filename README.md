@@ -374,9 +374,78 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>  
 
+6.	As a Site User	I CAN be notified of my actions	SO THAT I CAN be aware the action was completed successfully or not  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Alert Box | Add an item from the shop to the basket | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+7.  As a site owner I  WANT the user to be able to send us messages/emails through a contact form
+    
+    | Step | Expected Result | Actual Result |
+    |------------|---------------------|-----------------|
+    |  Got to 'Get Registered' click on 'Contact' | Contact form will be displayed with message field | Works as expected |
+    
+    <details><summary>Screenshots</summary>
+    <img src="">
+    </details>
+
+8. As a site user I CAN to see a blog list
+    | Step | Expected Result | Actual Result |
+    |------------|---------------------|-------------------|
+    | Go to blog on navbar | A list of blog post will display | Works as expected |
+    <details><summary>Screenshots</summary>
+    <img src="">
+    </details>
+
+9. As a site user I CAN have blog commenting options
+    | Step | Expected Result | Actual Result |
+    |------------|---------------------|-------------------|
+    | Login, click on blog post | Comment form will display for commenting | Works as expected |
+    <details><summary>Screenshots</summary>
+    <img src="">
+    <img src="">
+    <img src="">
+    </details>
+
+10. As a site user I CAN read blog details
+    | Step | Expected Result | Actual Result |
+    |------------|---------------------|-------------------|
+    | Click on a blog image in blog list | Blog details will display | Works as expected |
+    <details><summary>Screenshots</summary>
+    <img src="">
+    </details>
+
+11.	As a Site User	I CAN visit the store SO THAT I CAN view all products available  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Shop | Click stror in the navbar, select all products | User is then brought to the all products page of the store | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+12.	As a Site User	I CAN view a list of products	SO THAT I CAN select a product to purchase  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Categories | Select a category on the side panel, select Bikes     |     User is brought to the selected category of product and all products are listed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
 
 
-11. As a site user I want to get messages when I enter, update or delete data entries
+
+11. As a site user I CAN to get messages when I enter, update or delete data entries
 
 | **Step**                 | **Expected Result**             | **Actual Result** |
 | ------------------------ | ------------------------------- | ----------------- |
@@ -436,31 +505,11 @@ It contains an email sign up form and useful links as well as contact informatio
     <img src="docs/testing/test-story-user-exist.png">
     </details>
 
-15. As a site user I want to see a blog list
-    | **Step** | **Expected Result** | **Actual Result** |
-    |------------|---------------------|-------------------|
-    | Go to blog on navbar | A list of blog post will display | Works as expected |
-    <details><summary>Screenshots</summary>
-    <img src="docs/testing/test-story-pagination2.png">
-    </details>
 
-16. As a site user to want to read blog details
-    | **Step** | **Expected Result** | **Actual Result** |
-    |------------|---------------------|-------------------|
-    | Click on a blog image in blog list | Blog details will display | Works as expected |
-    <details><summary>Screenshots</summary>
-    <img src="docs/feature/feature-blog-detailse.png">
-    </details>
 
-17. As a site user I want to have blog commenting options
-    | **Step** | **Expected Result** | **Actual Result** |
-    |------------|---------------------|-------------------|
-    | Login, click on blog post | Comment form will display for commenting | Works as expected |
-    <details><summary>Screenshots</summary>
-    <img src="docs/feature/feature-login-required.JPG">
-    <img src="docs/testing/test-story-login-message.JPG">
-    <img src="docs/testing/test-story- blog commenting.png">
-    </details>
+
+
+
 
 18. As a owner I want to control commnets posted
     | **Step** | **Expected Result** | **Actual Result** |
