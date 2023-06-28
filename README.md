@@ -89,33 +89,6 @@ ThrottlesMotocross is a unique and innovative platform that aims to connect golf
 The web app "throttlesmotocross" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote post updates on the future plans and products, and share user-generated content. The Instagram page primarily focuses on showcasing Motocross activities and events, highlighting new products in the store, and providing a behind-the-scenes look at the company. These social media accounts allow users to stay informed and connected with the "throttlesmotocross" community.
 
 
-
-### User Goals
-
-### Site Owner Goals
-
-## User Experience
-
-### Target Audience
-
-### User Reqirements and Expectaions
-
-### User Stories
-
-#### User
-
-#### Returning User
-
-#### Site Owner
-
-### Kanban, Epics & User Stories
-
-## Design
-
-## Models
-
-### User Model
-
 ## Website pages
 
 - The site consists of the following pages:
@@ -151,6 +124,158 @@ The site was designed for the user to be familiar with the layout such as a navi
 The footer contains all relevant social media links that the business has so the user can visit any social media site and follow the business there to expand the businesses followers, likes and shares.
 It contains an email sign up form and useful links as well as contact information.
 
+
+### User Goals
+- Learn more about wild life 
+- Use site features to help prevent wildlife distinction
+- Sign up for to be a memeber of site
+- Enroll in site programs
+- Contact the Organisation
+- Write and comment on blog posts
+
+### Site Owner Goals
+- Make people aware of wild life distinction
+- Offer programs that contribute to this
+- Offer a blog for conversation and interaction amongst targeted audiences
+- Get feedback form targeted audience
+
+## User Experience
+
+### Target Audience
+- Wildlifers Targets animal lovers
+- Enviroment activists
+- Everyday working people who wants to but do not know how to contribute to the enviroment
+- Everyday working people who wants to but do not know how to contribute to distinct animals
+- 
+
+### User Reqirements and Expectaions
+
+- Accessible site
+- Navigations that are simple and easy to use
+- Site contact information
+- Social media links
+- Fully responsiveness
+
+### User Stories
+
+#### User 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11.   
+15. 
+16. 
+17. 
+ 
+#### Returning User
+ 
+ 19. 
+
+#### Site Owner 
+12. 
+13.   
+14. 
+18. 
+
+
+
+### Kanban, Epics & User Stories
+- GitHub Kanban was used to track all open user stories
+- Epic was created using the milestones feature
+- 
+
+<details><summary>Epic</summary>
+
+![Epic](docs/testing/epic.JPG)
+
+</details>
+<details><summary>User Story</summary>
+
+![User Story](docs/testing/user-story.JPG)
+
+</details>
+<details><summary>Kanban</summary>
+
+![Kanban](docs/testing/kanban.JPG)
+
+</details>
+
+
+### Wireframes
+
+<details><summary>Home</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary>Products</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary>P</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary></summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary>B</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframe/browser-wireframe-contact.png">
+<img src="docs/wireframe/tablet-wireframe-contact.png">
+<img src="docs/wireframe/mobile-wireframe-contact.png">
+</details>
+<details><summary>Blog</summary>
+<img src="docs/wireframe/browser-wireframe-blog.png">
+<img src="docs/wireframe/tablet-wireframe-blog.png">
+<img src="docs/wireframe/mobile-wireframe-blog.png">
+</details>
+<details><summary>Blog Details</summary>
+<img src="docs/wireframe/browser-wireframe-blog-display.png">
+<img src="docs/wireframe/tablet-wireframe-blog-display.png">
+<img src="docs/wireframe/mobile-wireframe-blog-display.png">
+</details>
+<details><summary>Register</summary>
+<img src="docs/wireframe/browser-wireframe-register.png">
+<img src="docs/wireframe/tablet-wireframe-register.png">
+<img src="">
+</details>
+<details><summary>Login</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary>Logout</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+<details><summary>E</summary>
+<img src="">
+<img src="">
+<img src="">
+</details>
+
+
+
+## Models  
+
+### User Model
 
 | Key        | Name         | Type        |
 | ---------- | ------------ | ----------- |
