@@ -341,6 +341,40 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>  
 
+3.	As a Site User	I CAN register for an account	SO THAT I CAN have an account and view my profile  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sign Up | Click pofile button and select register, user is brought to the sign up page| User is brought to the sign up page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+4.	As a Site User	I CAN have a profile SO THAT I CAN store my information for faster checkouts in the future  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Profile | From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+5.	As a Site User	I CAN login and logout SO THAT I CAN have an account with my information stored for fast usage  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sign In | Click pofile button and select login, user is brought to the sign in page | User is brought to the sign in page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+
 
 11. As a site user I want to get messages when I enter, update or delete data entries
 
