@@ -2,15 +2,15 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+<link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -36,8 +36,10 @@
                         </div>
                         <div class="row p-2">
                             <div class="col-12">
-                                <p class="text-black">Your order information is below. A confirmation email will be sent to
-                                <strong>{{ order.email }}</strong></p>
+                                <p class="text-black">Your order information is below. A confirmation email will be sent
+                                    to
+                                    <strong>{{ order.email }}</strong>
+                                </p>
                                 <div class="order-confirmation-wrapper p-2">
                                     <div class="row">
                                         <div class="col">
@@ -76,7 +78,7 @@
                                         </div>
                                         <div class="col-12 col-md-8 text-start text-sm-end">
                                             <p class="small mb-0">
-                                                {{ item.quantity }} @ €{{ item.product.price }} each
+                                                {{ item.quantity }} @ {{ item.product.price }}sek each
                                             </p>
                                         </div>
                                     </div>
@@ -164,7 +166,7 @@
                                             <p class="mb-0 text-dark fw-bold">Order Total</p>
                                         </div>
                                         <div class="col-12 col-md-8 text-start text-sm-end">
-                                            <p class="mb-0">€{{ order.order_total }}</p>
+                                            <p class="mb-0">{{ order.order_total }}sek</p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -172,7 +174,7 @@
                                             <p class="mb-0 text-dark fw-bold">Delivery</p>
                                         </div>
                                         <div class="col-12 col-md-8 text-start text-sm-end">
-                                            <p class="mb-0">€{{ order.delivery_cost }}</p>
+                                            <p class="mb-0">{{ order.delivery_cost }}sek</p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -180,7 +182,7 @@
                                             <p class="mb-0 text-dark fw-bold">Grand Total</p>
                                         </div>
                                         <div class="col-12 col-md-8 text-start text-sm-end">
-                                            <p class="mb-0">€{{ order.grand_total }}</p>
+                                            <p class="mb-0">{{ order.grand_total }}sek</p>
                                         </div>
                                     </div>
                                 </div>
