@@ -704,7 +704,7 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src="">
 </details>
 <details><summary>view.py</summary>
-<img src="">
+<img src="doc/validation/cart-view.JPG">
 </details>
 
 #### Productsapp
@@ -731,43 +731,43 @@ It contains an email sign up form and useful links as well as contact informatio
 #### checkoutapp
 
 <details><summary>admin.py</summary>
-<img src="">
+<img src="doc/validation/checkout-admin.JPG">
 </details>
 <details><summary>forms.py</summary>
-<img src="">
+<img src="doc/validation/checkout-form.JPG">
 </details>
 <details><summary>models.py</summary>
-<img src="">
+<img src="doc/validation/checkout-model.JPG">
 </details>
 <details><summary>tests.py</summary>
 <img src="">
 </details>
 <details><summary>urls.py</summary>
-<img src="">
+<img src="doc/validation/checkout-url.JPG">
 </details>
 <details><summary>view.py</summary>
-<img src="">
+<img src="doc/validation/checkout-view.JPG">
 </details>
 
 #### Blog app
 
 <details><summary>admin.py</summary>
-<img src="">
+<img src="doc/validation/blog-admin.JPG">
 </details>
 <details><summary>forms.py</summary>
-<img src="/">
+<img src="doc/validation/blog-form.JPG">
 </details>
 <details><summary>models.py</summary>
-<img src="">
+<img src="doc/validation/blog-model.JPG">
 </details>
 <details><summary>tests.py</summary>
 <img src="">
 </details>
 <details><summary>urls.py</summary>
-<img src="">
+<img src="doc/validation/blog-url.JPG">
 </details>
 <details><summary>view.py</summary>
-<img src="">
+<img src="doc/validation/blog-view.JPG">
 </details>
 
 #### Profilesapp
