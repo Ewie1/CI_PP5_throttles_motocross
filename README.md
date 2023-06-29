@@ -113,9 +113,17 @@ The web app "throttlesmotocross" has a presence on both Facebook and Instagram. 
 
 I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
 
+<details><summary>See AWS Images</summary>
+</details>
+
+
 ## Database
 
 I built my database using PostgreSQL. It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
+
+<details><summary>See Database Image</summary>
+</details>
+<hr>
 
 # Structure
 
