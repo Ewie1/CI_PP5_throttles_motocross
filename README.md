@@ -86,7 +86,7 @@ ThrottlesMotocross is a unique and innovative platform that aims to connect golf
 ## Marketing  
 
 ### Social Media  
-The web app "throttlesmotocross" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote post updates on the future plans and products, and share user-generated content. The Instagram page primarily focuses on showcasing Motocross activities and events, highlighting new products in the store, and providing a behind-the-scenes look at the company. These social media accounts allow users to stay informed and connected with the "throttlesmotocross" community.
+The web app "throttlesmotocross" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote post updates on the future plans and products, and share user-generated content. This social media account allow users to stay informed and connected with the "throttlesmotocross" community.
 
 
 ## Website pages
