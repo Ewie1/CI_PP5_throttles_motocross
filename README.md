@@ -601,6 +601,19 @@ It contains an email sign up form and useful links as well as contact informatio
 ### Comfirmation pages
 - 
 
+<details><summary>See feature images</summary>
+
+![enrollment-editing](doc/features/checkout-success.JPG)
+
+</details>
+
+<details><summary>See feature images</summary>
+
+![program](doc/features/email-verification.JPG)
+</details>
+
+
+
 ### Popup confirmations
 - 
 
