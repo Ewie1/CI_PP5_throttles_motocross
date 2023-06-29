@@ -35,8 +35,8 @@
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
 
-## Business Plan
 
+## Business Plan  
 ### Executive Summary:
 
 ThrottleMotocross is a web-based platform that connects bikers to store and share tips and tricks. It offers a convenient ecommerce store for purchasing motocross products. In addition, ThrottleMotocross features a blog with the latest news and tips on the Motocross culure, as well as a contact page for inquiries and support.
@@ -75,19 +75,19 @@ ThrottlesMotocross will generate revenue through the sale of products in our eco
 
 ThrottlesMotocross will initially be funded through a combination of personal investment and a small seed round of funding. As the business grows, we will explore additional funding options such as venture capital or a larger round of financing.
 
+
 In terms of profitability, we expect to break even within the first year of operation and achieve profitability in the second year.
 
 ### Conclusion:
 
 ThrottlesMotocross is a unique and innovative platform that aims to connect golfers with Motocross rider to find whatever suits their need while connecting and sharing tricks and tips.With strong growth potential and a clear revenue model, we believe that ThrottlesMotocross has the potential to become a leading player in the Motoctoss industry.
-
 <hr>
 
-## Marketing
+## Marketing  
 
-### Social Media
-
+### Social Media  
 The web app "throttlesmotocross" has a presence on both Facebook and Instagram. The Facebook page serves as a platform to promote post updates on the future plans and products, and share user-generated content. This social media account allow users to stay informed and connected with the "throttlesmotocross" community.
+
 
 ## Website pages
 
@@ -109,12 +109,13 @@ The web app "throttlesmotocross" has a presence on both Facebook and Instagram. 
   - Register
   - 404
 
-## AWS
+## AWS 
 
 I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
 
 <details><summary>See AWS Images</summary>
 </details>
+
 
 ## Database
 
@@ -132,9 +133,9 @@ The site was designed for the user to be familiar with the layout such as a navi
 The footer contains all relevant social media links that the business has so the user can visit any social media site and follow the business there to expand the businesses followers, likes and shares.
 It contains an email sign up form and useful links as well as contact information.
 
-### User Goals
 
-- Learn more about wild life
+### User Goals
+- Learn more about wild life 
 - Use site features to help prevent wildlife distinction
 - Sign up for to be a memeber of site
 - Enroll in site programs
@@ -142,7 +143,6 @@ It contains an email sign up form and useful links as well as contact informatio
 - Write and comment on blog posts
 
 ### Site Owner Goals
-
 - Make people aware of wild life distinction
 - Offer programs that contribute to this
 - Offer a blog for conversation and interaction amongst targeted audiences
@@ -151,12 +151,11 @@ It contains an email sign up form and useful links as well as contact informatio
 ## User Experience
 
 ### Target Audience
-
 - Wildlifers Targets animal lovers
 - Enviroment activists
 - Everyday working people who wants to but do not know how to contribute to the enviroment
 - Everyday working people who wants to but do not know how to contribute to distinct animals
--
+- 
 
 ### User Reqirements and Expectaions
 
@@ -168,39 +167,38 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### User Stories
 
-#### User
-
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-
+#### User 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11.   
+15. 
+16. 
+17. 
+ 
 #### Returning User
+ 
+ 19. 
 
-19.
+#### Site Owner 
+12. 
+13.   
+14. 
+18. 
 
-#### Site Owner
 
-12.
-13.
-14.
-15.
 
 ### Kanban, Epics & User Stories
-
 - GitHub Kanban was used to track all open user stories
 - Epic was created using the milestones feature
--
+- 
 
 <details><summary>Epic</summary>
 
@@ -217,6 +215,7 @@ It contains an email sign up form and useful links as well as contact informatio
 ![Kanban]()
 
 </details>
+
 
 ### Wireframes
 
@@ -281,7 +280,9 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src="">
 </details>
 
-## Models
+
+
+## Models  
 
 ### User Model
 
@@ -339,26 +340,26 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Order Model
 
-| Key        | Name          | Type               |
-| ---------- | ------------- | ------------------ |
-| PrimaryKey | order_id      | AutoField          |
-|            | order_number  | CharField[40]      |
-| ForeignKey | user_profile  | User profile Model |
-|            | full_name     | CharField[50]      |
-|            | email         | EmailField[254]    |
-|            | phone_number  | CharField[20]      |
-|            | address1      | CharField[80]      |
-|            | address2      | CharField[80]      |
-|            | town_city     | CharField[40]      |
-|            | postcode      | CharField[20]      |
-|            | county        | CharField[80]      |
-|            | country       | CharField[40]      |
-|            | date          | DateTimeField      |
-|            | delivery_cost | DecimalField[6]    |
-|            | order_total   | DecimalField[10]   |
-|            | grand_total   | DecimalField[10]   |
+| Key        | Name            | Type               |
+| ---------- | --------------- | ------------------ |
+| PrimaryKey | order_id        | AutoField          |
+|            | order_number    | CharField[40]      |
+| ForeignKey | user_profile    | User profile Model |
+|            | full_name       | CharField[50]      |
+|            | email           | EmailField[254]    |
+|            | phone_number    | CharField[20]      |
+|            | address1        | CharField[80]      |
+|            | address2        | CharField[80]      |
+|            | town_city       | CharField[40]      |
+|            | postcode        | CharField[20]      |
+|            | county          | CharField[80]      |
+|            | country         | CharField[40]      |
+|            | date            | DateTimeField      |
+|            | delivery_cost   | DecimalField[6]    |
+|            | order_total     | DecimalField[10]   |
+|            | grand_total     | DecimalField[10]   |
 |            | original_cart | TextField          |
-|            | stripe_pid    | CharField          |
+|            | stripe_pid      | CharField          |
 
 ### OrderLineItem Model
 
@@ -447,11 +448,11 @@ It contains an email sign up form and useful links as well as contact informatio
   - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
   - [Wave Validator](https://wave.webaim.org/)
 
+
 ## Features
 
 ### Logo and Navigation Bar
-
-- Site Logo supports the wild life theme of the site and navigates to home page
+- Site Logo supports the wild life theme of the site and navigates to home page 
 - The navbar is consist of the logo and the links to all the site feature
 - The navbar is present on all pages
 - The navbar also have a drop down features login, register and booking
@@ -464,53 +465,46 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Home page
-
-- The home page is consist og images and descriptions relating to wildlife
+- The home page is consist og images and descriptions relating to wildlife 
 - The home page is also consist of a button to navigate to register and a button enroll
 
 <details><summary>See feature images</summary>
 
-![home](doc/features/home.JPG)
+![home](doc/features/home.JPG) 
 
 </details>
 
 ### Footer
-
 - The footer is consist of social media link
-- The footer also have office location and contact information
+- The footer also have office location and contact information 
 - the footer is displayed at the bottom of the page
 
 <details><summary>See feature images</summary>
 
 ![footer](doc/features/site-footer.JPG)
-
 </details>
 
 ### Sign up/Register
-
 - The registration page is consist of a form to enter user details
 - It prupose is for new users to access more site features
 - The form also instructions on how to register
 
+
 <details><summary>See feature images</summary>
 
 ![signup/register](doc/features/register-form.JPG)
-
 </details>
 
 ### Login
-
 - Easy for return users to get in
 - Fields are mandatory
 
 <details><summary>See feature images</summary>
 
 ![login]()
-
 </details>
 
 ### Logout
-
 - User can log out before leaving the site
 
 <details><summary>See feature images</summary>
@@ -520,19 +514,17 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Store
-
--
+- 
 - Fully responsive
 
 <details><summary>See feature images</summary>
 
 ![program](doc/features/store.JPG)
-
 </details>
 
-### Product details
 
--
+### Product details
+- 
 
 <details><summary>See feature images</summary>
 
@@ -541,19 +533,16 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Add product
-
--
+- 
 
 <details><summary>See feature images</summary>
 
 ![enrollment-list]()
-
 </details>
 
 ### Edit product
-
 - Here is the enrollment form displaying the fields fill with the current booking and ready to be changed
-- Submit and update message will be seen
+- Submit and update message will be seen  
 
 <details><summary>See feature images</summary>
 
@@ -562,8 +551,7 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Cart
-
--
+- 
 
 <details><summary>See feature images</summary>
 
@@ -572,19 +560,17 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Contact page
-
 - User can contact us by filling out this form
 - User must enter their names and email and the message in the text field
 - Message will display when the form is submitted
 
+
 <details><summary>See feature images</summary>
 
 ![contact-page](doc/features/contact-form.JPG)
-
 </details>
 
 ### Blog
-
 - Fully responsive
 - Display blog posts made by staff/organisation
 - Blog post are paginated
@@ -593,59 +579,52 @@ It contains an email sign up form and useful links as well as contact informatio
 <details><summary>See feature images</summary>
 
 ![blog](doc/features/blog-post.JPG)
-
 </details>
 
-### Blog details
 
+### Blog details
 - Blog details show more detials about the blog
 - The featured image is displayed
 
 <details><summary>See feature images</summary>
 
 ![blog-details](doc/features/blog-details.JPG)
-
 </details>
 
 ### Blog commenting
-
 - only registered or logged in User get the option to leave comment
 - Comment cand be done in the text field but needs to be approved
-- When commented are made the submitted the comment awiting approval message is displayed
+- When commented are made the submitted the comment awiting approval message is displayed 
 - Comments are approved by staff/organisation for monitering purposes
 
 <details><summary>See feature images</summary>
 
 ![program](doc/features/blog-comment-form.JPG)
-
 </details>
 
-### Profile
 
--
+### Profile
+- 
 
 <details><summary>See feature images</summary>
 
 ![program]()
-
 </details>
 
 ### Comfirmation pages
-
--
+- 
 
 ### Popup confirmations
-
--
+- 
 
 ### Checkout page
+- 
 
--
+
 
 ## Validation
 
 ### HTML Validation
-
 - The W3C Markup Validation Service was used to validate the HTML of the website.
 
 <details><summary>Home</summary>
@@ -690,8 +669,7 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### CSS Validation
-
-- The W3C Jigsaw service was used for CSS Validation.
+- The W3C Jigsaw service was used for CSS Validation. 
 
 <details><summary>style.css</summary>
 <img src="">
@@ -707,7 +685,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Pep8 Validation
 
-- PEP8 Validation Service was used to check the code for PEP8 requirements.
+- PEP8 Validation Service was used to check the code for PEP8 requirements. 
 
 #### Homeapp
 
@@ -852,54 +830,50 @@ It contains an email sign up form and useful links as well as contact informatio
 - Lighthouse was used to test the performance, accessibility, best practice and SEO of the site.
 
 #### Mobile
-
 <details><summary>View results</summary>
 
-| Page                                | Performance (%) | Accessibility (%) | Best Practices (%) | SEO (%) |
-| ----------------------------------- | --------------- | ----------------- | ------------------ | ------- |
-| home/templates/home/index.html      | 91              | 100               | 92                 | 100     |
-| home/templates/home/contact.html    | 93              | 97                | 100                | 100     |
-| programs/templates/programs/        | 98              | 100               | 100                | 100     |
-| programs/templates/programs/        | 92              | 97                | 92                 | 100     |
-| booking/templates/booking/          | 94              | 97                | 100                | 100     |
-| booking/templates/booking/          | 97              | 98                | 100                | 100     |
-| booking/templates/booking/          | 94              | 98                | 92                 | 100     |
-| booking/templates/booking/          | 98              | 93                | 100                | 100     |
-| blog/templates/blog/blog_list.html  | 87              | 98                | 83                 | 100     |
-| blog/templates/blog/blog_story.html | 87              | 98                | 83                 | 100     |
-| templates/account/login.html        | 98              | 100               | 92                 | 100     |
-| templates/account/logout.html       | 99              | 100               | 92                 | 100     |
-| templates/account/signup.html       | 99              | 100               | 92                 | 100     |
+Page  | Performance (%) | Accessibility (%) | Best Practices (%) | SEO (%)
+------------  | ------------ | ------------- | ------------- | -------------
+home/templates/home/index.html | 91 | 100 | 92 | 100 |
+home/templates/home/contact.html | 93 | 97 | 100 | 100 |
+programs/templates/programs/ | 98 | 100 | 100 | 100 |
+programs/templates/programs/ | 92 | 97 | 92 | 100 |
+booking/templates/booking/ | 94 | 97 | 100 | 100 |
+booking/templates/booking/ | 97 | 98 | 100 | 100 |
+booking/templates/booking/ | 94 | 98 | 92 | 100 |
+booking/templates/booking/ | 98 | 93 | 100 | 100 |
+blog/templates/blog/blog_list.html | 87 | 98 | 83 | 100 |
+blog/templates/blog/blog_story.html | 87 | 98 | 83 | 100 |
+templates/account/login.html | 98 | 100 | 92 | 100 |
+templates/account/logout.html | 99 | 100 | 92 | 100 |
+templates/account/signup.html | 99 | 100 | 92 | 100 |
 
 </details>
 
 #### Desktop
-
 <details><summary>View results</summary>
 
-| Page                                | Performance (%) | Accessibility (%) | Best Practices (%) | SEO (%) |
-| ----------------------------------- | --------------- | ----------------- | ------------------ | ------- |
-| home/templates/home/index.html      | 99              | 100               | 92                 | 100     |
-| home/templates/home/contact.html    | 100             | 100               | 92                 | 100     |
-| programs/templates/programs/        | 100             | 100               | 92                 | 100     |
-| programs/templates/programs/        | 99              | 96                | 92                 | 100     |
-| booking/templates/booking/          | 100             | 100               | 92                 | 100     |
-| booking/templates/booking/          | 100             | 93                | 92                 | 100     |
-| booking/templates/booking/          | 100             | 93                | 92                 | 100     |
-| booking/templates/booking/e         | 100             | 93                | 92                 | 100     |
-| blog/templates/blog/blog_list.html  | 87              | 98                | 83                 | 100     |
-| blog/templates/blog/blog_story.html |                 | 98                | 92                 | 100     |
-| templates/account/login.html        | 100             | 100               | 92                 | 90      |
-| templates/account/logout.html       | 100             | 100               | 92                 | 100     |
-| templates/account/signup.html       | 100             | 100               | 92                 | 100     |
-
+Page  | Performance (%) | Accessibility (%) | Best Practices (%) | SEO (%)
+------------  | ------------ | ------------- | ------------- | -------------
+home/templates/home/index.html | 99 | 100 | 92 | 100 |
+home/templates/home/contact.html | 100 | 100 | 92 | 100 |
+programs/templates/programs/ | 100 | 100 | 92 | 100 |
+programs/templates/programs/ | 99 | 96 | 92 | 100 |
+booking/templates/booking/ | 100 | 100 | 92 | 100 |
+booking/templates/booking/ | 100 | 93 | 92 | 100 |
+booking/templates/booking/ | 100 | 93 | 92 | 100 |
+booking/templates/booking/e | 100 | 93 | 92 | 100 |
+blog/templates/blog/blog_list.html | 87 | 98 | 83 | 100 |
+blog/templates/blog/blog_story.html |  | 98 | 92 | 100 |
+templates/account/login.html | 100 | 100 | 92 | 90 |
+templates/account/logout.html | 100 | 100 | 92 | 100 |
+templates/account/signup.html | 100 | 100 | 92 | 100 |
 </details>
 
-### Waves
 
+### Waves
 - The WAVE WebAIM web accessibility evaluation tool was used to test the websites accessibility.
 - Wave accessibilty issues with heroku connection cause some page not to be tested
-
 #### Desktop
 
 <details><summary>Home</summary>
@@ -930,100 +904,104 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src="">
 </details>
 
+
+
+
+
 ### Manual testing
 
 1. As a site user I want to see a Motocross scheme to site
 
-   | **Step**                                                                  | **Expected result**                                                   | **Actual Result** |
-   | ------------------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------- |
-   | Visit page:https://ci-pp5-throttles-motocross-2c6aa11127d2.herokuapp.com/ | Home page tells about the wht the site represent with photos to match | Work as Expected  |
+   | **Step** | **Expected result** | **Actual Result** |
+   |-------------|------------|---------------------|
+   | Visit page:https://ci-pp5-throttles-motocross-2c6aa11127d2.herokuapp.com/| Home page tells about the wht the site represent with photos to match | Work as Expected | 
 
    <details><summary>Screenshots</summary>
    <img src="">
    </details>
 
-2. As a Site User I CAN navigate across the site SO THAT I CAN can access all parts of the site
+2.	As a Site User	I CAN navigate across the site 	SO THAT I CAN can access all parts of the site  
 
-| Feature | Action                                                                              | Expected Result                                                                    | Actual Result     |
-| ------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------- |
-| Navbar  | Click on any link in the navbar to be brought to a relevant page, store for example | Be brought to store to view all products after clicking all products in the navbar | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-3. As a Site User I CAN register for an account SO THAT I CAN have an account and view my profile
-
-| Feature | Action                                                                       | Expected Result                     | Actual Result     |
-| ------- | ---------------------------------------------------------------------------- | ----------------------------------- | ----------------- |
-| Sign Up | Click pofile button and select register, user is brought to the sign up page | User is brought to the sign up page | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navbar | Click on any link in the navbar to be brought to a relevant page, store for example | Be brought to store to view all products after clicking all products in the navbar | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-4. As a Site User I CAN have a profile SO THAT I CAN store my information for faster checkouts in the future
+3.	As a Site User	I CAN register for an account	SO THAT I CAN have an account and view my profile  
 
-| Feature | Action                                                                                                                                 | Expected Result            | Actual Result     |
-| ------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ----------------- |
-| Profile | From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-5. As a Site User I CAN login and logout SO THAT I CAN have an account with my information stored for fast usage
-
-| Feature | Action                                                                    | Expected Result                     | Actual Result     |
-| ------- | ------------------------------------------------------------------------- | ----------------------------------- | ----------------- |
-| Sign In | Click pofile button and select login, user is brought to the sign in page | User is brought to the sign in page | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sign Up | Click pofile button and select register, user is brought to the sign up page| User is brought to the sign up page | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-6. As a Site User I CAN be notified of my actions SO THAT I CAN be aware the action was completed successfully or not
+4.	As a Site User	I CAN have a profile SO THAT I CAN store my information for faster checkouts in the future  
 
-| Feature   | Action                                 | Expected Result                                                                    | Actual Result     |
-| --------- | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------- |
-| Alert Box | Add an item from the store to the cart | A message will appear in the alert box on screen to notify the user of this action | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Profile | From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-7.  As a site owner I WANT the user to be able to send us messages/emails through a contact form
+5.	As a Site User	I CAN login and logout SO THAT I CAN have an account with my information stored for fast usage  
 
-    | Step                                       | Expected Result                                   | Actual Result     |
-    | ------------------------------------------ | ------------------------------------------------- | ----------------- |
-    | Got to 'Get Registered' click on 'Contact' | Contact form will be displayed with message field | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sign In | Click pofile button and select login, user is brought to the sign in page | User is brought to the sign in page | Works as expected  
 
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+6.	As a Site User	I CAN be notified of my actions	SO THAT I CAN be aware the action was completed successfully or not  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Alert Box | Add an item from the store to the cart | A message will appear in the alert box on screen to notify the user of this action | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+7.  As a site owner I  WANT the user to be able to send us messages/emails through a contact form
+    
+    | Step | Expected Result | Actual Result |
+    |------------|---------------------|-----------------|
+    |  Got to 'Get Registered' click on 'Contact' | Contact form will be displayed with message field | Works as expected |
+    
     <details><summary>Screenshots</summary>
     <img src="">
     </details>
 
-8.  As a site user I CAN to see a blog list
-| Step | Expected Result | Actual Result |
-|------------|---------------------|-------------------|
-| Go to blog on navbar | A list of blog post will display | Works as expected |
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
+8. As a site user I CAN to see a blog list
+    | Step | Expected Result | Actual Result |
+    |------------|---------------------|-------------------|
+    | Go to blog on navbar | A list of blog post will display | Works as expected |
+    <details><summary>Screenshots</summary>
+    <img src="">
+    </details>
 
-9.  As a site user I CAN have blog commenting options
-| Step | Expected Result | Actual Result |
-|------------|---------------------|-------------------|
-| Login, click on blog post | Comment form will display for commenting | Works as expected |
-<details><summary>Screenshots</summary>
-<img src="">
-<img src="">
-<img src="">
-</details>
+9. As a site user I CAN have blog commenting options
+    | Step | Expected Result | Actual Result |
+    |------------|---------------------|-------------------|
+    | Login, click on blog post | Comment form will display for commenting | Works as expected |
+    <details><summary>Screenshots</summary>
+    <img src="">
+    <img src="">
+    <img src="">
+    </details>
 
 10. As a site user I CAN read blog details
     | Step | Expected Result | Actual Result |
@@ -1033,222 +1011,225 @@ It contains an email sign up form and useful links as well as contact informatio
     <img src="">
     </details>
 
-11. As a Site User I CAN visit the store SO THAT I CAN view all products available
+11.	As a Site User	I CAN visit the store SO THAT I CAN view all products available  
 
-| Feature | Action                                         | Expected Result                                            | Actual Result     |
-| ------- | ---------------------------------------------- | ---------------------------------------------------------- | ----------------- |
-| Store   | Click stror in the navbar, select all products | User is then brought to the all products page of the store | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-12. As a Site User I CAN view a list of products SO THAT I CAN select a product to purchase
-
-| Feature    | Action                                            | Expected Result                                                                 | Actual Result     |
-| ---------- | ------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------- |
-| Categories | Select a category on the side panel, select Bikes | User is brought to the selected category of product and all products are listed | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Store | Click stror in the navbar, select all products | User is then brought to the all products page of the store | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-13. As a Site User I CAN view an individual product details SO THAT I CAN view a more detailed view of the product
+12.	As a Site User	I CAN view a list of products	SO THAT I CAN select a product to purchase  
 
-| Feature        | Action                                                   | Expected Result                                                                | Actual Result     |
-| -------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------- |
-| Product Detail | Click on any item image in the store, or the view button | User is brought to the product detail page where product details are displayed | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-14. As a Site User I CAN view my cart and total cost at any time so I am aware of what I am buying and it's cost
-
-| Feature | Action                            | Expected Result                                                                                                 | Actual Result     |
-| ------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Cart    | Click the cart icon in the navbar | User is brought to the cart page where all products in cart are displayed along with their price and total cost | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Categories | Select a category on the side panel, select Bikes     |     User is brought to the selected category of product and all products are listed | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-15. As a Site User I CAN see my login status SO THAT I CAN know if I am logged in or not
+13.	As a Site User	I CAN view an individual product details SO THAT I CAN view a more detailed view of the product  
 
-| Feature    | Action                                                                                               | Expected Result                               | Actual Result     |
-| ---------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------- | ----------------- |
-| Navigation | While logged out the profile icon in the navbar will be gray, log in it will change to a green color | Once logged in the profile icon will be green | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-</details>
-
-16. As a Site User I CAN recover my password SO THAT I CAN set a new password if I forgot it
-
-| Feature        | Action                                                                                                                        | Expected Result                        | Actual Result     |
-| -------------- | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------------- |
-| Reset Password | Click pofile button and select login, user is brought to the sign in page, click forgot password to go to password reset page | User is brought to password reset page | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Product Detail | Click on any item image in the store, or the view button     |  User is brought to the product detail page where product details are displayed | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-<img src=" ">
-</details>
+</details> 
 
-17. As a Site User I CAN receive an email confirmation after registration SO THAT I CAN be notified registration was successful
+14.	As a Site User	I CAN view my cart and total cost at any time	so I am aware of what I am buying and it's cost  
 
-| Feature      | Action                                                                   | Expected Result                                                            | Actual Result     |
-| ------------ | ------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ----------------- |
-| Registration | Upon registration an email is sent to verify the email address submitted | Registration email arrives into inbox of the email address used to sign up | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-</details>
-
-0.  As a Site User I CAN use a navbar, footer, and social icons SO THAT I CAN navigate the site, access menus, and access socials
-
-| Feature       | Action                                       | Expected Result                                          | Actual Result     |
-| ------------- | -------------------------------------------- | -------------------------------------------------------- | ----------------- |
-| Navbar/Footer | Scoll to footer, click on the Instagram logo | A new tab will open and bring user to the Instagram page | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Cart | Click the cart icon in the navbar | User is brought to the cart page where all products in cart are displayed along with their price and total cost | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
-</details>
+<img src=" ">
+</details>  
 
-18. As a shopper I CAN use card as payment method SO THAT complete my purchase
+15.	As a Site User	I CAN see my login status	SO THAT I CAN know if I am logged in or not  
 
-| Feature  | Action                               | Expected Result                                                                                      | Actual Result     |
-| -------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------- | ----------------- |
-| Checkout | From the cart select secure checkout | Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navigation | While logged out the profile icon in the navbar will be gray, log in it will change to a green color | Once logged in the profile icon will be green | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+</details>  
+
+16.	As a Site User	I CAN recover my password	SO THAT I CAN set a new password if I forgot it  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Reset Password | Click pofile button and select login, user is brought to the sign in page, click forgot password to go to password reset page | User is brought to password reset page | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-19. As a shopper I CAN select size or quantity for product SO THAT so I get what I need
+17.	As a Site User	I CAN receive an email confirmation after registration	SO THAT I CAN be notified registration was successful  
 
-| Feature         | Action                                                                                                                       | Expected Result                              | Actual Result     |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----------------- |
-| Product Details | From Product details page select a size for the product in the size box, increase or decrease quantity from the quantity box | Sizes will be selected and quantity adjusted | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Registration | Upon registration an email is sent to verify the email address submitted | Registration email arrives into inbox of the email address used to sign up | Works as expected  
+<details><summary>See Images</summary>
+<img src=" ">
+</details>  
+
+00.	As a Site User	I CAN use a navbar, footer, and social icons  SO THAT I CAN navigate the site, access menus, and access socials  
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Navbar/Footer | Scoll to footer, click on the Instagram logo | A new tab will open and bring user to the Instagram page | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+</details>  
+
+18.	As a shopper I CAN use card as payment method SO THAT complete my purchase
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Checkout | From the cart select secure checkout | Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+<img src=" ">
+</details>  
 
-20. As a shopper I CAN view my cart items SO THAT I know the cost
+19.	As a shopper I CAN select size or quantity for product SO THAT so I get what I need  
 
-| Feature | Action                            | Expected Result                                                                                                | Actual Result     |
-| ------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Cart    | Click the cart icon in the navbar | The cart page will appear and display all items in the cart and their cost alongside total price for all items | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Product Details | From Product details page select a size for the product in the size box, increase or decrease quantity from the quantity box | Sizes will be selected and quantity adjusted | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-21. As a shopper I CAN select size or quantity for product SO THAT I get what I need
+20.	As a shopper I CAN view my cart items SO THAT I know the cost 
 
-| Feature | Action                                                                            | Expected Result                                | Actual Result     |
-| ------- | --------------------------------------------------------------------------------- | ---------------------------------------------- | ----------------- |
-| Cart    | From the cart press the increase/ decrease button to desired number, click update | The cart will update with the desired quantity | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-22. As a shopper I can receive order confirmation so that I can be notified of successful order
-
-| Feature   | Action                                                              | Expected Result                          | Actual Result     |
-| --------- | ------------------------------------------------------------------- | ---------------------------------------- | ----------------- |
-| Alert Box | Upon a successful checkout an alert box will be visible to the user | Alert box pops up with the order details | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Cart | Click the cart icon in the navbar | The cart page will appear and display all items in the cart and their cost alongside total price for all items | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-23. As a site user I can receive emails confirmation so that notify of registration success
+21.	As a shopper I CAN select size or quantity for product SO THAT I get what I need 
 
-| Feature            | Action                                                                                                                             | Expected Result                       | Actual Result     |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------- |
-| Email Confirmation | Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order | Email confirmation arrives into inbox | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-</details>
-
-24. As a site owner I CAN add product SO THAT I can display new products on the market
-
-| Feature     | Action                                                                                               | Expected Result                                                                                  | Actual Result     |
-| ----------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------- |
-| Add Product | From the navbar select the profile button as an admin logged in, click add product from the dropdown | The add product page will appear allowing the addition of a new product via the add product form | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-</details>
-
-25. As a site owner I can edit products so that I display discount or product availability
-
-| Feature      | Action                                                                              | Expected Result                                                                         | Actual Result     |
-| ------------ | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ----------------- |
-| Edit Product | From product detail as an admin account, find a edit button on the page, click edit | Admin is brought to the edit product page where they can adjust any part of the product | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Cart | From the cart press the increase/ decrease button to desired number, click update | The cart will update with the desired quantity | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-26. As a site owner I can delete products so that I can control my available products
-
-| Feature        | Action                                                                                  | Expected Result                                                               | Actual Result     |
-| -------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------- |
-| Delete Product | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-27. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
-
-| Feature | Action                                                                                 | Expected Result                                       | Actual Result     |
-| ------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------- |
-| Search  | Search box in the navigation bar, input keyword to search such as "blue", click search | All items with the relevant keyword will be displayed | Works as expected |
+22.	As a shopper I can receive order confirmation so that I can be notified of successful order
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Alert Box | Upon a successful checkout an alert box will be visible to the user | Alert box pops up with the order details | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-28. As a shopper I can sort product by category so that I can easily find the product I'm looking for
+23.	As a site user I can receive emails confirmation so that notify of registration success
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Email Confirmation | Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order |     Email confirmation arrives into inbox | Works as expected  
 
-| Feature | Action                                                                   | Expected Result                                                                            | Actual Result     |
-| ------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ----------------- |
-| Sort    | From the store page, click a category on the side panel such as headwear | User is brought to the headwear page where only products classed as headwear are displayed | Works as expected |
+<details><summary>See Images</summary>
+<img src=" ">
+</details>  
+
+24.	As a site owner I CAN add product SO THAT I can display new products on the market
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Add Product | From the navbar select the profile button as an admin logged in, click add product from the dropdown | The add product page will appear allowing the addition of a new product via the add product form | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+</details> 
+
+25.	As a site owner I can edit products so that I display discount or product availability
+ 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Edit Product | From product detail as an admin account, find a edit button on the page, click edit | Admin is brought to the edit product page where they can adjust any part of the product | Works as expected  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
 
-29. As a shopper I can sort product by high and low prices so that I can find the best value for my money
+26.	As a site owner I can delete products so that I can control my available products
+  
 
-| Feature | Action                                                                    | Expected Result                                                     | Actual Result     |
-| ------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------- |
-| Sort    | From the store page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected |
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Delete Product  | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |  
 
 <details><summary>See Images</summary>
 <img src=" ">
 <img src=" ">
-</details>
+</details>  
+
+27.	As a shopper I can search product by name/description  so that I don not have to scroll and product is found quicker if it exists
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Search | Search box in the navigation bar, input keyword to search such as "blue", click search | All items with the relevant keyword will be displayed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+28.	As a shopper I can sort product by category so that I can easily find the product I'm looking for 
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sort | From the store page, click a category on the side panel such as headwear | User is brought to the headwear page where only products classed as headwear are displayed | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
+29.	As a shopper I can sort product by high and low prices so that I can find the best value for my money
+ 
+ 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Sort | From the store page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected  
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>  
+
 
 ## Bugs
 
@@ -1343,7 +1324,7 @@ This application has been deployed from Github using Heroku. Here's how:
 
 12. Set DEBUG value to False
 <details>
-<img src="">
+<img src="docs/heroku/debug-false.JPG">
 </details>
 
 13. Set X_FRAME_OPTION ='SAMEORIGIN'
@@ -1358,14 +1339,14 @@ This application has been deployed from Github using Heroku. Here's how:
 
 18. Go to deploy in the Heroku app
     <details>
-    <img src="">
+    <img src="docs/heroku/heroku-deploy.JPG">
     </details>
 
 19. Clik Deploy
 
 20. View build logs for error
      <details>
-     <img src="">
+     <img src="docs/heroku/heroku-build-log.JPG">
      </details>
 
 21. Click app to view website
