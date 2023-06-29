@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row my-5 mt-5 text-center">
         <div class="col bg-blue rounded shadow">
-            <a class="text-warning f-fam text-decoration-none" href="{% url 'blog' %}" >
+            <a class="text-warning f-fam text-decoration-none" href="{% url 'blog' %}">
                 <h1 class="my-5" style="font-size: 4rem;">
                     Blog
                 </h1>
@@ -24,7 +24,8 @@
                 <div class="col-md-4 m-3 grow bg-info rounded shadow-lg">
                     {% if post.featured_image %}
                     <a href="{% url 'post_expand' post.slug %}">
-                        <img class="card-img-top mt-2" src="{{ post.featured_image.url }}" alt="image for blog post {{ post.title }}"></a>
+                        <img class="card-img-top mt-2" src="{{ post.featured_image.url }}"
+                            alt="image for blog post {{ post.title }}"></a>
                     {% else %}
                     <a href="{% url 'post_expand' post.slug %}">
                         <img class="card-img-top mt-2" src="{% static 'img/default-image.jpg' %}"
@@ -32,11 +33,11 @@
                     {% endif %}
 
                     <div class="card-body">
-                        <h2 class="card-title mt-3 text-white">{{ post.title }}</h2>
-                        <p class="card-subtitle mb-2 text-white">By: {{ post.author }}</p>
-                        <p class="card-text mt-3 text-white"><em>{{ post.excerpt }}</em></p>
+                        <h2 class="card-title mt-3 ">{{ post.title }}</h2>
+                        <p class="card-subtitle mb-2 ">By: {{ post.author }}</p>
+                        <p class="card-text mt-3 "><em>{{ post.excerpt }}</em></p>
                         <hr>
-                        <p class="card-text text-white h6 mb-3">{{ post.created_date }}</p>
+                        <p class="card-text h6 mb-3">{{ post.created_date }}</p>
                     </div>
                 </div>
 
@@ -49,17 +50,17 @@
     <nav aria-label="Page navigation">
         <ul class="pagination justify-content-center my-5">
             {% if postings.has_previous %}
-            <li ><a class="page-link text-blue" href="?page=1">First</a></li>
-            <li ><a class="page-link text-blue" href="?page={{ postings.previous_page_number }}">&laquo;</a>
+            <li><a class="page-link text-blue" href="?page=1">First</a></li>
+            <li><a class="page-link text-blue" href="?page={{ postings.previous_page_number }}">&laquo;</a>
             </li>
             {% endif %}
-            <li class="page-link pagination-arrow text-blue" >
+            <li class="page-link pagination-arrow text-blue">
                 Page {{ postings.number }} of {{ postings.paginator.num_pages }}
             </li>
             {% if postings.has_next %}
-            <li ><a class="page-link text-blue" href="?page={{ postings.next_page_number }}">&raquo;</a>
+            <li><a class="page-link text-blue" href="?page={{ postings.next_page_number }}">&raquo;</a>
             </li>
-            <li ><a class="page-link text-blue" href="?page={{ postings.paginator.num_pages}}">Last</a>
+            <li><a class="page-link text-blue" href="?page={{ postings.paginator.num_pages}}">Last</a>
             </li>
             {% endif %}
         </ul>
