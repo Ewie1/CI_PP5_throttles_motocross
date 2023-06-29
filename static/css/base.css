@@ -21,6 +21,14 @@ body {
     margin-top: 100px;
 }
 
+.logo {
+    height: 50px;
+    width: 50px;
+    background: url('/media/logo-motoc.png') no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
 .boot-icon {
     height: 50px;
     width: 50px;
