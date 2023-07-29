@@ -142,52 +142,51 @@ It contains an email sign up form and useful links as well as contact informatio
 
 - Generate revenue through sales from the e-commerce store and help users get little motocross tricks and tips
 - Build a strong and loyal customer base by providing an easy-to-use platform and high-quality products
-- Sustain progitabiliy and maintain long-term growth
+- Sustain profitabiliy and maintain long-term growth
 - Establish Throttlers MC as a trusted and go to brand in the Motocross community
 
 ## User Experience
 
 ### Target Audience
+
 - Motocross racing professional who needs quality parts, bikes, gear, etc.
 - Motocross enthusias who ride for fun and are in need of quality product without the stress of driving to a store
 - Motocross beginners who needs tips and information to get started (this can be acheive via site blog)
-- Individuals who want to be appart of a Motocross club/community 
+- Individuals who want to be appart of a Motocross club/community
 
 ### User Reqirements and Expectaions
 
-
-
+- Good customer service where users will expect the app to have good customer service, including responsive and helpful support in the event of any issues or questions.
 - Accessible site
-- Navigations that are simple and easy to use
-- Site contact information
-- Social media links
-- Fully responsiveness
+- Security where users will expect their personal and financial information to be secure when using the app, and will expect the app to have appropriate measures in place to protect their data.
+- Reliability where users will expect the app to be reliable and function smoothly, without any errors or technical issues.
+- A user-friendly interface users will expect the app to be easy to navigate and use, with clear and concise instructions on purchasing products.
+- A wide selection of products with discriptions, details and competitive prices
 
 ### User Stories
 
 #### User
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
+1. As a site user I can register so that I can become a member
+2. As a site user I can create a user profile so that shop easily, get benefits and special access
+3. As a return user I can login/logout so that I do not need to register every time and my information is remembered
+4. As a site user I can logout so that I can leave site and my information is protected
+5. As a site user I can receive emails confirmation so that notify of registration success
+6. As a site user I can recover my password so that I can create a new password If I can't remember password
 
-#### Returning User
+
+
+7. As a site user I can easily navigate through the site so that see and access all site features
+8. As a site user I can get notifications so that I know my actions are successful or failed
+9. As a site user I can see my login status so that I can know if I am logged in or out
+10. As a site user I can access social media links so that visit store social media site
+11. As a shopper I can got to site store so that I can shop products
+12. As a shopper I can view my cart items so that I know the cost
+13. As a shopper I can view product list so that I can see what products are available
+14. As a shopper I can view a specific product detail so that I can get more information about the product
+
 
 19.
-
-#### Site Owner
-
 12.
 13.
 14.
