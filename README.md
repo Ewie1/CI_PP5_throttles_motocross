@@ -186,11 +186,17 @@ It contains an email sign up form and useful links as well as contact informatio
 14. As a shopper I can view a specific product detail so that I can get more information about the product
 
 
-19.
-12.
-13.
-14.
-15.
+15. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
+16. As a shopper I can sort product by category so that I can easily find the product I'm looking for
+17. As a shopper I can sort product by high and low prices so that I can find the best value for my money
+
+
+18. As a site user I can view my cart at any time so that see what I am buying and the cost
+19. As a shopper I can use card as payment method so that complete my purchase
+20. As a shopper I can change item quantity or size in cart so that I can change item if needed
+21. As a shopper I can select size or quantity for product so that so I get what I need
+22. As a shopper I can receive order confirmation so that I can be notified of successful order
+23. As a site user I can receive emails confirmation so that notify of registration success 
 
 ### Kanban, Epics & User Stories
 
