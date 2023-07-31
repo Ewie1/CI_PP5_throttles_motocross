@@ -167,41 +167,42 @@ It contains an email sign up form and useful links as well as contact informatio
 
 #### User
 
+1.
 1. As a site user I can register so that I can become a member
-2. As a site user I can create a user profile so that shop easily, get benefits and special access
-3. As a return user I can login/logout so that I do not need to register every time and my information is remembered
-4. As a site user I can logout so that I can leave site and my information is protected
-5. As a site user I can receive emails confirmation so that notify of registration success
-6. As a site user I can recover my password so that I can create a new password If I can't remember password
+1. As a site user I can create a user profile so that shop easily, get benefits and special access
+1. As a return user I can login/logout so that I do not need to register every time and my information is remembered
+1. As a site user I can logout so that I can leave site and my information is protected
+1. As a site user I can receive emails confirmation so that notify of registration success
+1. As a site user I can recover my password so that I can create a new password If I can't remember password
 
-7. As a site user I can easily navigate through the site so that see and access all site features
-8. As a site user I can get notifications so that I know my actions are successful or failed
-9. As a site user I can see my login status so that I can know if I am logged in or out
-10. As a site user I can access social media links so that visit store social media site
-11. As a shopper I can got to site store so that I can shop products
-12. As a shopper I can view my cart items so that I know the cost
-13. As a shopper I can view product list so that I can see what products are available
-14. As a shopper I can view a specific product detail so that I can get more information about the product
+1. As a site user I can easily navigate through the site so that see and access all site features
+1. As a site user I can get notifications so that I know my actions are successful or failed
+1. As a site user I can see my login status so that I can know if I am logged in or out
+1. As a site user I can access social media links so that visit store social media site
+1. As a shopper I can got to site store so that I can shop products
+1. As a shopper I can view my cart items so that I know the cost
+1. As a shopper I can view product list so that I can see what products are available
+1. As a shopper I can view a specific product detail so that I can get more information about the product
 
-15. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
-16. As a shopper I can sort product by category so that I can easily find the product I'm looking for
-17. As a shopper I can sort product by high and low prices so that I can find the best value for my money
+1. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
+1. As a shopper I can sort product by category so that I can easily find the product I'm looking for
+1. As a shopper I can sort product by high and low prices so that I can find the best value for my money
 
-18. As a site user I can view my cart at any time so that see what I am buying and the cost
-19. As a shopper I can use card as payment method so that complete my purchase
-20. As a shopper I can change item quantity or size in cart so that I can change item if needed
-21. As a shopper I can select size or quantity for product so that so I get what I need
-22. As a shopper I can receive order confirmation so that I can be notified of successful order
-23. As a site user I can receive emails confirmation so that notify of registration success
+1. As a site user I can view my cart at any time so that see what I am buying and the cost
+1. As a shopper I can use card as payment method so that complete my purchase
+1. As a shopper I can change item quantity or size in cart so that I can change item if needed
+1. As a shopper I can select size or quantity for product so that so I get what I need
+1. As a shopper I can receive order confirmation so that I can be notified of successful order
+1. As a site user I can receive emails confirmation so that notify of registration success
 
-24. As a site owner I can add product so that I can display new products on the market
-25. As a site owner I can edit products so that I display discount or product availability
-26. As a site owner I can delete products so that I can control my available products
+1. As a site owner I can add product so that I can display new products on the market
+1. As a site owner I can edit products so that I display discount or product availability
+1. As a site owner I can delete products so that I can control my available products
 
-27. As a site user I can Contact Administration so that ask questions or give inquiries
-28. As a site owner I can have a blog so that topics can be posted to be commented on
-29. As a site user I can comment on blog so that my opinions can be seen
-30. As a site user I can access blog details so that read blog information
+1. As a site user I can Contact Administration so that ask questions or give inquiries
+1. As a site owner I can have a blog so that topics can be posted to be commented on
+1. As a site user I can comment on blog so that my opinions can be seen
+1. As a site user I can access blog details so that read blog information
 
 ### Kanban, Epics & User Stories
 
@@ -975,18 +976,7 @@ It contains an email sign up form and useful links as well as contact informatio
    <img src="">
    </details>
 
-2. As a Site User I CAN navigate across the site SO THAT I CAN can access all parts of the site
-
-| Feature | Action                                                                              | Expected Result                                                                    | Actual Result     |
-| ------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------- |
-| Navbar  | Click on any link in the navbar to be brought to a relevant page, store for example | Be brought to store to view all products after clicking all products in the navbar | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-3. As a Site User I CAN register for an account SO THAT I CAN have an account and view my profile
+2. As a site user I can register so that I can become a member
 
 | Feature | Action                                                                       | Expected Result                     | Actual Result     |
 | ------- | ---------------------------------------------------------------------------- | ----------------------------------- | ----------------- |
@@ -997,7 +987,7 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>
 
-4. As a Site User I CAN have a profile SO THAT I CAN store my information for faster checkouts in the future
+3. As a site user I can create a user profile so that shop easily, get benefits and special access
 
 | Feature | Action                                                                                                                                 | Expected Result            | Actual Result     |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ----------------- |
@@ -1008,7 +998,7 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>
 
-5. As a Site User I CAN login and logout SO THAT I CAN have an account with my information stored for fast usage
+4. As a return user I can login/logout so that I do not need to register every time and my information is remembered
 
 | Feature | Action                                                                    | Expected Result                     | Actual Result     |
 | ------- | ------------------------------------------------------------------------- | ----------------------------------- | ----------------- |
@@ -1019,108 +1009,17 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>
 
-6. As a Site User I CAN be notified of my actions SO THAT I CAN be aware the action was completed successfully or not
+5. As a site user I can receive emails confirmation so that notify of registration success
 
-| Feature   | Action                                 | Expected Result                                                                    | Actual Result     |
-| --------- | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------- |
-| Alert Box | Add an item from the store to the cart | A message will appear in the alert box on screen to notify the user of this action | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-7.  As a site owner I WANT the user to be able to send us messages/emails through a contact form
-
-    | Step                                       | Expected Result                                   | Actual Result     |
-    | ------------------------------------------ | ------------------------------------------------- | ----------------- |
-    | Got to 'Get Registered' click on 'Contact' | Contact form will be displayed with message field | Works as expected |
-
-    <details><summary>Screenshots</summary>
-    <img src="">
-    </details>
-
-8.  As a site user I CAN to see a blog list
-| Step | Expected Result | Actual Result |
-|------------|---------------------|-------------------|
-| Go to blog on navbar | A list of blog post will display | Works as expected |
-<details><summary>Screenshots</summary>
-<img src="">
-</details>
-
-9.  As a site user I CAN have blog commenting options
-| Step | Expected Result | Actual Result |
-|------------|---------------------|-------------------|
-| Login, click on blog post | Comment form will display for commenting | Works as expected |
-<details><summary>Screenshots</summary>
-<img src="">
-<img src="">
-<img src="">
-</details>
-
-10. As a site user I CAN read blog details
-    | Step | Expected Result | Actual Result |
-    |------------|---------------------|-------------------|
-    | Click on a blog image in blog list | Blog details will display | Works as expected |
-    <details><summary>Screenshots</summary>
-    <img src="">
-    </details>
-
-11. As a Site User I CAN visit the store SO THAT I CAN view all products available
-
-| Feature | Action                                         | Expected Result                                            | Actual Result     |
-| ------- | ---------------------------------------------- | ---------------------------------------------------------- | ----------------- |
-| Store   | Click stror in the navbar, select all products | User is then brought to the all products page of the store | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-12. As a Site User I CAN view a list of products SO THAT I CAN select a product to purchase
-
-| Feature    | Action                                            | Expected Result                                                                 | Actual Result     |
-| ---------- | ------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------- |
-| Categories | Select a category on the side panel, select Bikes | User is brought to the selected category of product and all products are listed | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-13. As a Site User I CAN view an individual product details SO THAT I CAN view a more detailed view of the product
-
-| Feature        | Action                                                   | Expected Result                                                                | Actual Result     |
-| -------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------- |
-| Product Detail | Click on any item image in the store, or the view button | User is brought to the product detail page where product details are displayed | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-14. As a Site User I CAN view my cart and total cost at any time so I am aware of what I am buying and it's cost
-
-| Feature | Action                            | Expected Result                                                                                                 | Actual Result     |
-| ------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Cart    | Click the cart icon in the navbar | User is brought to the cart page where all products in cart are displayed along with their price and total cost | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-15. As a Site User I CAN see my login status SO THAT I CAN know if I am logged in or not
-
-| Feature    | Action                                                                                               | Expected Result                               | Actual Result     |
-| ---------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------- | ----------------- |
-| Navigation | While logged out the profile icon in the navbar will be gray, log in it will change to a green color | Once logged in the profile icon will be green | Works as expected |
+| Feature      | Action                                                                   | Expected Result                                                            | Actual Result     |
+| ------------ | ------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ----------------- |
+| Registration | Upon registration an email is sent to verify the email address submitted | Registration email arrives into inbox of the email address used to sign up | Works as expected |
 
 <details><summary>See Images</summary>
 <img src=" ">
 </details>
 
-16. As a Site User I CAN recover my password SO THAT I CAN set a new password if I forgot it
+6. As a site user I can recover my password so that I can create a new password If I can't remember password
 
 | Feature        | Action                                                                                                                        | Expected Result                        | Actual Result     |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------------- |
@@ -1132,17 +1031,39 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>
 
-17. As a Site User I CAN receive an email confirmation after registration SO THAT I CAN be notified registration was successful
+7. As a site user I can easily navigate through the site so that see and access all site features
 
-| Feature      | Action                                                                   | Expected Result                                                            | Actual Result     |
-| ------------ | ------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ----------------- |
-| Registration | Upon registration an email is sent to verify the email address submitted | Registration email arrives into inbox of the email address used to sign up | Works as expected |
+| Feature | Action                                                                              | Expected Result                                                                    | Actual Result     |
+| ------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------- |
+| Navbar  | Click on any link in the navbar to be brought to a relevant page, store for example | Be brought to store to view all products after clicking all products in the navbar | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+8. As a site user I can get notifications so that I know my actions are successful or failed
+
+| Feature   | Action                                 | Expected Result                                                                    | Actual Result     |
+| --------- | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------- |
+| Alert Box | Add an item from the store to the cart | A message will appear in the alert box on screen to notify the user of this action | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+9. As a site user I can see my login status so that I can know if I am logged in or out
+
+| Feature    | Action                                                                                               | Expected Result                               | Actual Result     |
+| ---------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------- | ----------------- |
+| Navigation | While logged out the profile icon in the navbar will be gray, log in it will change to a green color | Once logged in the profile icon will be green | Works as expected |
 
 <details><summary>See Images</summary>
 <img src=" ">
 </details>
 
-0.  As a Site User I CAN use a navbar, footer, and social icons SO THAT I CAN navigate the site, access menus, and access socials
+10. As a site user I can access social media links so that visit store social media site
 
 | Feature       | Action                                       | Expected Result                                          | Actual Result     |
 | ------------- | -------------------------------------------- | -------------------------------------------------------- | ----------------- |
@@ -1152,7 +1073,95 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>
 
-18. As a shopper I CAN use card as payment method SO THAT complete my purchase
+11. As a shopper I can got to site store so that I can shop products
+
+| Feature | Action                                         | Expected Result                                            | Actual Result     |
+| ------- | ---------------------------------------------- | ---------------------------------------------------------- | ----------------- |
+| Store   | Click stror in the navbar, select all products | User is then brought to the all products page of the store | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+12. As a shopper I can view my cart items so that I know the cost
+
+| Feature | Action                            | Expected Result                                                                                                 | Actual Result     |
+| ------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------- |
+| Cart    | Click the cart icon in the navbar | User is brought to the cart page where all products in cart are displayed along with their price and total cost | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+13. . As a shopper I can view product list so that I can see what products are available
+
+| Feature    | Action                                            | Expected Result                                                                 | Actual Result     |
+| ---------- | ------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------- |
+| Categories | Select a category on the side panel, select Bikes | User is brought to the selected category of product and all products are listed | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+14. As a shopper I can view a specific product detail so that I can get more information about the product
+
+| Feature        | Action                                                   | Expected Result                                                                | Actual Result     |
+| -------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------- |
+| Product Detail | Click on any item image in the store, or the view button | User is brought to the product detail page where product details are displayed | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+15. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
+
+| Feature | Action                                                                                 | Expected Result                                       | Actual Result     |
+| ------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------- |
+| Search  | Search box in the navigation bar, input keyword to search such as "blue", click search | All items with the relevant keyword will be displayed | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+16. As a shopper I can sort product by category so that I can easily find the product I'm looking for
+
+| Feature | Action                                                                   | Expected Result                                                                            | Actual Result     |
+| ------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ----------------- |
+| Sort    | From the store page, click a category on the side panel such as headwear | User is brought to the headwear page where only products classed as headwear are displayed | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+17. As a shopper I can sort product by high and low prices so that I can find the best value for my money
+
+| Feature | Action                                                                    | Expected Result                                                     | Actual Result     |
+| ------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------- |
+| Sort    | From the store page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+18. As a site user I can view my cart at any time so that see what I am buying and the cost
+
+| Feature | Action                            | Expected Result                                                                                                | Actual Result     |
+| ------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------- |
+| Cart    | Click the cart icon in the navbar | The cart page will appear and display all items in the cart and their cost alongside total price for all items | Works as expected |
+
+<details><summary>See Images</summary>
+<img src=" ">
+<img src=" ">
+</details>
+
+19. As a shopper I can use card as payment method so that complete my purchase
 
 | Feature  | Action                               | Expected Result                                                                                      | Actual Result     |
 | -------- | ------------------------------------ | ---------------------------------------------------------------------------------------------------- | ----------------- |
@@ -1164,7 +1173,7 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>
 
-19. As a shopper I CAN select size or quantity for product SO THAT so I get what I need
+20. As a shopper I can change item quantity or size in cart so that I can change item if needed
 
 | Feature         | Action                                                                                                                       | Expected Result                              | Actual Result     |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----------------- |
@@ -1175,18 +1184,7 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>
 
-20. As a shopper I CAN view my cart items SO THAT I know the cost
-
-| Feature | Action                            | Expected Result                                                                                                | Actual Result     |
-| ------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------- |
-| Cart    | Click the cart icon in the navbar | The cart page will appear and display all items in the cart and their cost alongside total price for all items | Works as expected |
-
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
-
-21. As a shopper I CAN select size or quantity for product SO THAT I get what I need
+21. As a shopper I can select size or quantity for product so that so I get what I need
 
 | Feature | Action                                                                            | Expected Result                                | Actual Result     |
 | ------- | --------------------------------------------------------------------------------- | ---------------------------------------------- | ----------------- |
@@ -1250,38 +1248,48 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src=" ">
 </details>
 
-27. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
+27. As a site user I can Contact Administration so that ask questions or give inquiries
 
-| Feature | Action                                                                                 | Expected Result                                       | Actual Result     |
-| ------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------- |
-| Search  | Search box in the navigation bar, input keyword to search such as "blue", click search | All items with the relevant keyword will be displayed | Works as expected |
 
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+    | Step                                       | Expected Result                                   | Actual Result     |
+    | ------------------------------------------ | ------------------------------------------------- | ----------------- |
+    | Got to 'Get Registered' click on 'Contact' | Contact form will be displayed with message field | Works as expected |
+
+    <details><summary>Screenshots</summary>
+    <img src="">
+    </details>
+
+28. As a site owner I can have a blog so that topics can be posted to be commented on
+
+| Step                 | Expected Result                  | Actual Result     |
+| -------------------- | -------------------------------- | ----------------- |
+| Go to blog on navbar | A list of blog post will display | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="">
 </details>
 
-28. As a shopper I can sort product by category so that I can easily find the product I'm looking for
+29. As a site user I can comment on blog so that my opinions can be seen
 
-| Feature | Action                                                                   | Expected Result                                                                            | Actual Result     |
-| ------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ----------------- |
-| Sort    | From the store page, click a category on the side panel such as headwear | User is brought to the headwear page where only products classed as headwear are displayed | Works as expected |
+| Step                      | Expected Result                          | Actual Result     |
+| ------------------------- | ---------------------------------------- | ----------------- |
+| Login, click on blog post | Comment form will display for commenting | Works as expected |
 
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<details><summary>Screenshots</summary>
+<img src="">
+<img src="">
+<img src="">
 </details>
 
-29. As a shopper I can sort product by high and low prices so that I can find the best value for my money
+30. As a site user I can access blog details so that read blog information
 
-| Feature | Action                                                                    | Expected Result                                                     | Actual Result     |
-| ------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------- |
-| Sort    | From the store page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected |
+    | Step                               | Expected Result           | Actual Result     |
+    | ---------------------------------- | ------------------------- | ----------------- |
+    | Click on a blog image in blog list | Blog details will display | Works as expected |
 
-<details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-</details>
+    <details><summary>Screenshots</summary>
+    <img src="">
+    </details>
 
 ## Bugs
 
