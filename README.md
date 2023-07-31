@@ -167,44 +167,50 @@ It contains an email sign up form and useful links as well as contact informatio
 
 #### User
 
-1.
-1. As a site user I can register so that I can become a member
-1. As a site user I can create a user profile so that shop easily, get benefits and special access
-1. As a return user I can login/logout so that I do not need to register every time and my information is remembered
-1. As a site user I can logout so that I can leave site and my information is protected
-1. As a site user I can receive emails confirmation so that notify of registration success
-1. As a site user I can recover my password so that I can create a new password If I can't remember password
+##### Registration/User Account
+1. As a user I can view home page so that see what the site is about
+2. As a site user I can register so that I can become a member
+3. As a site user I can create a user profile so that shop easily, get benefits and special access
+4. As a return user I can login/logout so that I do not need to register every time and my information is remembered
+5. As a site user I can logout so that I can leave site and my information is protected
+6. As a site user I can receive emails confirmation so that notify of registration success
+7. As a site user I can recover my password so that I can create a new password If I can't remember password
 
-1. As a site user I can easily navigate through the site so that see and access all site features
-1. As a site user I can get notifications so that I know my actions are successful or failed
-1. As a site user I can see my login status so that I can know if I am logged in or out
-1. As a site user I can access social media links so that visit store social media site
-1. As a shopper I can got to site store so that I can shop products
-1. As a shopper I can view my cart items so that I know the cost
-1. As a shopper I can view product list so that I can see what products are available
-1. As a shopper I can view a specific product detail so that I can get more information about the product
+##### Viewing/Navigation
+8. As a site user I can easily navigate through the site so that see and access all site features
+9. As a site user I can get notifications so that I know my actions are successful or failed
+10. As a site user I can see my login status so that I can know if I am logged in or out
+11. As a site user I can access social media links so that visit store social media site
+12. As a shopper I can got to site store so that I can shop products
+13. As a shopper I can view my cart items so that I know the cost
+14. As a shopper I can view product list so that I can see what products are available
+15. As a shopper I can view a specific product detail so that I can get more information about the product
 
-1. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
-1. As a shopper I can sort product by category so that I can easily find the product I'm looking for
-1. As a shopper I can sort product by high and low prices so that I can find the best value for my money
+##### Sort/Searching
+16. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
+17. As a shopper I can sort product by category so that I can easily find the product I'm looking for
+18. As a shopper I can sort product by high and low prices so that I can find the best value for my money
 
-1. As a site user I can view my cart at any time so that see what I am buying and the cost
-1. As a shopper I can use card as payment method so that complete my purchase
-1. As a shopper I can change item quantity or size in cart so that I can change item if needed
-1. As a shopper I can select size or quantity for product so that so I get what I need
-1. As a shopper I can receive order confirmation so that I can be notified of successful order
-1. As a site user I can receive emails confirmation so that notify of registration success
+##### Purchase/Checkout
+19. As a site user I can view my cart at any time so that see what I am buying and the cost
+20. As a shopper I can use card as payment method so that complete my purchase
+21. As a shopper I can change item quantity or size in cart so that I can change item if needed
+22. As a shopper I can select size or quantity for product so that so I get what I need
+23. As a shopper I can receive order confirmation so that I can be notified of successful order
+24. As a site user I can receive emails confirmation so that notify of registration success
 
-1. As a site owner I can add product so that I can display new products on the market
-1. As a site owner I can edit products so that I display discount or product availability
-1. As a site owner I can delete products so that I can control my available products
+##### Admin/Store Management
+25. As a site owner I can add product so that I can display new products on the market
+26. As a site owner I can edit products so that I display discount or product availability
+27. As a site owner I can delete products so that I can control my available products
 
-1. As a site user I can Contact Administration so that ask questions or give inquiries
-1. As a site owner I can have a blog so that topics can be posted to be commented on
-1. As a site user I can comment on blog so that my opinions can be seen
-1. As a site user I can access blog details so that read blog information
+##### Blog
+28. As a site user I can Contact Administration so that ask questions or give inquiries
+29. As a site owner I can have a blog so that topics can be posted to be commented on
+30. As a site user I can comment on blog so that my opinions can be seen
+31. As a site user I can access blog details so that read blog information
 
-### Kanban, Epics & User Stories
+### Kanban & Epic
 
 - GitHub Kanban was used to track all open user stories
 - Epic was created using the milestones feature
@@ -1249,7 +1255,6 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 27. As a site user I can Contact Administration so that ask questions or give inquiries
-
 
     | Step                                       | Expected Result                                   | Actual Result     |
     | ------------------------------------------ | ------------------------------------------------- | ----------------- |
