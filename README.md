@@ -207,21 +207,35 @@ It contains an email sign up form and useful links as well as contact informatio
 
 - GitHub Kanban was used to track all open user stories
 - Epic was created using the milestones feature
--
 
-<details><summary>Epic</summary>
+<details><summary>Epic 2</summary>
 
-![Epic]()
+![Epic](docs/agile/epic2.JPG)
 
 </details>
-<details><summary>User Story</summary>
+<details><summary>Epic 3</summary>
 
-![User Story]()
+![Epic](docs/agile/epic3.JPG)
+
+</details>
+<details><summary>Epic 4</summary>
+
+![Epic](docs/agile/epic4.JPG)
+
+</details>
+<details><summary>Epic 5</summary>
+
+![Epic](docs/agile/epic5.JPG)
+
+</details>
+<details><summary>Epic 6</summary>
+
+![Epic](docs/agile/epic6.JPG)
 
 </details>
 <details><summary>Kanban</summary>
 
-![Kanban]()
+![Kanban](docs/agile/kanban.JPG)
 
 </details>
 
