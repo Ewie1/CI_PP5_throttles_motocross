@@ -174,8 +174,6 @@ It contains an email sign up form and useful links as well as contact informatio
 5. As a site user I can receive emails confirmation so that notify of registration success
 6. As a site user I can recover my password so that I can create a new password If I can't remember password
 
-
-
 7. As a site user I can easily navigate through the site so that see and access all site features
 8. As a site user I can get notifications so that I know my actions are successful or failed
 9. As a site user I can see my login status so that I can know if I am logged in or out
@@ -185,18 +183,27 @@ It contains an email sign up form and useful links as well as contact informatio
 13. As a shopper I can view product list so that I can see what products are available
 14. As a shopper I can view a specific product detail so that I can get more information about the product
 
-
 15. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
 16. As a shopper I can sort product by category so that I can easily find the product I'm looking for
 17. As a shopper I can sort product by high and low prices so that I can find the best value for my money
-
 
 18. As a site user I can view my cart at any time so that see what I am buying and the cost
 19. As a shopper I can use card as payment method so that complete my purchase
 20. As a shopper I can change item quantity or size in cart so that I can change item if needed
 21. As a shopper I can select size or quantity for product so that so I get what I need
 22. As a shopper I can receive order confirmation so that I can be notified of successful order
-23. As a site user I can receive emails confirmation so that notify of registration success 
+23. As a site user I can receive emails confirmation so that notify of registration success
+
+24. As a site owner I can add product so that I can display new products on the market
+25. As a site owner I can edit products so that I display discount or product availability
+26. As a site owner I can delete products so that I can control my available products
+
+
+27. As a site user I can Contact Administration so that ask questions or give inquiries
+28. As a site owner I can have a blog so that topics can be posted to be commented on
+29. As a site user I can comment on blog so that my opinions can be seen
+30. As a site user I can access blog details so that read blog information
+
 
 ### Kanban, Epics & User Stories
 
