@@ -121,7 +121,7 @@ I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable 
 I built my database using PostgreSQL. It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
 
 <details><summary>See Database Image</summary>
-<img src="/workspaces/CI_PP5_throttles_motocross/doc/database/database.JPG">
+<img src="/workspaces/CI_PP5_throttles_motocross/docs/database/database.JPG">
 </details>
 <hr>
 
@@ -198,12 +198,10 @@ It contains an email sign up form and useful links as well as contact informatio
 25. As a site owner I can edit products so that I display discount or product availability
 26. As a site owner I can delete products so that I can control my available products
 
-
 27. As a site user I can Contact Administration so that ask questions or give inquiries
 28. As a site owner I can have a blog so that topics can be posted to be commented on
 29. As a site user I can comment on blog so that my opinions can be seen
 30. As a site user I can access blog details so that read blog information
-
 
 ### Kanban, Epics & User Stories
 
@@ -479,7 +477,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![home](doc/features/home.JPG)
+![home](docs/features/home.JPG)
 
 </details>
 
@@ -491,7 +489,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![footer](doc/features/site-footer.JPG)
+![footer](docs/features/site-footer.JPG)
 
 </details>
 
@@ -503,7 +501,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![signup/register](doc/features/register-form.JPG)
+![signup/register](docs/features/register-form.JPG)
 
 </details>
 
@@ -535,7 +533,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![program](doc/features/store.JPG)
+![program](docs/features/store.JPG)
 
 </details>
 
@@ -545,7 +543,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![read-program](doc/features/product-details.JPG)
+![read-program](docs/features/product-details.JPG)
 
 </details>
 
@@ -576,7 +574,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![cancel-enrollment](doc/features/view-cart.JPG)
+![cancel-enrollment](docs/features/view-cart.JPG)
 
 </details>
 
@@ -588,7 +586,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![contact-page](doc/features/contact-form.JPG)
+![contact-page](docs/features/contact-form.JPG)
 
 </details>
 
@@ -601,7 +599,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![blog](doc/features/blog-post.JPG)
+![blog](docs/features/blog-post.JPG)
 
 </details>
 
@@ -612,7 +610,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![blog-details](doc/features/blog-details.JPG)
+![blog-details](docs/features/blog-details.JPG)
 
 </details>
 
@@ -625,7 +623,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![program](doc/features/blog-comment-form.JPG)
+![program](docs/features/blog-comment-form.JPG)
 
 </details>
 
@@ -645,13 +643,13 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![enrollment-editing](doc/features/checkout-success.JPG)
+![enrollment-editing](docs/features/checkout-success.JPG)
 
 </details>
 
 <details><summary>See feature images</summary>
 
-![program](doc/features/email-verification.JPG)
+![program](docs/features/email-verification.JPG)
 
 </details>
 
@@ -760,7 +758,7 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src="">
 </details>
 <details><summary>view.py</summary>
-<img src="doc/validation/cart-view.JPG">
+<img src="docs/validation/cart-view.JPG">
 </details>
 
 #### Productsapp
@@ -787,43 +785,43 @@ It contains an email sign up form and useful links as well as contact informatio
 #### checkoutapp
 
 <details><summary>admin.py</summary>
-<img src="doc/validation/checkout-admin.JPG">
+<img src="docs/validation/checkout-admin.JPG">
 </details>
 <details><summary>forms.py</summary>
-<img src="doc/validation/checkout-form.JPG">
+<img src="docs/validation/checkout-form.JPG">
 </details>
 <details><summary>models.py</summary>
-<img src="doc/validation/checkout-model.JPG">
+<img src="docs/validation/checkout-model.JPG">
 </details>
 <details><summary>tests.py</summary>
 <img src="">
 </details>
 <details><summary>urls.py</summary>
-<img src="doc/validation/checkout-url.JPG">
+<img src="docs/validation/checkout-url.JPG">
 </details>
 <details><summary>view.py</summary>
-<img src="doc/validation/checkout-view.JPG">
+<img src="docs/validation/checkout-view.JPG">
 </details>
 
 #### Blog app
 
 <details><summary>admin.py</summary>
-<img src="doc/validation/blog-admin.JPG">
+<img src="docs/validation/blog-admin.JPG">
 </details>
 <details><summary>forms.py</summary>
-<img src="doc/validation/blog-form.JPG">
+<img src="docs/validation/blog-form.JPG">
 </details>
 <details><summary>models.py</summary>
-<img src="doc/validation/blog-model.JPG">
+<img src="docs/validation/blog-model.JPG">
 </details>
 <details><summary>tests.py</summary>
 <img src="">
 </details>
 <details><summary>urls.py</summary>
-<img src="doc/validation/blog-url.JPG">
+<img src="docs/validation/blog-url.JPG">
 </details>
 <details><summary>view.py</summary>
-<img src="doc/validation/blog-view.JPG">
+<img src="docs/validation/blog-view.JPG">
 </details>
 
 #### Profilesapp
