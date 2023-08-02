@@ -168,6 +168,7 @@ It contains an email sign up form and useful links as well as contact informatio
 #### User
 
 ##### Registration/User Account
+
 1. As a user I can view home page so that see what the site is about
 2. As a site user I can register so that I can become a member
 3. As a site user I can create a user profile so that shop easily, get benefits and special access
@@ -177,6 +178,7 @@ It contains an email sign up form and useful links as well as contact informatio
 7. As a site user I can recover my password so that I can create a new password If I can't remember password
 
 ##### Viewing/Navigation
+
 8. As a site user I can easily navigate through the site so that see and access all site features
 9. As a site user I can get notifications so that I know my actions are successful or failed
 10. As a site user I can see my login status so that I can know if I am logged in or out
@@ -187,11 +189,13 @@ It contains an email sign up form and useful links as well as contact informatio
 15. As a shopper I can view a specific product detail so that I can get more information about the product
 
 ##### Sort/Searching
+
 16. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
 17. As a shopper I can sort product by category so that I can easily find the product I'm looking for
 18. As a shopper I can sort product by high and low prices so that I can find the best value for my money
 
 ##### Purchase/Checkout
+
 19. As a site user I can view my cart at any time so that see what I am buying and the cost
 20. As a shopper I can use card as payment method so that complete my purchase
 21. As a shopper I can change item quantity or size in cart so that I can change item if needed
@@ -200,11 +204,13 @@ It contains an email sign up form and useful links as well as contact informatio
 24. As a site user I can receive emails confirmation so that notify of registration success
 
 ##### Admin/Store Management
+
 25. As a site owner I can add product so that I can display new products on the market
 26. As a site owner I can edit products so that I display discount or product availability
 27. As a site owner I can delete products so that I can control my available products
 
 ##### Blog
+
 28. As a site user I can Contact Administration so that ask questions or give inquiries
 29. As a site owner I can have a blog so that topics can be posted to be commented on
 30. As a site user I can comment on blog so that my opinions can be seen
@@ -249,64 +255,39 @@ It contains an email sign up form and useful links as well as contact informatio
 ### Wireframes
 
 <details><summary>Home</summary>
-<img src="">
-<img src="">
-<img src="">
+<img src="docs/wireframes/home-page.png">
+<img src="docs/wireframes/tablte-home-page.png">
+<img src="docs/wireframes/iphone-home-page.png">
 </details>
 <details><summary>Products</summary>
-<img src="">
-<img src="">
-<img src="">
-</details>
-<details><summary>P</summary>
-<img src="">
-<img src="">
-<img src="">
-</details>
-<details><summary></summary>
-<img src="">
-<img src="">
-<img src="">
-</details>
-<details><summary>B</summary>
-<img src="">
-<img src="">
-<img src="">
-</details>
-<details><summary>Contact</summary>
-<img src="">
-<img src="">
-<img src="">
+<img src="docs/wireframes/store-page.png">
+<img src="docs/wireframes/tablet-store-page.png">
+<img src="docs/wireframes/iphone-store-page.png">
 </details>
 <details><summary>Blog</summary>
-<img src="">
-<img src="">
-<img src="">
+<img src="docs/wireframes/blog-page.png">
+<img src="docs/wireframes/tablet-blog-page.png">
+<img src="docs/wireframes/iphone-blog-page.png">
 </details>
-<details><summary>Blog Details</summary>
-<img src="">
-<img src="">
-<img src="">
+<details><summary>Contact</summary>
+<img src="docs/wireframes/contact-page.png">
+<img src="docs/wireframes/tablet-contact-page.png">
+<img src="docs/wireframes/iphone-contact-page.png">
 </details>
-<details><summary>Register</summary>
-<img src="">
-<img src="">
-<img src="">
+<details><summary>Cart</summary>
+<img src="docs/wireframes/cart-page.png">
+<img src="docs/wireframes/tablet-cart-page.png">
+<img src="docs/wireframes/iphone-cart-page.png">
+</details>
+<details><summary>Registration</summary>
+<img src="docs/wireframes/registration-page.png">
+<img src="docs/wireframes/tablet-registration-page.png">
+<img src="docs/wireframes/iphone-registration-page.png">
 </details>
 <details><summary>Login</summary>
-<img src="">
-<img src="">
-<img src="">
-</details>
-<details><summary>Logout</summary>
-<img src="">
-<img src="">
-<img src="">
-</details>
-<details><summary>E</summary>
-<img src="">
-<img src="">
-<img src="">
+<img src="docs/wireframes/login-page.png">
+<img src="docs/wireframes/tablet-login-page.png">
+<img src="docs/wireframes/iphone-login-page.png">
 </details>
 
 ## Models
@@ -1000,8 +981,8 @@ It contains an email sign up form and useful links as well as contact informatio
 | Profile | From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="">
+<img src="">
 </details>
 
 4. As a return user I can login/logout so that I do not need to register every time and my information is remembered
