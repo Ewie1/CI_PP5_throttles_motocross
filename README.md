@@ -562,7 +562,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![add product]()
+![add product](docs/features/add-product.JPG)
 
 </details>
 
@@ -573,7 +573,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![edit product]()
+![edit product](docs/features/edit-product-form.JPG)
 
 </details>
 
@@ -682,6 +682,11 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ### 404 page
 
+<details><summary>See feature images</summary>
+
+![404](docs/features/404.JPG)
+
+</details>
 
 
 ## Validation
@@ -761,26 +766,6 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 <img src="docs/validation/py/validation-home-views.png">
 </details>
 
-#### Cartapp
-
-<details><summary>admin.py</summary>
-<img src="">
-</details>
-<details><summary>forms.py</summary>
-<img src="">
-</details>
-<details><summary>models.py</summary>
-<img src="">
-</details>
-<details><summary>tests.py</summary>
-<img src="">
-</details>
-<details><summary>urls.py</summary>
-<img src="">
-</details>
-<details><summary>view.py</summary>
-<img src="docs/validation/cart-view.JPG">
-</details>
 
 #### Productsapp
 
@@ -926,40 +911,6 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 </details>
 
-### Waves
-
-- The WAVE WebAIM web accessibility evaluation tool was used to test the websites accessibility.
-- Wave accessibilty issues with heroku connection cause some page not to be tested
-
-#### Desktop
-
-<details><summary>Home</summary>
-<img src="">
-</details>
-<details><summary>Store</summary>
-<img src="">
-</details>
-<details><summary>Contact Us</summary>
-<img src="">
-</details>
-<details><summary>Blog</summary>
-<img src="">
-</details>
-<details><summary>Blog details</summary>
-<img src="">
-</details>
-<details><summary>Register</summary>
-<img src="">
-</details>
-<details><summary>Login</summary>
-<img src="">
-</details>
-<details><summary>Logout</summary>
-<img src="">
-</details>
-<details><summary></summary>
-<img src="">
-</details>
 
 ### Manual testing
 
@@ -1055,12 +1006,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 <img src="docs/manualtesting/user-stories-order-success.jpg">
 <img src="docs/manualtesting/user-stories-add-cart.jpg">
 <img src="docs/manualtesting/user-stories-confirmation-email-sent.JPG">
-<img src=" ">
-<img src=" ">
-<img src=" ">
-<img src=" ">
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-edit-product-alert.jpg">
 </details>
 
 9. As a site user I can see my login status so that I can know if I am logged in or out
@@ -1070,7 +1016,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 | Navigation | While logged out the profile icon in the navbar will be gray, log in it will change to a green color | Once logged in the profile icon will be green | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
+<img src="docs/manualtesting/user-stories-add-login-logout.jpg">
 </details>
 
 10. As a site user I can access social media links so that visit store social media site
@@ -1229,7 +1175,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 | Add Product | From the navbar select the profile button as an admin logged in, click add product from the dropdown | The add product page will appear allowing the addition of a new product via the add product form | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
+<img src="docs/manualtesting/user-stories-add-product.jpg">
 </details>
 
 25. As a site owner I can edit products so that I display discount or product availability
@@ -1239,7 +1185,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 | Edit Product | From product detail as an admin account, find a edit button on the page, click edit | Admin is brought to the edit product page where they can adjust any part of the product | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
+<img src="docs/manualtesting/user-stories-edit-product.jpg">
 <img src=" ">
 </details>
 
@@ -1250,7 +1196,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 | Delete Product | From product detail as an admin account, find a delete button on the page, click delete | A modal pops up and asks the admin to confirm they wish to delete the product | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
+<img src="docs/manualtesting/user-stories-delete-product.jpg">
 <img src=" ">
 </details>
 
@@ -1285,8 +1231,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>Screenshots</summary>
 <img src="docs/manualtesting/user-stories-blog-details.jpg">
-<img src="">
-<img src="">
+<img src="docs/manualtesting/blog-comment-form.JPG">
+<img src="docs/manualtesting/comment.JPG">
 </details>
 
 30. As a site user I can access blog details so that read blog information
