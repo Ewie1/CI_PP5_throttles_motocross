@@ -467,8 +467,8 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![logo-and-nav]()
-![logo-and-nav]()
+![logo-and-nav](docs/features/logo.JPG)
+![logo-and-nav](docs/features/nav-bar.JPG)
 
 </details>
 
@@ -514,7 +514,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![login]()
+![login](docs/features/login-form.JPG)
 
 </details>
 
@@ -530,9 +530,6 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Store
 
--
-- Fully responsive
-
 <details><summary>See feature images</summary>
 
 ![program](docs/features/store.JPG)
@@ -541,8 +538,6 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Product details
 
--
-
 <details><summary>See feature images</summary>
 
 ![read-program](docs/features/product-details.JPG)
@@ -550,8 +545,6 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Add product
-
--
 
 <details><summary>See feature images</summary>
 
@@ -635,7 +628,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See feature images</summary>
 
-![program]()
+![program](docs/features/profile-form.JPG)
 
 </details>
 
@@ -659,9 +652,21 @@ It contains an email sign up form and useful links as well as contact informatio
 
 -
 
+<details><summary>See feature images</summary>
+
+![blog-details](docs/features/cart-nofication.JPG)
+
+</details>
+
 ### Checkout page
 
 -
+
+<details><summary>See feature images</summary>
+
+![blog-details](docs/features/checkout-page.JPG)
+
+</details>
 
 ## Validation
 
@@ -672,41 +677,41 @@ It contains an email sign up form and useful links as well as contact informatio
 <details><summary>Home</summary>
 <img src="">
 </details>
-<details><summary>Program</summary>
-<img src="">
-</details>
-<details><summary>Program details</summary>
-<img src="/">
-</details>
-<details><summary>My Booking</summary>
-<img src="">
-</details>
-<details><summary>Booking Edit</summary>
-<img src="">
-</details>
-</details>
-<details><summary>Contact Us</summary>
+<details><summary>Products</summary>
 <img src="">
 </details>
 <details><summary>Blog</summary>
+<img src="/">
+</details>
+<details><summary>Contact</summary>
 <img src="">
 </details>
-<details><summary>Blog details</summary>
+<details><summary>Cart</summary>
 <img src="">
 </details>
-<details><summary>Register</summary>
+</details>
+<details><summary>Signup</summary>
 <img src="">
 </details>
 <details><summary>Login</summary>
 <img src="">
 </details>
-<details><summary>Logout</summary>
+<details><summary>Profile</summary>
 <img src="">
 </details>
-<details><summary>Enroll</summary>
+<details><summary>Checkout</summary>
 <img src="">
 </details>
-<details><summary>403, 404, 500</summary>
+<details><summary></summary>
+<img src="">
+</details>
+<details><summary></summary>
+<img src="">
+</details>
+<details><summary></summary>
+<img src="">
+</details>
+<details><summary>404</summary>
 <img src="">
 </details>
 
