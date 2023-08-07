@@ -530,6 +530,8 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Store
 
+- View and select site products to purchase 
+
 <details><summary>See feature images</summary>
 
 ![program](docs/features/store.JPG)
@@ -537,6 +539,8 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Product details
+
+- See discription and availablity of products
 
 <details><summary>See feature images</summary>
 
@@ -546,6 +550,8 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Add product
 
+- Add selected product to shopping cart
+
 <details><summary>See feature images</summary>
 
 ![enrollment-list]()
@@ -554,7 +560,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Edit product
 
-- Here is the enrollment form displaying the fields fill with the current booking and ready to be changed
+- Site owner can edit product description and availablity
 - Submit and update message will be seen
 
 <details><summary>See feature images</summary>
@@ -565,7 +571,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Cart
 
--
+- View cart to see what you are buying and your totyal cost of items to purchase
 
 <details><summary>See feature images</summary>
 
@@ -624,7 +630,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Profile
 
--
+- Create a profile to be apart of Throttlers MC 
 
 <details><summary>See feature images</summary>
 
@@ -634,7 +640,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Comfirmation pages
 
--
+- Confirmation of transactions and registration
 
 <details><summary>See feature images</summary>
 
@@ -650,7 +656,6 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Popup confirmations
 
--
 
 <details><summary>See feature images</summary>
 
@@ -660,7 +665,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Checkout page
 
--
+Review purchase and payment details
 
 <details><summary>See feature images</summary>
 
@@ -1263,8 +1268,8 @@ It contains an email sign up form and useful links as well as contact informatio
 
 27. As a site user I can Contact Administration so that ask questions or give inquiries
 
-    | Step                                       | Expected Result                                   | Actual Result     |
-    | ------------------------------------------ | ------------------------------------------------- | ----------------- |
+    | Step                             | Expected Result                                   | Actual Result     |
+    | -------------------------------- | ------------------------------------------------- | ----------------- |
     | When loogedin click on 'Contact' | Contact form will be displayed with message field | Works as expected |
 
     <details><summary>Screenshots</summary>
@@ -1311,7 +1316,10 @@ It contains an email sign up form and useful links as well as contact informatio
 
 List of bugs found and fixes used ti mitigate them.
 
--
+- Bug:Stray div tags on base.html amd products.html
+  Fix:Deleted stray tags
+- Bug:Webhok was not working due to configuration
+  Fix:Reset configurations
 
 ## Configuration
 
@@ -1367,19 +1375,19 @@ This application has been deployed from Github using Heroku. Here's how:
 
 1. Create an account at heroku.com
 <details>
-<img src=">
+<img src="docs/heroku/heroku-create-app.jpeg">
 </details>
 
 2. Create an app, give it a name similar to project name, and select a region
 <details>
-<img src="">
+<img src="docs/heroku/heroku-overview.JPG">
 </details>
 
 3. Under resources search for postgres, and add a Postgres database to the app
 
 4. Create and ElephantSqul account and set up a plan with in your region
    <details>
-   <img src="">
+   <img src="docs/heroku/sql.jpeg">
    </details>
 
 5. Copy Url database instance from Sql account and store it in the env.py enviroment variable (os.environ["DATABASE_URL"]="<copiedURL>")
@@ -1388,9 +1396,9 @@ This application has been deployed from Github using Heroku. Here's how:
 
 7. Import env.py to settings.py add Data base and sercert key variable to settings.py file
 
-8. Add localhost, and wildlifers.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+8. Add localhost, and to the ALLOWED_HOSTS variable in settings.py
 <details>
-<img src="">
+<img src="docs/heroku/debug.JPG">
 </details>
 9. Migrate change to manage.py
 
@@ -1400,7 +1408,7 @@ This application has been deployed from Github using Heroku. Here's how:
 
 12. Set DEBUG value to False
 <details>
-<img src="docs/heroku/debug-false.JPG">
+<img src="docs/heroku/debug.JPG">
 </details>
 
 13. Set X_FRAME_OPTION ='SAMEORIGIN'
@@ -1415,14 +1423,14 @@ This application has been deployed from Github using Heroku. Here's how:
 
 18. Go to deploy in the Heroku app
     <details>
-    <img src="docs/heroku/heroku-deploy.JPG">
+    <img src="docs/heroku/heroku-deploy.jpeg">
     </details>
 
 19. Clik Deploy
 
 20. View build logs for error
      <details>
-     <img src="docs/heroku/heroku-build-log.JPG">
+     <img src="docs/heroku/build-log.JPG">
      </details>
 
 21. Click app to view website
