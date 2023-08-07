@@ -458,6 +458,15 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ## Features
 
+### Search Engine Optimisation (SEO)
+I have used meta tags in the HTML of my web app's pages to optimize them for search engines. The description tag provides a brief summary of the content on the page, while the keywords tag lists relevant keywords to help search engines understand the content of the webpage and its relevance to related search queries.
+
+
+<details><summary>See feature image</summary>
+![SEO](docs/features/seo-tags.JPG)
+</details>
+
+
 ### Logo and Navigation Bar
 
 - Site Logo supports the wild life theme of the site and navigates to home page
