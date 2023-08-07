@@ -675,32 +675,32 @@ It contains an email sign up form and useful links as well as contact informatio
 - The W3C Markup Validation Service was used to validate the HTML of the website.
 
 <details><summary>Home</summary>
-<img src="">
+<img src="docs/validation/html/home-html-validation.JPG">
 </details>
 <details><summary>Products</summary>
-<img src="">
+<img src="docs/validation/html/product-html-validation.JPG">
 </details>
 <details><summary>Blog</summary>
-<img src="/">
+<img src="docs/validation/html/blog-html-validation.JPG">
 </details>
 <details><summary>Contact</summary>
-<img src="">
+<img src="docs/validation/html/contact-html-validation.JPG">
 </details>
 <details><summary>Cart</summary>
-<img src="">
+<img src="docs/validation/html/cart-html-validation.JPG">
 </details>
 </details>
 <details><summary>Signup</summary>
-<img src="">
+<img src="docs/validation/html/signup-html-validation.JPG">
 </details>
 <details><summary>Login</summary>
-<img src="">
+<img src="docs/validation/html/login-html-validation.JPG">
 </details>
 <details><summary>Profile</summary>
-<img src="">
+<img src="docs/validation/html/profile-html-validation.JPG">
 </details>
 <details><summary>Checkout</summary>
-<img src="">
+<img src="docs/validation/html/checkout-html-validation.JPG">
 </details>
 <details><summary></summary>
 <img src="">
@@ -719,17 +719,30 @@ It contains an email sign up form and useful links as well as contact informatio
 
 - The W3C Jigsaw service was used for CSS Validation.
 
-<details><summary>style.css</summary>
-<img src="">
+<details><summary>base.css</summary>
+<img src="docs/validation/css/validation-base-css.png">
+</details>
+
+<details><summary>checkout.css</summary>
+<img src="docs/validation/css/validation-checkout-css.png">
+</details>
+
+<details><summary>profile.css</summary>
+<img src="docs/validation/css/validation-profile-css.png">
 </details>
 
 ### JavaSript Validation
 
 - The JSHint JS Validation Service was used to validate the Javascript.
 
-<details><summary>script.js</summary>
-<img src="">
+<details><summary>checkout.js</summary>
+<img src="docs/validation/js/validation-js-checkout.png">
 </details>
+
+<details><summary>stripe.js</summary>
+<img src="docs/validation/js/validation-js-stripe-elements.png">
+</details>
+
 
 ### Pep8 Validation
 
@@ -965,7 +978,7 @@ It contains an email sign up form and useful links as well as contact informatio
    | Visit page:https://ci-pp5-throttles-motocross-2c6aa11127d2.herokuapp.com/ | Home page tells about the wht the site represent with photos to match | Work as Expected  |
 
    <details><summary>Screenshots</summary>
-   <img src="">
+   <img src="docs/manualtesting/home.JPG">
    </details>
 
 2. As a site user I can register so that I can become a member
@@ -975,18 +988,24 @@ It contains an email sign up form and useful links as well as contact informatio
 | Sign Up | Click pofile button and select register, user is brought to the sign up page | User is brought to the sign up page | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-profile.jpg">
+<img src="docs/manualtesting/user-stories-register.jpg">
+<img src="docs/manualtesting/user-stories-register-form.JPG">
 </details>
 
 3. As a site user I can create a user profile so that shop easily, get benefits and special access
 
 | Feature | Action                                                                                                                                 | Expected Result            | Actual Result     |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ----------------- |
-| Profile | From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected |
+| Profile | Login, From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected |
 
 <details><summary>See Images</summary>
+<img src="docs/manualtesting/user-stories-profile.jpg">
+<img src="docs/manualtesting/user-stories-login.jpg">
+<img src="docs/manualtesting/user-stories-login-form.JPG">
+<img src="docs/manualtesting/user-stories-profile.jpg">
 <img src="">
+<img src="docs/manualtesting/user-stories-profile-form.JPG">
 <img src="">
 </details>
 
@@ -997,8 +1016,9 @@ It contains an email sign up form and useful links as well as contact informatio
 | Sign In | Click pofile button and select login, user is brought to the sign in page | User is brought to the sign in page | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-profile.jpg">
+<img src="docs/manualtesting/user-stories-login.jpg">
+<img src="docs/manualtesting/user-stories-login-form.JPG">
 </details>
 
 5. As a site user I can receive emails confirmation so that notify of registration success
@@ -1008,7 +1028,7 @@ It contains an email sign up form and useful links as well as contact informatio
 | Registration | Upon registration an email is sent to verify the email address submitted | Registration email arrives into inbox of the email address used to sign up | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
+<img src="docs/manualtesting/user-stories-registration-varification.JPG">
 </details>
 
 6. As a site user I can recover my password so that I can create a new password If I can't remember password
@@ -1018,9 +1038,9 @@ It contains an email sign up form and useful links as well as contact informatio
 | Reset Password | Click pofile button and select login, user is brought to the sign in page, click forgot password to go to password reset page | User is brought to password reset page | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-profile.jpg">
+<img src="docs/manualtesting/user-stories-password-reset.jpg">
+<img src="docs/manualtesting/password-reset.JPG">
 </details>
 
 7. As a site user I can easily navigate through the site so that see and access all site features
@@ -1030,8 +1050,7 @@ It contains an email sign up form and useful links as well as contact informatio
 | Navbar  | Click on any link in the navbar to be brought to a relevant page, store for example | Be brought to store to view all products after clicking all products in the navbar | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-navigation.jpg">
 </details>
 
 8. As a site user I can get notifications so that I know my actions are successful or failed
@@ -1041,6 +1060,13 @@ It contains an email sign up form and useful links as well as contact informatio
 | Alert Box | Add an item from the store to the cart | A message will appear in the alert box on screen to notify the user of this action | Works as expected |
 
 <details><summary>See Images</summary>
+<img src="docs/manualtesting/user-stories-order-success.jpg">
+<img src="docs/manualtesting/user-stories-add-cart.jpg">
+<img src="docs/manualtesting/user-stories-confirmation-email-sent.JPG">
+<img src=" ">
+<img src=" ">
+<img src=" ">
+<img src=" ">
 <img src=" ">
 <img src=" ">
 </details>
@@ -1062,18 +1088,19 @@ It contains an email sign up form and useful links as well as contact informatio
 | Navbar/Footer | Scoll to footer, click on the Instagram logo | A new tab will open and bring user to the Instagram page | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
+<img src="docs/manualtesting/user-stories-social-media.jpg">
+<img src="docs/manualtesting/user-stories-facebook-page.JPG">
 </details>
 
 11. As a shopper I can got to site store so that I can shop products
 
 | Feature | Action                                         | Expected Result                                            | Actual Result     |
 | ------- | ---------------------------------------------- | ---------------------------------------------------------- | ----------------- |
-| Store   | Click stror in the navbar, select all products | User is then brought to the all products page of the store | Works as expected |
+| Store   | Click store in the navbar, select all products | User is then brought to the all products page of the store | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-store.jpg">
+<img src="docs/manualtesting/user-stories-store-page.JPG">
 </details>
 
 12. As a shopper I can view my cart items so that I know the cost
@@ -1083,8 +1110,8 @@ It contains an email sign up form and useful links as well as contact informatio
 | Cart    | Click the cart icon in the navbar | User is brought to the cart page where all products in cart are displayed along with their price and total cost | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-cart.jpg">
+<img src="docs/manualtesting/user-stories-checkout-page.JPG">
 </details>
 
 13. . As a shopper I can view product list so that I can see what products are available
@@ -1094,8 +1121,8 @@ It contains an email sign up form and useful links as well as contact informatio
 | Categories | Select a category on the side panel, select Bikes | User is brought to the selected category of product and all products are listed | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-categories.jpg">
+<img src="docs/manualtesting/user-stories-store-page.JPG">
 </details>
 
 14. As a shopper I can view a specific product detail so that I can get more information about the product
@@ -1105,8 +1132,8 @@ It contains an email sign up form and useful links as well as contact informatio
 | Product Detail | Click on any item image in the store, or the view button | User is brought to the product detail page where product details are displayed | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-select-product.jpg">
+<img src="docs/manualtesting/product-detail.JPG">
 </details>
 
 15. As a shopper I can search product by name/description so that I don not have to scroll and product is found quicker if it exists
@@ -1116,19 +1143,17 @@ It contains an email sign up form and useful links as well as contact informatio
 | Search  | Search box in the navigation bar, input keyword to search such as "blue", click search | All items with the relevant keyword will be displayed | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-serach-by.jpg">
 </details>
 
 16. As a shopper I can sort product by category so that I can easily find the product I'm looking for
 
 | Feature | Action                                                                   | Expected Result                                                                            | Actual Result     |
 | ------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ----------------- |
-| Sort    | From the store page, click a category on the side panel such as headwear | User is brought to the headwear page where only products classed as headwear are displayed | Works as expected |
+| Sort    | From the store page, click a category on the side panel such as  | User is brought to the headwear page where only products classed as  are displayed | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-search-categories.jpg">
 </details>
 
 17. As a shopper I can sort product by high and low prices so that I can find the best value for my money
@@ -1138,8 +1163,7 @@ It contains an email sign up form and useful links as well as contact informatio
 | Sort    | From the store page, click the sort box and select price from high to low | All items will be sorted from the highest price to the lowest price | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-search-hightolow-prices.jpg">
 </details>
 
 18. As a site user I can view my cart at any time so that see what I am buying and the cost
@@ -1149,7 +1173,7 @@ It contains an email sign up form and useful links as well as contact informatio
 | Cart    | Click the cart icon in the navbar | The cart page will appear and display all items in the cart and their cost alongside total price for all items | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
+<img src="docs/manualtesting/user-stories-add-cart.jpg">
 <img src=" ">
 </details>
 
@@ -1286,7 +1310,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 List of bugs found and fixes used ti mitigate them.
 
--
+- 
 
 ## Configuration
 
