@@ -530,7 +530,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Store
 
-- View and select site products to purchase 
+- View and select site products to purchase
 
 <details><summary>See feature images</summary>
 
@@ -630,7 +630,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 ### Profile
 
-- Create a profile to be apart of Throttlers MC 
+- Create a profile to be apart of Throttlers MC
 
 <details><summary>See feature images</summary>
 
@@ -655,7 +655,6 @@ It contains an email sign up form and useful links as well as contact informatio
 </details>
 
 ### Popup confirmations
-
 
 <details><summary>See feature images</summary>
 
@@ -707,18 +706,6 @@ Review purchase and payment details
 <details><summary>Checkout</summary>
 <img src="docs/validation/html/checkout-html-validation.JPG">
 </details>
-<details><summary></summary>
-<img src="">
-</details>
-<details><summary></summary>
-<img src="">
-</details>
-<details><summary></summary>
-<img src="">
-</details>
-<details><summary>404</summary>
-<img src="">
-</details>
 
 ### CSS Validation
 
@@ -754,14 +741,12 @@ Review purchase and payment details
 
 #### Homeapp
 
-<details><summary>tests.py</summary>
-<img src="">
 </details>
 <details><summary>urls.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-home-urls.png">
 </details>
 <details><summary>view.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-home-views.png">
 </details>
 
 #### Cartapp
@@ -788,22 +773,20 @@ Review purchase and payment details
 #### Productsapp
 
 <details><summary>admin.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-products-admin.png">
 </details>
-<details><summary>forms.py</summary>
-<img src="">
 </details>
 <details><summary>models.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-products-models.png">
 </details>
-<details><summary>tests.py</summary>
-<img src="">
+<details><summary>widgets.py</summary>
+<img src="docs/validation/py/validation-products-widgets.png">
 </details>
 <details><summary>urls.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-products-urls.png">
 </details>
 <details><summary>view.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-products-views.png">
 </details>
 
 #### checkoutapp
@@ -850,44 +833,37 @@ Review purchase and payment details
 
 #### Profilesapp
 
-<details><summary>admin.py</summary>
-<img src="">
 </details>
 <details><summary>forms.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-profiles-forms.png">
 </details>
 <details><summary>models.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-profiles-models.png">
 </details>
-<details><summary>tests.py</summary>
-<img src="">
 </details>
 <details><summary>urls.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-profiles-urls.png">
 </details>
 <details><summary>view.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-profiles-views.png">
 </details>
 
 #### Contactapp
 
 <details><summary>admin.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-contact-admin.png">
 </details>
 <details><summary>forms.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-contact-forms.png">
 </details>
 <details><summary>models.py</summary>
-<img src="">
-</details>
-<details><summary>tests.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-contact-models.png">
 </details>
 <details><summary>urls.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-contact-urls.png">
 </details>
 <details><summary>view.py</summary>
-<img src="">
+<img src="docs/validation/py/validation-contact-views.png">
 </details>
 
 ### Chrome ligthouse tool
