@@ -743,7 +743,6 @@ It contains an email sign up form and useful links as well as contact informatio
 <img src="docs/validation/js/validation-js-stripe-elements.png">
 </details>
 
-
 ### Pep8 Validation
 
 - PEP8 Validation Service was used to check the code for PEP8 requirements.
@@ -995,8 +994,8 @@ It contains an email sign up form and useful links as well as contact informatio
 
 3. As a site user I can create a user profile so that shop easily, get benefits and special access
 
-| Feature | Action                                                                                                                                 | Expected Result            | Actual Result     |
-| ------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ----------------- |
+| Feature | Action                                                                                                                                        | Expected Result            | Actual Result     |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ----------------- |
 | Profile | Login, From the Nav click the profile icon, select profile from dropdown and be broought to the profile page where user information is stored | Be brought to profile page | Works as expected |
 
 <details><summary>See Images</summary>
@@ -1148,9 +1147,9 @@ It contains an email sign up form and useful links as well as contact informatio
 
 16. As a shopper I can sort product by category so that I can easily find the product I'm looking for
 
-| Feature | Action                                                                   | Expected Result                                                                            | Actual Result     |
-| ------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ----------------- |
-| Sort    | From the store page, click a category on the side panel such as  | User is brought to the headwear page where only products classed as  are displayed | Works as expected |
+| Feature | Action                                                          | Expected Result                                                                   | Actual Result     |
+| ------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------- |
+| Sort    | From the store page, click a category on the side panel such as | User is brought to the headwear page where only products classed as are displayed | Works as expected |
 
 <details><summary>See Images</summary>
 <img src="docs/manualtesting/user-stories-search-categories.jpg">
@@ -1174,7 +1173,7 @@ It contains an email sign up form and useful links as well as contact informatio
 
 <details><summary>See Images</summary>
 <img src="docs/manualtesting/user-stories-add-cart.jpg">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-cart-total.jpg">
 </details>
 
 19. As a shopper I can use card as payment method so that complete my purchase
@@ -1184,9 +1183,9 @@ It contains an email sign up form and useful links as well as contact informatio
 | Checkout | From the cart select secure checkout | Input user information, input card number 4242 4242 4242 4242 04/24 424 24242, payment is successful | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-story-secure-payment.jpg">
+<img src="docs/manualtesting/user-story-card-payment.JPG">
+<img src="docs/manualtesting/user-stories-order-success.jpg">
 </details>
 
 20. As a shopper I can change item quantity or size in cart so that I can change item if needed
@@ -1207,8 +1206,7 @@ It contains an email sign up form and useful links as well as contact informatio
 | Cart    | From the cart press the increase/ decrease button to desired number, click update | The cart will update with the desired quantity | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-story-product size.jpg">
 </details>
 
 22. As a shopper I can receive order confirmation so that I can be notified of successful order
@@ -1218,8 +1216,7 @@ It contains an email sign up form and useful links as well as contact informatio
 | Alert Box | Upon a successful checkout an alert box will be visible to the user | Alert box pops up with the order details | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/user-stories-order-success.jpg">
 </details>
 
 23. As a site user I can receive emails confirmation so that notify of registration success
@@ -1229,7 +1226,7 @@ It contains an email sign up form and useful links as well as contact informatio
 | Email Confirmation | Upon a successful checkout a confirmation email will be sent to the provided email address which contains the details of the order | Email confirmation arrives into inbox | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
+<img src="docs/manualtesting/user-stories-registration-varification.JPG">
 </details>
 
 24. As a site owner I CAN add product SO THAT I can display new products on the market
@@ -1268,10 +1265,11 @@ It contains an email sign up form and useful links as well as contact informatio
 
     | Step                                       | Expected Result                                   | Actual Result     |
     | ------------------------------------------ | ------------------------------------------------- | ----------------- |
-    | Got to 'Get Registered' click on 'Contact' | Contact form will be displayed with message field | Works as expected |
+    | When loogedin click on 'Contact' | Contact form will be displayed with message field | Works as expected |
 
     <details><summary>Screenshots</summary>
-    <img src="">
+    <img src="docs/manualtesting/user-stories-contact.jpg">
+    <img src="docs/manualtesting/contact-form.JPG">
     </details>
 
 28. As a site owner I can have a blog so that topics can be posted to be commented on
@@ -1281,7 +1279,9 @@ It contains an email sign up form and useful links as well as contact informatio
 | Go to blog on navbar | A list of blog post will display | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
+<img src="docs/manualtesting/user-stories-blog.jpg">
+<img src="docs/manualtesting/user-stories-blog-post.JPG">
+<img src="docs/manualtesting/user-stories-blog-comment-form.JPG">
 </details>
 
 29. As a site user I can comment on blog so that my opinions can be seen
@@ -1291,7 +1291,7 @@ It contains an email sign up form and useful links as well as contact informatio
 | Login, click on blog post | Comment form will display for commenting | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="">
+<img src="docs/manualtesting/user-stories-blog-details.jpg">
 <img src="">
 <img src="">
 </details>
@@ -1303,14 +1303,15 @@ It contains an email sign up form and useful links as well as contact informatio
     | Click on a blog image in blog list | Blog details will display | Works as expected |
 
     <details><summary>Screenshots</summary>
-    <img src="">
+    <img src="docs/manualtesting/user-stories-blog-details.jpg">
+    <img src="docs/manualtesting/blog-details.JPG">
     </details>
 
 ## Bugs
 
 List of bugs found and fixes used ti mitigate them.
 
-- 
+-
 
 ## Configuration
 
