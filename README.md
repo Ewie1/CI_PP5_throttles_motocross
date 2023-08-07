@@ -459,13 +459,12 @@ It contains an email sign up form and useful links as well as contact informatio
 ## Features
 
 ### Search Engine Optimisation (SEO)
-I have used meta tags in the HTML of my web app's pages to optimize them for search engines. The description tag provides a brief summary of the content on the page, while the keywords tag lists relevant keywords to help search engines understand the content of the webpage and its relevance to related search queries.
 
+I have used meta tags in the HTML of my web app's pages to optimize them for search engines. The description tag provides a brief summary of the content on the page, while the keywords tag lists relevant keywords to help search engines understand the content of the webpage and its relevance to related search queries.
 
 <details><summary>See feature image</summary>
 ![SEO](docs/features/seo-tags.JPG)
 </details>
-
 
 ### Logo and Navigation Bar
 
@@ -543,7 +542,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![program](docs/features/store.JPG)
+![store](docs/features/store.JPG)
 
 </details>
 
@@ -553,7 +552,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![read-program](docs/features/product-details.JPG)
+![product details](docs/features/product-details.JPG)
 
 </details>
 
@@ -563,7 +562,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![enrollment-list]()
+![add product]()
 
 </details>
 
@@ -574,7 +573,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![enrollment-editing]()
+![edit product]()
 
 </details>
 
@@ -584,7 +583,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![cancel-enrollment](docs/features/view-cart.JPG)
+![cart](docs/features/view-cart.JPG)
 
 </details>
 
@@ -633,7 +632,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![program](docs/features/blog-comment-form.JPG)
+![blog commenting](docs/features/blog-comment-form.JPG)
 
 </details>
 
@@ -643,7 +642,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![program](docs/features/profile-form.JPG)
+![profile](docs/features/profile-form.JPG)
 
 </details>
 
@@ -667,19 +666,23 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![blog-details](docs/features/cart-nofication.JPG)
+![popup](docs/features/cart-nofication.JPG)
 
 </details>
 
 ### Checkout page
 
-Review purchase and payment details
+- Review purchase and payment details
 
 <details><summary>See feature images</summary>
 
-![blog-details](docs/features/checkout-page.JPG)
+![checkout](docs/features/checkout-page.JPG)
 
 </details>
+
+### 404 page
+
+
 
 ## Validation
 
