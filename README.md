@@ -130,6 +130,28 @@ I built my database using PostgreSQL. It's a powerful and open-source object-rel
 </details>
 <hr>
 
+## Design
+
+### Colors
+
+
+The color I chose was blue and yellow .  
+<details><summary>See Color Palette</summary>
+
+![Color Palette](docs/features/color-palette.JPG)
+</details>
+
+### Fonts
+
+ The font selected was from Google Fonts, Teko.
+
+ <details><summary>See Font Image</summary>
+
+![Font Image](docs/features/font-style.JPG)
+</details>
+<hr>
+
+
 # Structure
 
 The site was designed for the user to be familiar with the layout such as a navigation bar along the top of the pages and a hamburger menu button for smaller screen.
