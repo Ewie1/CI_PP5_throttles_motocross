@@ -1,3 +1,7 @@
+![Am I Responsive](docs/responsive/responsive.JPG)
+
+💻 [Visit live website](https://ci-pp5-throttles-motocross-2c6aa11127d2.herokuapp.com/)
+
 ## Table of Contents
 
 - [Executive Summary](#executive-summary)
@@ -114,6 +118,7 @@ The web app "throttlesmotocross" has a presence on both Facebook and Instagram. 
 I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
 
 <details><summary>See AWS Images</summary>
+<img src="docs/aws/aws.JPG">
 </details>
 
 ## Database
@@ -121,7 +126,7 @@ I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable 
 I built my database using PostgreSQL. It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
 
 <details><summary>See Database Image</summary>
-<img src="/workspaces/CI_PP5_throttles_motocross/docs/database/database.JPG">
+<img src="docs/database/database.JPG">
 </details>
 <hr>
 
