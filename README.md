@@ -1134,8 +1134,8 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 | Product Details | From Product details page select a size for the product in the size box, increase or decrease quantity from the quantity box | Sizes will be selected and quantity adjusted | Works as expected |
 
 <details><summary>See Images</summary>
-<img src=" ">
-<img src=" ">
+<img src="docs/manualtesting/product-size.jpg">
+<img src="docs/manualtesting/edit-cart.JPG">
 </details>
 
 21. As a shopper I can select size or quantity for product so that so I get what I need
@@ -1176,6 +1176,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See Images</summary>
 <img src="docs/manualtesting/user-stories-add-product.jpg">
+<img src="docs/manualtesting/add-product.JPG">
 </details>
 
 25. As a site owner I can edit products so that I display discount or product availability
@@ -1186,7 +1187,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See Images</summary>
 <img src="docs/manualtesting/user-stories-edit-product.jpg">
-<img src=" ">
+<img src="docs/manualtesting/edit-product-form.JPG">
 </details>
 
 26. As a site owner I can delete products so that I can control my available products
@@ -1197,7 +1198,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See Images</summary>
 <img src="docs/manualtesting/user-stories-delete-product.jpg">
-<img src=" ">
+<img src="docs/manualtesting/delete-product.JPG">
 </details>
 
 27. As a site user I can Contact Administration so that ask questions or give inquiries
