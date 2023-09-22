@@ -188,16 +188,20 @@
     <!-- Footer from MDbootstrap -->
     <footer class="text-center text-lg-start container-fluid pt-3">
         <!-- Section: Links  -->
-        <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <div id="mc_embed_shell">
+       <!--- <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
-                <div id="mc_embed_signup">
+                <div id="mc_embed_signup" class="mx-auto">
                     <form
                         action="https://herokuapp.us14.list-manage.com/subscribe/post?u=93d20fb3e7e7df703e84ed5ab&amp;id=cf349671f8&amp;f_id=0016a7e0f0"
                         method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
                         target="_blank">
                         <div id="mc_embed_signup_scroll">
-                            <h2>Subscribe</h2>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Subscribe to our Mailing List</label>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                                  placeholder="Email address" required>
+                                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                              </div>
                             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                             <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span
                                         class="asterisk">*</span></label><input type="email" name="EMAIL"
@@ -222,16 +226,44 @@
                                                     src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
                                                     alt="Intuit Mailchimp"
                                                     style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a>
-                                    </p>-->
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
-                
-            </div>
 
+        </div>-->
+         <!-- Section: Mailchimp Signup Form -->
+    <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div id="mc_embed_signup" class="mx-auto">
+          <form
+            action="https://herokuapp.us14.list-manage.com/subscribe/post?u=93d20fb3e7e7df703e84ed5ab&amp;id=cf349671f8&amp;f_id=0016a7e0f0"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+            target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">Subscribe to our Mailing List</label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                  placeholder="Email address" required>
+                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+              </div>
+              <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                  name="b_93fd03b5e626ccdace3880271_c7f0c47d2e" tabindex="-1" value="" aria-label="Search"></div>
+              <div class="optionalParent">
+                <div class="clear foot">
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="custom-button mx-auto">
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
+      </div>
         <section>
             <div class="text-center text-md-start mt-5">
                 <!-- Grid row -->
