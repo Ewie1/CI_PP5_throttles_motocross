@@ -266,3 +266,13 @@ footer h6,
     font: 14px Helvetica, Arial, sans-serif;
     width: 600px;
 }
+
+.form-style{
+    clear: left;
+    position: relative;
+    width: 96%;
+    padding-bottom: 3%;
+    min-height: 50px;
+    display: grid;
+}
+
