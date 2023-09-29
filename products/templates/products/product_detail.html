@@ -31,8 +31,7 @@
             <hr>
             <p><a class="nav-link text-info" href="{% url 'products' %}">All Products</a></p>
             {% for category in categories_list %}
-            <p><a class="nav-link text-info" href="{% url 'products' %}?category={{category.name}}">{{
-                    category.friendly_name }}</a></p>
+            <p><a class="nav-link text-info" href="{% url 'products' %}?category={{category.name}}">{{ category.friendly_name }}</a></p>
             {% endfor %}
             <h2 class="fs-6 text-info f-fam">All Products</h2>
             <hr>
@@ -73,6 +72,7 @@
                 </p>
                 <p class="text-info">{{ product.category.friendly_name }}</p>
                 <p class="mt-4">{{ product.description }}</p>
+                <div>
                 <form class="form" action="{% url 'add_to_cart' product.id %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
@@ -133,11 +133,12 @@
                         {% endwith %}
                     </div>
                 </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
+</div>
 <div class="container-fluid">
     <div class="row">
         <ul class="col-sm-12 text-center">

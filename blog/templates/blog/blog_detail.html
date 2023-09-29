@@ -30,9 +30,8 @@
                         <img class="card-img-top my-2" src="{% static 'img/default-image.jpg' %}"
                             alt="default image for blog post {{ post.title }}"></a>
                     {% endif %}
-                    <p class="blog-content">
-                    {{ post.content| safe }}
-                    </p>
+                    <div>{{ post.content| safe }}</div>
+                    <div><divdiv>{{ post.cont</div>ent| safe }}
                     {{ post.image.url }}
                 </div>
             </div>
