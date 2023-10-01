@@ -97,6 +97,7 @@
                                             <span>-</span>
                                         </button>
                                     </div>
+                                </div>
                                     <input class="form-control qty_input rounded h-100 w-25 id_qty_{{ product.id }}"
                                         type="number" name="quantity" value="1" min="1" data-max="{{ product.stock }}"
                                         data-item_id="{{ product.id }}" aria-label="add to cart">
@@ -115,6 +116,7 @@
                                     </small>
                                 </div>
                             </div>
+                        </div>
                             {% endif %}
                         </div>
                         <div class="col{% if s %}-12 mt-2{% endif %}">
@@ -129,6 +131,7 @@
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
                     </div>
+
                 </form>
             </div>
         </div>
