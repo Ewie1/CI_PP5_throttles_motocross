@@ -116,9 +116,10 @@
                                     </small>
                                 </div>
                             </div>
-                        </div>
                             {% endif %}
+                    </div>
                         </div>
+                        
                         <div class="col{% if s %}-12 mt-2{% endif %}">
                             <a href="{% url 'products' %}" class="btn btn-outline-secondary rounded mt-5">
                                 <span>
@@ -131,7 +132,6 @@
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
                     </div>
-
                 </form>
             </div>
         </div>
