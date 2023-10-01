@@ -33,14 +33,7 @@ development = os.environ.get('DEVELOPMENT', False)
 
 DEBUG = development
 
-if development:
-    ALLOWED_HOSTS = ['localhost', '127.0.0.1',
-                     '127.0.0.1:8000',
-                     '8000-ewie1-ci-pp5-throttles-m-7u92aq3w3j.us2.codeanyapp.com']
-else:
-    ALLOWED_HOSTS = [
-        'ci-pp5-throttles-motocross-2c6aa11127d2.herokuapp.com', '*']
-
+ALLOWED_HOSTS =[os.environ.get('ALLOWED_HOST')]
 
 # Application definition
 
