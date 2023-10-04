@@ -28,11 +28,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = [os.environ.get('SERCRET_KEY')]
 
 # SECURITY WARNING: don't run with debug turned on in production!
-development = os.environ.get('DEVELOPMENT', False)
+development = os.environ.get('DEVELOPMENT', True)
 
 DEBUG = development
 
-ALLOWED_HOSTS =[os.environ.get('ALLOWED_HOST')]
+#ALLOWED_HOSTS =[os.environ.get('ALLOWED_HOST')]
+
+if development:
+    ALLOWED_HOSTS = ['localhost', '127.0.0.1',
+                     '127.0.0.1:8000',
+                     '8000-ewie1-ci-pp5-throttles-m-7u92aq3w3j.us2.codeanyapp.com']
+else:
+    ALLOWED_HOSTS = [
+        'ci-pp5-throttles-motocross-2c6aa11127d2.herokuapp.com', '*']
+
 
 # Application definition
 
