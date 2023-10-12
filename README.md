@@ -715,6 +715,15 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 </details>
 
+### Sent Email Confirmation
+
+<details><summary>See feature images</summary>
+
+![Registration-emial](docs/features/registration-confirmation.JPG)
+![Purchase-emial](docs/features/purchase-confirmation.JPG)
+
+</details>
+
 
 ## Validation
 
