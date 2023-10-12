@@ -1285,12 +1285,18 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ## Bugs
 
-List of bugs found and fixes used ti mitigate them.
+List of bugs found and fixes used to mitigate them.
 
 - Bug:Stray div tags on base.html amd products.html
   Fix:Deleted stray tags
 - Bug:Webhok was not working due to configuration
   Fix:Reset configurations
+- Bug:Confirmation email was not being sent
+- Fix:update the payment_intent_succeeded method within the StripeWH_Handler class in webhook_handler.py
+- Bug:Fail html vaildation for product list page
+- Fix:Use W3 validator ti identify and Delete stray div tags
+- Bug:Django string for purchase subtotal display on deployed page
+- Fix:Configure workspace indentation settings to stop auto indent which was causing issue
 
 ## Configuration
 
